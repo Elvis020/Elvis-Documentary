@@ -1,0 +1,48 @@
+/mnt/c 
+# Question 3
+
+# Question 4
+
+# Question 5
+
+# Question 6
+
+# Question 7
+
+# Question 8
+
+
+# Question 9
+
+# Question 10
+
+
+# Question 11
+
+# Question 12
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+# What are  INODES?
+* Inodes contain the refernece count
+* Fetch_execute Cycle: Fetch => Decode => Execute=> Return
+* Pipelining in the CPU
+* Slow Control
+* Branch Predictor
+* Scheduler
+* DIfference between multithreading and Pipelining
+* Multithreading is the way we write our code to improve the performance.
+* Speculative execution*Getting instructions from a main memory and getting instructions from a cache.
+* Lots if CPUs have stopped using spaculative Execution becuz it emits sensitive information.
+

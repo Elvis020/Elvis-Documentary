@@ -1,0 +1,79 @@
+/mnt/c 
+# Question 3
+a. cat README | less
+b. cat README | grep TERM
+b. less README | grep TERM
+c . There is no other occurence
+d. cat README | less and then you use /diff
+
+# Question 4
+a. cat -b README
+NB: -n adds the whitespace to the number of lines
+NB: -b does not add the whitespace to the number of lines
+b. /-v
+
+# Question 5
+a. head -8 README
+b. tail -8 README
+c. 
+
+# Question 6
+./gen >> gen-out & tail -f gen-out 
+
+# Question 7
+cat README | grep README 
+less README | grep README 
+
+# Question 8
+less userlist | grep user4 | wc -l 
+more userlist | grep user4 | wc -l 
+cat userlist | grep user4 | wc -l 
+
+
+# Question 9
+cat * | grep -l Lion * 
+
+
+# Question 10
+a. less pubs | grep -v The
+b. less userlist | grep  "[0-9]" 
+c. cat beers | grep "\S"
+d. cat userlist | grep -F "$" 
+e. cat beers | grep "^40"
+
+
+# Question 11
+a. sort userlist
+b. sort -k 3 userlist
+
+# Question 12
+a. diff README README2
+b. comp README README2
+c. 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+# What are  INODES?
+* Inodes contain the refernece count
+* Fetch_execute Cycle: Fetch => Decode => Execute=> Return
+* Pipelining in the CPU
+* Slow Control
+* Branch Predictor
+* Scheduler
+* DIfference between multithreading and Pipelining
+* Multithreading is the way we write our code to improve the performance.
+* Speculative execution*Getting instructions from a main memory and getting instructions from a cache.
+* Lots if CPUs have stopped using spaculative Execution becuz it emits sensitive information.
+

@@ -1,0 +1,152 @@
+"Continuation of Unix Commands"
+[Snippet 0]
+* "cut d" " -f1 userlist"
+* "od <filename> is used for octal dump of cat <filename>"
+
+
+[Snippet 1]
+* " .  indicates here."
+* " ..  parent folder."
+* "Keep in mind about the WildCards"
+* "Wildcards are not the same as REGEX"
+* "Yo can escape characters or REGEX in wildcards using quotes or bakslash"
+
+[Snippet 2]
+*"copy means duplicating the bytes on disk representing the contents of the files being copied."
+* "By default, the cp command overwrites any files which already exist with the target name."
+* "rmdir is used if directory is empty else wont work."
+* "Hard Links are diffeent names for the same file "
+* "Soft Links(Symbolic Link) are like shortcuts in windows "
+
+
+[Snippet 3]
+*"Inode gives the details of a file"
+*"Soft Link keeps path to the file"
+*"Hard links point to the same Inode, whilst soft link doesn't"
+"To create hard links: ln <filename> <newName>"
+"To create soft links: ln -s <filename> <newName>"
+"Hard link cant be created on a direc"
+"Hard links cant be across diff file system"
+"Hard links have different inodes"
+
+
+
+[Snippet 4]
+* "The UID (User Identity) is generally unique to the user, and has a one to one mapping with the user's username."
+* "The GID is shared amongst other users involved in the same activities."
+* "Removing a file has nothing to do with the permission of the file but rather the permissions of the folder."
+* "Sticky bit is for extra protection"
+*"d | rwx | rwx | rwt: follows => file type | read-write-permissions of owner | read-write-permissions of group | read-write-permissions of other   "
+
+
+[Unix text Editors]
+*"ed"
+*"sed"
+*"vi"
+*"vim"
+*"emacs"
+
+
+"ed is not user friendly, and its used for shell scripting.ed buffers the file(i.e puts it into memory)"
+"buffer is temporal memory i.e caprturing the input and output until it need to run everything in one go."
+"Stream"
+
+[Notes on hard links]
+* "Hard links are different name for a file"
+* "ls -il: gives the inode number"
+* "For hard links, the inode number is the same thing"
+* "Cant create hard links across file systems"
+* "Can create soft links across file systems"
+* "After removing foo.txt, bar.txt still remains"
+
+
+
+[Difference between su and sudo]
+* "The main difference between the two is that su requires the password of the target account, while sudo requires the password of the current user."
+
+[Notes on Inodes]
+* "Characteristics of inodes include: id,mode,uid,gid,size,timestamp,direct blocks,indirect blocks and double indirect blocks"
+
+
+
+
+* "On Unix, inode number does't start from 0"
+* "0 indicates error, so having an inode number of 0 is not good."
+* "Inode 1: indicates bad blocks "
+* "Inode 2: root of the system"
+* "Inode 5: bootloader"
+* "Inode 6: undelete directory"
+* "Mode in inode is for permissions"
+* "direct,indirect etc are about you being able access the physical memory on the disk. "
+* "Inode doesn't contain the filename."
+* "Softlinks and Hard links have dffferent inode numbers"
+"Inode stores the data"
+
+# Question of the day: 
+"1. Can permissions be applied to processes"-SETUID
+"2. How to familiarize your selves with sed and ed"
+
+# SetUID
+"Password Example"
+"set uid is set so a child process can assume the uid of the owner."
+
+# Sticky Bit
+"The DIrectory "
+"Allows the file to be deleted only by the user. and it applies to only directories."
+
+
+# Revision
+* "Purposes of Shell
+    -it is a command line interpreter.
+    -a programming language ,
+    -job control language."
+* "The > indicates that the output should be written to the specified file."
+*  "The < indicates that the input should be read from a specified file."
+*  "The | symbol indicates that the output of the left command should be directed to the input of the right command."
+
+
+
+~ [Composing Commands]
+* "Sequential composition eg. com1 ; com2;"
+* "Parallel composition eg. com1 & com2"
+* "Conjunctive composition eg. com1 && com2"
+* "Disjunctive composition eg. com1 || com2"
+
+
+# Snippet 2
+* "<< is another form of redirection used for here documents."
+*  "A file cannot act upon another file or upon a process."
+* "a process may act upon a file or a process."
+* "Parentheses introduces sub-shell."
+* "Simply placing the '&' character after the last command in the sequence will cause the previous command(s) to execute in the foreground."
+* "Placing '&' after each command effectively gives us parallel composition."
+
+
+[Revision-1]
+* "Commands are executable files that creat processes."
+* "cd,pwd do generate child processes."
+* "Why do we have links: To make references to a file."
+* "Hard like contains the original file while soft is just a reference."
+* "Cant create  hardlinks on the directory but can create asoft link on a directory."
+* "Wildcards Examples: *,?,[a-c],$ : only for the shell"
+* "Regular-Expression Examples:  *,.,^,$,[a-c]"
+
+
+
+[Revision-2]
+* "Types of variables are: Local Variables and Environment variables."
+* "Local variables are not inherited and environment variable is the opposite."
+* "The values of the envioronment variable can be different for everyone."
+* "Difference between single quotes and double qoutes:
+Single quotes suppresses shell wildcards whilst double quotes do not suppress wildcards."
+* "Backslash escapes the character."
+
+
+[Revision-3]
+"Permissions are access right given to users based on their roles and credentials."
+"chmod o-w: removes all the read permissions for everbody."
+"To change owner use chown "
+"sudo: needs my password."
+"You dont have an option to choose umask 022, when creating a file/folder"
+"ed reads content of file in the memory, sed doesn't"
+"sed doesn't modify files."

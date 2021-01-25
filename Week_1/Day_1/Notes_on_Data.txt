@@ -1,0 +1,4 @@
+[Multiple Source of Data]
+*  The Authoritative Source (AKA Golden Source) is the system that 'owns' the data.
+* 132 YB should be able to store a HD video of every second of every person's life that ever lived.
+* And for context, a Zettabyte (one trillion gigabytes) has been defined as a way to measure all the data created on the planet in a year (currently estimated as 8 ZB but expected to rise to over 163 ZB by 2025).

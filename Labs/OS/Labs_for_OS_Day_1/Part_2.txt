@@ -1,0 +1,43 @@
+# Question 1
+pwd or echo $HOME
+
+# Question 3
+to get the outline: use tree unix
+b. permission denied.
+
+# Question 4
+touch a b c d e f g h
+
+# Question 5
+a. cp -r ./style ../../new
+b. rm foobar
+c. rm -rf new
+d. mv ./report newReport
+
+
+# Question 6
+Self-Explanatory
+
+# Question 7
+cd /
+ls -a ~
+
+# Question 8
+ls -l: displays long-listing i.e {group ownership}
+ls -g:like  -l, buh does not add owner  i.e{permission bits}
+ls -s: displays the size {i.e size in blocks (in addition to bytes)}
+
+
+
+# Question 9
+ls -p /
+
+
+# Question 10
+ln -s mainfile ./newMainFIle
+ln -s mainfile ./newMainFile2
+ln -s mainfile ./newMainFile3
+
+echo "This is a new morning" | cat>mainfile.
+rm mainfile
+No such file/directory

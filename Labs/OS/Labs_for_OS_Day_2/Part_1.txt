@@ -1,0 +1,39 @@
+# Question 1
+"a. ls -l"
+# Question 2
+"a. ls -l"
+
+# Question 3
+"a. chmod 000 README
+b. chmod 666 gen
+c. chmod 444 pubs
+d. chmod 777 permFile"
+
+# Question 4
+"a. cat README gives permission denied."
+"b. gen doesn't run"
+
+# Question 5
+"a. chmod u+x README "
+"b. chmod u+x,g+x,a+x gen"
+"c. ./gen"
+
+# Question 6
+"a. ls -l <filename>" - for a file.
+"b. ls -ld <filename>" - for a directory
+"user file-creation mode mask (umask)"
+
+[Snippet on umask]
+"By default, the system sets the permissions on a text file to 666, which grants read and write permission to user, group, and others, and to 777 on a directory"
+"The default permission on a file after applying umask(0022) is 644"
+"The default permission on a folder after applying umask(0002) is 755"
+
+# Question 7
+"a. umask 0444"
+[Snippet]
+"POSIX stands for Portable Operating System Interface"
+""
+
+
+
+

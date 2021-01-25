@@ -1,0 +1,25 @@
+# Question 1
+"a. cat userlist > userlist2"
+"b. sort userlist > userlist3"
+"c. It will give you an empty file."
+
+
+# Question 2(Skipped)
+"Temporal solution: ls -l | sort -rk 5 | cut -c 44-"
+
+
+# Question 3
+" a. ls | grep '[0-9]' "
+" b. ls | grep '^[A-Z]' "
+" c. ls | grep -x '[a-zA-Z0-9]\{6\}'"  OR " ls | grep -x '......'  OR  ls | grep "[^.]\{6\}$" "
+
+
+# Question 4
+"a. cd adir && pwd"
+"b. cd adir;pwd;ls"
+
+# Question 5 
+"(sleep 5;cd adir;pwd;ls) &"
+
+
+# Question 6(Skipped)

@@ -1,0 +1,160 @@
+[Snippet 1 - Basics of C++]
+* "Effective programing starts with understanding the basic building blocks used in programming language."
+* " Not all loops are equal, a developer needs to understand which to use and when."
+
+
+[Snippet 2 -Principles I]
+* "Modularity: How we split our big code base into smaller bits."
+"Orthogonality::
+    - In IT, orthoganility means a different thing.
+    - Your codes/programs should do one thing and do it well.
+    "
+"Cohesion::
+    - Stick it together or keep it apart
+    - High cohesion, low coupling.
+    -Either stick it together or keep it apart.
+    -Eg. If you a lirary, that deals with numbers deals with only numbers. There is no strings or boolean there.
+    "
+"Clarity::
+    - Code should be readable.
+    - From Uncle Bob, clean code is a like a good book.
+    - Naming of variables should be considered when done.
+    "
+
+
+
+    [Snippet 2 -Principles II]
+"Simplicity::
+    - Avoiding complexity not in the problem.
+    - Do not create unnecessary complexity.
+    - Don't try aplying complex data structures to solve simple problems.
+    -K.I.S.S: Keep it stupid simple.
+    "
+"Loaclity::
+    - Make it where its used
+    "
+"Documenting::
+    - Make sure to document.
+    "
+
+[Snippet 2 -Principles III]
+*  "Optimisation::
+        -Refactoring is very good keep it close.
+        - Use tools not intuition.
+        Often an optimisation in one part of the code comes at the expense of another aspect of the code
+        "
+*  "Performance::
+        -Keep in mind the performance of your programs
+        "
+*  "Testable::
+        -Nobody likes unit testing.
+        -Its essential to do testing.
+        "
+
+
+[Snippet 2 -Principles IV]
+*  "Coherent::
+        - Don't duplicate code or data.
+        "
+*  "DRY::
+        - Don't repeat yourself.
+        - Sometimes its necessary but just DRY.
+        "
+
+
+[Snippet 3]
+* "There are multiple ways of solving problems."
+* "C++ was born out of C"
+* "C was itself derived from a language called B."
+* " C was influenced by Simula67 and Algol68 "
+* " OS are all written in C and C++ "
+
+
+[Snippet 4]
+* "There are 3 types of execution: Direct Execution, Interpreted, Virtual Machine."
+* "DIrect Execution eg. C and C++"
+* "Interpreted. Examples: Javascript"
+* "Virtual Machine::
+        - Code is not compiled directly.
+        - Run in the JVM
+        - Doesn't have access to the underlying hardware?"
+* " Why do we have different types of execution: becuz different lang do different things."
+
+
+[Snippet 5 - C++]
+* "C++ is statically and strongly typed."
+* "Need semicolons and  braces."
+* "Every program shld have a main method."
+* "Identation doesn't matter"
+
+----------------------- Hello World C++ ----------------------------
+#include <iostream>
+
+int main{
+    std::cout << "Hello world";
+}
+-----------------------                         ----------------------------
+
+>>
+[Snippet 5 - C++ II]
+* " All variables are declared b4 use. eg. int total"
+* " An expression is anything that yields a value. eg. x + y"
+* " You can read two numbers from the terminal."
+* "Any non-zero value converts to true else false."
+* "Indentation emphasises code structure"
+
+[Snippet 5 - C++ III]
+"Stages of compilation in C++ code   
+    -pre-processing
+    - compiling
+    - inline expression
+    - template instantiation
+    - code analysis, optimisation
+    -link editing"
+* "C++ compiler is called g++"
+* " Important compiler options::
+    -Wall: all standard warnings about questionable code
+    -Werror: makes all warnings errors so they must be resolved
+    -pedantic: warnings demanded by strict ISO C++ compliance
+    -ansi: removes g++ extensions that conflict with standard C++
+    "
+
+[Snippet 5 - Version Control with Git and Github]
+*"Local repo and Remote repo."
+* "Merge conflict: when a line of code is being  changed simultaneuosly on a server."
+* "Git by Linux Torvald. BitKeeper was the initial version control used by Linus and his team, but they switched becuz BitKeeper was not open-source."
+* "Common places to host your git repos: Github, GitLab, BitBucket(Atlassian)."
+ * "You can host your own GitLab repo and it wont be avalable to anyone"
+  *" Every change has its own revision number"
+
+
+  [Snippet 5 - Version Control with Git and Github  II]
+* "git checkout -b <branchName>: creates a branch and switches to that branch"
+*"A git project consists of a local working directory, a staging area for changes, a local repository and one or more remote repositories."
+* "Changes to these two repositories can be synced using push and pull commands"
+* " Files can be in one of 4 states: untracked, staged, tracked and modified/dirty."
+* "All files must be staged in git. "
+* " A commit command takes all the changes in the staging area and pushes them into the local repository."
+
+
+
+[Snippet 5 - Version Control with Git and Github  III]
+* " Git status gives details about the current staging area."
+* "If changes are made simultaneously to the same branch in different repositories (for example by two developers) then these changes will need to be merged."
+*"If an attempt is made to merge two branch which are identical (for example an attempt is made to merge a branch with its source branch and no modifications have been made to that new branch) then Git will simply ensure that the source and destination branches reference the same commit (this is called a "fast-forward merge") and is very efficient."
+
+
+[Snippet 5 - Version Control with Git and Github  IV]
+*"When two branches contain different commits then Git will merge these branches together and create a new reference (referred to as a commit object) representing the combination of changes recorded by the two branches. This is referred to as a "merge commit"."
+"If any conflicts are encountered, a notification message is displayed, and the files are internally marked with >>>>>>>> and <<<<<<<< around the conflicting portion of the file contents."
+*" A branch represents a specific state of the files in that repository. You can switch between branches using the checkout."
+
+[Snippet 5 - Version Control with Git and Github  V]
+
+
+
+
+[Solution to OS Exam Questions]
+* " A filter is something that can read frm a standard inptu to a standard output"
+* " Kill sends a signal to processes"
+* "Kill -9 is dangerous becaus eit "

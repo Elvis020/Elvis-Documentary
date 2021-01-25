@@ -1,0 +1,37 @@
+# Question 1
+"a. (/bin/sleep 600;ls;pwd;echo it will take about 10 mins) &"
+
+# Question 2
+"To run in a subshell"
+"The process is not visible in the sub-shell."
+
+# Question 3
+"ctrl +z"
+"b. bg "
+"c. fg "
+"d. ctrl + c "
+"e. kill -stop %number"
+
+# Question 4
+"a. vi <Press Enter> ",{press ctrl+z to suspend the process}
+"b. jobs"
+"c. fg"
+"d. !q"
+
+# Question 5
+"a. ps -ef"
+"b. kill -9 <PID of activity>"
+"c. Nohup, short for no hang up is a command in Linux systems that keep processes running even after exiting the shell or terminal."
+
+
+# Question 6
+"a. ps -ef |grep sleep|grep -v grep | awk '{print $2}' | sort -rn : for killing a preocess in the reverse order."
+
+
+# Apor
+* "The Shell Diagram"
+* "Codes in STDIN,STDOUT,STDERR"
+* "Local variables and Env variables"
+* "Signals Codes"
+* "Registry types"
+

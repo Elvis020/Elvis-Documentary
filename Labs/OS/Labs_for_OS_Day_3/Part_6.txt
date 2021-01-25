@@ -1,0 +1,15 @@
+# Question 1
+"a. set"
+"b. env"
+
+# Question 2
+
+
+
+
+
+
+[Notes from Sam]
+"DLL: are shared libraries in windows, used by many applications."
+"Because they are shared, when you want to use an app in DLL, it doesn't start again"
+*"Process has a STDIN,STDOUT,STDERR"

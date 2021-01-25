@@ -1,0 +1,21 @@
+~ [Unix/Linux Shell]
+
+
+# Snippet 1
+* Shell
+* Purposes of Shell
+    -it is a command line interpreter.
+    -a programming language.
+    -job control language.
+
+~ [Composing Commands]
+* Sequential composition eg. com1 ; com2;
+* Parallel composition eg. com1 & com2
+* Conjunctive composition eg. com1 && com2
+* Disjunctive composition eg. com1 || com2
+
+* Cron
+* Timetable
+* Crontab
+* Autosys
+

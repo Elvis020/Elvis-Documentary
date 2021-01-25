@@ -1,0 +1,85 @@
+~[Controlling Processes]
+
+[ Snippet 1]
+* "Each activity outside the kernel is performed in a process."
+*  "A primary job of the kernel is to coordinate all processes so that they have a fair share of the resources in the system."
+* "What is directory stacking."
+* "NB: The & make a process run in the bg."
+* "tee is a pipe redirection.i.e tee redirects stdout to both the console and a file in one command"
+
+[Snippet 2]
+* "A shell is any program that provides an interactive environment for users."
+* "Going back and forth btn directories in a korn shell."
+
+* "Note the 3 purposes of the Shell"
+"The Shell works like this: Read Line --> Tokenize Line(create an array of the command) --> Process Directives --> Run command --> Output prompt."
+
+
+[Snippet 3]
+* "All commands we invoke expects 3 things: standard input-0,standard output-1,standard error-2."
+* "2>&1"
+* "sort datafile > datafile: Because of the order of operation of the shell, it will wipe the content of the datafile before trying to sort and nothing will be there to sort after wiping"
+* "reading and writing to the same file can be done with sort -o afile afile"
+
+
+[Snippet 4]
+* "With pipeing, the output of one command is directed into the input of another"
+"processes are active, files are passive"
+*  "The shell meta characters include:\ / < > ! $ % ^ & * | { } [ ] " ' ` ~ ; ""
+* "Conjuctive is logical AND and Disjuctive is like logical OR"
+
+[Snippet 5]
+* "Local Variables are not visible to subshells."
+* "Environment Variables are  visible to subshells."
+* "set: shows both local and env variables"
+* "env: shows only env variables"
+* "Single qoutes will not intepret the $ sign."
+
+[Snippet 6]
+* "A job is a group of processes"
+* "kill is ususally used for bg process."
+* "Suspend a project with Ctrl+z and bg to run in the background."
+* "Zombie process, when a parent process does not acknowledge a child process."
+* "You can't kill a zombie process."
+* "The parent process of the shell is init."
+* "Orphan process: Killing a parent process without the child process"
+
+
+[Snippet 7]
+* "Kill is used to send signals to processes of jobs."
+* "Windows uses the first-in, first-out system to handle virtual memmory(pages)"
+* "Registry is a db where  all the configuration on the system stored."
+* "A service is something that is running in the bg."
+* "A bg process is called a daemon."
+* "Principle of least priviledge: expose the bare minimum of priviledges"
+*"Know the logon process"
+* "Mandatory user profiles are files that cannot be modified."
+
+
+[Snippet 8]
+* "Study Registry and DLL for windows."
+* "DLL : Dynamic Link Libraries"
+* "DLLs provide an efficient implementation of library functionality and other shared application functionality"
+*" COM: Component Object Model"
+* "DOTnet is the language for windows app"
+
+
+1. C -correct
+2. A-incorrect D
+3. A-correct
+4. C-correct
+5. B-correct
+6. B-incorrect E
+7. B-correct
+8. D-correct
+9. B-incorrect C
+10. A-correct
+                          
+
+
+
+
+
+
+[Notes on Inodes] 
+* The filenames of the inode are stored separately and linked to the inode number

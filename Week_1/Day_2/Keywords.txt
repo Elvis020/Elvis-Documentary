@@ -1,0 +1,18 @@
+[Medium] 
+** 
+-Unix
+-Kernel:"A kernel is the core of any computer system which has full control over the system’s performance."
+-Process
+-multiprocessing
+-multitasking 
+-time-sharing 
+-Page
+-UID:user identity number 
+-GID:group identity number
+
+-GREP
+-SORT
+-LS
+-PWD
+-DIFF
+-

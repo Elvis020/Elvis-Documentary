@@ -1,0 +1,122 @@
+[Notes v.1]
+* "C++ does not do things very well, and Java solves this issue.(Memory Managment and Performance)"
+* "JVM is reused for Scala and Kotlin."
+* "Object-Oriented and Functional".
+* Flex is a not so common lang, like XML and written in OOP.
+* Flex not arround cuz of Apple not supporting flash player.
+* We will be working with a web app.
+* Frontend interacts with something that lives on the server, normally called Backend.
+* 3 Tier architecture: Frontend,Backend and DB.
+* There are soo many options for the server-side langs.
+* Applications evolve and grow, and as they evolve you need the suitable lang.
+* Know whether you app will serve humans or computers.
+* And it is very important to make the right decision.
+
+[Notes v.2]
+* Think Big(you will be working on mega projects).
+* Note the Agile way of doing things.
+* Start small and build on top of that.
+* Agile is the best soo far.
+* "SDLC: Software Development LifeCycle."
+
+
+# Notes v.3
+* Enterprise Infrastructure: The hardware or software a programs runs on.
+~[From Others: What is an enterprise Infrastructuure]
+1. hardware, software and network component that support software applications etc
+2. All the tools that come together to help software run
+
+* DevOps.
+* Security is very important.
+* Non-functional requirement: Scalability,Accessibility,Availability,Reliability,Security,Performance,Redundancy
+* Scalabilty: The number of people you can accomodate on an infrastructure. Memory is related to scalability.
+
+# Notes v.4
+* Availability: Making a service work all the time.
+* COnnectivity in the sense that we need to understand how various systems are going to communicate.
+* Disaster recovery: Plan or todo, when a disaster hits. The Bank example.
+* User-friendly: Nobody likes a horrible looking app.
+
+# Notes v.5
+* Inter-application spaghetti.
+* The reason why infrastructure is very important is becuz, if you dont plan your infrastructure carefuly,you might have to re-program everything from scratch, in case of lets say scalability.
+* Server Virtualization: Virtual machines and Dockerization: They help replicate the infrastructure in case of trouble.
+
+# Notes v.6-Cloud
+* The ease of requesting the resource.
+* It is much faster.
+* Examples include: Azure,GCP,Digital Ocean, Heroku etc.
+* CLoud is part of the infrastructure.
+* Many companies have their own cloud(for security and privacy.)
+* They are simple to use.
+
+# Notes v.7-Virtual tools for collaborating
+* Zoom et al
+
+Break Up rooms:
+1. This is in the direction of TLC program
+You are in charge of TT,
+2. what data do you need in starting the program
+what data is important to persist, 
+where did the data come from,
+what data would you be gathering,
+what do you do with them.                                            
+
+
+# Answers
+Data:
+
+2. 
+
+-Client Needs and Data.
+-Instructors, Difficulty Level,Number of people,
+
+Personal Data
+ -Occupation,Location,DOB,Contact,Skills,Interests,Experience Level                 
+
+ 3. How to gather Data
+ - Through Forms and Document Uploads
+ - Surveys: to know our strength, and weakness.
+
+
+#  We can use the data to develop new data.
+# Progress reports
+
+
+Quotes from
+# Dont cram b4 tests.You actually need to know it.
+# Slow is steady and steady is fast.
+# Read the material 4 2moro.
+# The lab questions are designed to guide/show you what is important.
+
+
+[Revision]
+Why we need OS?
+    - File management
+    - Process management
+    - Device management
+    - Memory management
+Types of OS?
+    -Windows and Unix
+
+
+* "Kernel: Abstraction layer btn hardware ans software."
+* "Processes: programs in execution."
+* "Program: A set of instructions "
+* "Multi-users, multi-processes."
+
+
+"Process managemnt"
+-"CPU scheduling."
+-"Process Priority"
+* "IO usualy blocks our process."
+* "One process is run at a time, but because its fast, time sharing gives us the illusion that it is all happening at the same time.(concurrency)."
+
+[Difference btn multiprocessing and multithreading]
+* "A process can have multiple threads of execution."
+
+[Processing Power]
+* "Depending on the bit, you get the corresponding memory"
+* 
+
+

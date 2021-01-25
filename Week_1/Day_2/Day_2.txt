@@ -1,0 +1,244 @@
+
+*  "the term "Unix" is used to describe a whole family of operating systems that all share the key basic ideas of Unix from the early days."
+
+
+* "In Unix there are only two entities: files and processes."
+
+[Hard - What is an OS]
+*
+ "OS: Software that sits on top of everything and manages everything "
+ *
+
+ [Medium - What is a Process?]
+ **
+ "A process is a  program in execution"
+ "A process might invoke multi-processes"
+ "The process makes a call into the operating system, causing operating system code to run on its behalf."
+ " When this happens the process is said to be running in kernel mode."
+ "The interaction layer between both the hardware and the software is catered by OS Kernels "
+
+ [Medium -  Process State]
+*  "Operating systems support the idea of multiple processes running concurrently. "
+
+ * "A process is either ready, running or blocked."
+
+ * "A process may be blocked because its waiting for something usually an input.i.e I/O process"
+
+ * "multiprocessing, multitasking or time-sharing systems."
+
+
+ [Medium -  Preemptive Multitasking]
+ * "With preemptive multitasking the operating system takes full control of process scheduling."
+
+
+ * "Processes are given a time period (often called a quantum since it is very short) in which to operate."
+
+ * "Priority of a process changes over time."
+
+ * (https://en.wikipedia.org/wiki/Nice_(Unix))
+
+
+ [Medium -  Multiple Processors]
+ * "Multiple processor (MP) machines are able to run more than one process at the same time. "
+
+ *"A limitation of symmetrical multiprocessing is that the shared hardware resources, and especially memory, are points of contention."
+
+ *"Symmetric multiprocessor systems usually have no more than 8 processors"
+ "SMP: architecture where two or more identical processors are connected to a single, shared main memory, have full access to all input and output devices, and are controlled by a single operating system instance that treats all processors equally, reserving none for special purposes"
+
+ *"true multiprocessor parallel machine may have tens of thousands of processors (TMC connection machine)."
+
+
+ [Medium -  Multithreading]
+ * "Modern operating systems support multithreading whereby a single process may have multiple concurrent threads of execution."
+
+ *"Multithreaded processes are faster".
+ * "A thread is contained in a process."
+ * "Multithreaded programs increase application performance even on single processor machines".
+
+ [Medium -  Memory Management]
+ * "MM coordinates the allocation and sharing of memory."
+
+
+ * "Another crucial job performed by the operating system is memory management"
+
+ * "The total amount of memory that appears to be available for a process to use is called virtual memory. "
+
+ * "Ram is usually limited."
+
+
+ * "The memory manager is responsible for moving pages of processes into and out of memory as needed by the CPU."
+
+ * "Every process has its own VM(Virtual memory: Ram + Disk)"
+
+ [Medium -  Virtual and Physical Memory]
+*"physical memory is divided into small units known as pages."
+
+*"Memory allocation is not concurrent becuz of fragmentation."
+
+[Medium -  File System Management]
+* "FMS is like an inverted tree"
+* "The file system manager is responsible for managing the long term storage facilities of the computer system"
+* "The commands act thru the file system manager"
+* "Note the unix commands to manipulate the file system."
+
+[Medium -  Fetch Data from a file]
+*" A hardware signal known as an interrupt is used to notify the operating system that the request has been completed.."
+
+[Medium -  Device Drivers]
+"Operating systems provide an abstract view of devices, that makes it easy to communicate with them. "
+"This abstract view of devices is provided by a software module in the operating system called a device driver."
+"Its job is to convert a common set of primitive operations into device specific functionality."
+
+[Medium -  Distributed Services]
+"They allow resource sharing."
+
+[Medium -  What is Unix]
+* "Allows users to run programs, mange theri own files and use devices"
+
+
+[Medium -  Major Features]
+*"Through a Unix shell (command line interpreter) collections of such commands are combined to perform complex tasks."
+
+
+[Medium -  Unix and Linux]
+* "The fundamental component of information in Unix is the byte stream."
+* "Started in the 70s"
+* "Debian(Ubuntu, Mint etc) is open-source"
+* "Most servers are Linux-based and don't use GUI"
+
+[Medium -  Unix/Linux Key Concepts]
+
+
+
+[Medium -  Files and Processes]
+* "In a unix sys, everything is either a file or a process."
+* "Files are passive entities"
+* "Processes are active entities"
+* "Every process starts life as a file"
+
+
+[Medium -  Organisation of Files]
+*"Both process and file entities in Unix are organised as trees."
+* "The root is denoted by a / "
+"/usr/myDir - absolute path"
+"usr/myDir - relative path"
+*"However, the illusion maintained by the operating system, is that the file system is one, coherent, tree."
+*"By convention, programs and devices exist in their own sub-directories, and users exist in their own sub-directories."
+
+
+[Medium -  Organisation of Processes]
+"All processes have a parent process and child processes"
+* "The first process in a Unix system is called 'init' and it runs as part of the procedure of making the machine ready for users."
+*" Once a user has logged in, a new child process is created to enable the user to enter commands. This process is called a shell."
+*"There is a hierachy of running processes. Every process is a child process of a shell process when you log into a system."
+
+
+
+[Medium -  Login]
+* " In this process the system determines who the user is (the username), verifies this information (by requesting a password)."
+
+*" During the login process the system associates a UID (user identity number corresponding to the username) and GID (group identity number corresponding to the user's default group) with the user. "
+
+[Medium -  Users]
+* "User is an attribute for a process or file."
+* "In Unix, everything carries a UID and GID."
+
+
+[Medium -  Structure of Unix]
+*"The architectural structure of Unix/Linux is based on a series of layers"
+
+*"The graphical representation of this is often described as the "onion diagram" as it can be imagined as a series of concentric rings"
+
+* "Unix prevents applications from directly accessing this hardware by surrounding it with a low level layer of software known as the kernel."
+
+*"The applications make use of the facilities provided by the system (hardware) through a well defined interface to the kernel, known as the system call interface."
+
+
+
+[Medium -  Basic Commands]
+*"cd and pwd dont create child processes"
+*"commands like: whoami, date,who,ctrl+d-logout"
+[Medium -  Keyboard Control]
+"Every process sends a signal when it is finished."
+[Medium -  File System Commands]
+*"cat is an abbreviation for concatenate, meaning to append"
+
+* "wc counts the number of words, lines and characters in the specified files. Using the optional '-l' argument, wc only displays the number of lines in the file."
+
+"ps"
+
+[Medium -  On-Line Manual]
+"To get access to the flags of commands and maual use: man <command name>"
+
+
+[Medium -  Command Format]
+"Commands follow a standard format"
+"The commands are case sensitive."
+
+[Medium -  Unix Command Format]
+"Examples of the commands include: 
+ls -la
+"
+[Medium -  The Shell]
+"Bourne shell - sh"
+"Korn shell - ksh"
+"C shell - csh"
+"Bourne Again shell - bash"
+
+"The Korn shell is currently the most popular shell."
+
+
+[ Shell Wildcards]
+"The ls f* command matches all file names which begin with f followed by any number of any character. "
+"? matches any single character."
+" and [ ] matches a range of specified characters."
+
+[Medium -  I/O Redirection]
+"By default the input for a command (if not taken from a supplied file) is read from the keyboard (the standard input)"
+"The > indicates that the output should be written to the specified file."
+"the < indicates that the input should be read from a specified file."
+"the | symbol indicates that the output of the left command should be directed to the input of the right command."
+
+[Medium - Displaying File Contents]
+"more -  may be used to paginate contents"
+
+[Medium - Displaying Parts of Files]
+"head - displays the first lines of a file"
+"tail - displays the last lines of a file"
+"tail is more powerful than head because it is able to output the end of the file relative to the start or the end"
+
+
+[Medium - Searching Files]
+"Regular Expressions are templates for strings"
+
+[Medium - Quoting]
+"Allows characters to be hidden from the shell"
+
+[Notes on Wildcard Expansion]
+* "The purpose of the 'touch' command is not to create files but to update the timestamp on a file."
+* "With touch, the creation of a file is a side-effect"
+* "Typing * makes the shell do all the hardwork, perform an operation if any."
+* "After pressing * and entering it, the shel tokenizes the line."
+* "The * is a directive to the shell to expand all files in the current directory."
+* "When you pass the *, it sees the first word as a command, and the rest as files and arguments."
+*"Using the rm,sm,tm Example"
+
+
+
+
+[User Management]
+* "Consists of ID,group ID, password, username."
+* "Physical memory consisits of pages. And it is allocated by the MMU."
+* "The virtual address is then translated by MM to know the actual memory."
+
+[File Management]
+"Files and Directories"
+
+
+
+[Revision]
+* "What actually that, cp do: It creates a duplicate of the file to be copied"
+* "What actually that, mv do: It links it to a different position."
+"mv -i : the i flage prompts before removal."
+"Inode:"

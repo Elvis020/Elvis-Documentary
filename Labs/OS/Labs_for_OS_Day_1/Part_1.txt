@@ -1,0 +1,38 @@
+# Question 1
+Display current date: date
+Current working directory: pwd
+who you are: who am i
+contents of the current working directory: ls
+display shell: echo $SHELL
+
+
+# Question 2
+NB: wc == "word count"
+
+a. wc 
+b. ls /etc | wc -l
+c. ls /etc | grep [0-9] | wc -l
+
+# Question 3
+a. ls > newFile.txt
+b. touch newFileAgain && nano newFileAgain.
+
+
+# Question 4
+Ctrl+h: deletes a characte
+ctrl +?: undo deletes
+a. ctrl+w: clears a word
+    ctrl +u: clears the  whole sentence.
+
+
+b. ctrl+s: suspends the output
+    ctrl+q: resumes output
+    ctrl+c: interrupts output
+
+# Question 5
+a. ps
+b. ps -U <username>
+
+# Question 6
+ctrl+d
+

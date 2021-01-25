@@ -1,0 +1,25 @@
+# Question 1
+"a. ed filename > a >  <typeSomething> > . > w > q"
+ 
+# Question 2
+"a.  ed IChing  -p '>' 1i"
+"b.  ed IChing  -p '>' 3i"
+"c.  ed IChing  -p '>' $"
+"d.  ed IChing  -p '>' a > . > w hack > q"
+
+# Question 3
+"ed README  -p '>' 1,$ s/the/THE/g "
+
+# Question 4
+"a. ed README  -p '>' g/\.$d"
+"b. ed README  -p '>' 1,10 t $ > w README3"
+
+# Question 5
+"a. sed 's/README/readme/' README"
+"b. sed 5d userlist "
+"c. sed -n '5p' userlist"
+"d. sed -n /user4/p userlist  "
+"e. sed '/dup/w duplist' userlist"
+
+# Question 6
+"ed userlist  -p '>' , s/ttyp[0-9]/ttyp   /g "
