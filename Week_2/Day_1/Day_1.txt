@@ -96,14 +96,14 @@ int main{
 -----------------------                         ----------------------------
 
 >>
-[Snippet 5 - C++ II]
+[Snippet 6 - C++ II]
 * " All variables are declared b4 use. eg. int total"
 * " An expression is anything that yields a value. eg. x + y"
 * " You can read two numbers from the terminal."
 * "Any non-zero value converts to true else false."
 * "Indentation emphasises code structure"
 
-[Snippet 5 - C++ III]
+[Snippet 7 - C++ III]
 "Stages of compilation in C++ code   
     -pre-processing
     - compiling
@@ -119,7 +119,7 @@ int main{
     -ansi: removes g++ extensions that conflict with standard C++
     "
 
-[Snippet 5 - Version Control with Git and Github]
+[Snippet 8 - Version Control with Git and Github]
 *"Local repo and Remote repo."
 * "Merge conflict: when a line of code is being  changed simultaneuosly on a server."
 * "Git by Linux Torvald. BitKeeper was the initial version control used by Linus and his team, but they switched becuz BitKeeper was not open-source."
@@ -128,7 +128,7 @@ int main{
   *" Every change has its own revision number"
 
 
-  [Snippet 5 - Version Control with Git and Github  II]
+  [Snippet 9 - Version Control with Git and Github  II]
 * "git checkout -b <branchName>: creates a branch and switches to that branch"
 *"A git project consists of a local working directory, a staging area for changes, a local repository and one or more remote repositories."
 * "Changes to these two repositories can be synced using push and pull commands"
@@ -138,23 +138,42 @@ int main{
 
 
 
-[Snippet 5 - Version Control with Git and Github  III]
+[Snippet 10 - Version Control with Git and Github  III]
 * " Git status gives details about the current staging area."
 * "If changes are made simultaneously to the same branch in different repositories (for example by two developers) then these changes will need to be merged."
 *"If an attempt is made to merge two branch which are identical (for example an attempt is made to merge a branch with its source branch and no modifications have been made to that new branch) then Git will simply ensure that the source and destination branches reference the same commit (this is called a "fast-forward merge") and is very efficient."
 
 
-[Snippet 5 - Version Control with Git and Github  IV]
+[Snippet 11 - Version Control with Git and Github  IV]
 *"When two branches contain different commits then Git will merge these branches together and create a new reference (referred to as a commit object) representing the combination of changes recorded by the two branches. This is referred to as a "merge commit"."
 "If any conflicts are encountered, a notification message is displayed, and the files are internally marked with >>>>>>>> and <<<<<<<< around the conflicting portion of the file contents."
 *" A branch represents a specific state of the files in that repository. You can switch between branches using the checkout."
 
-[Snippet 5 - Version Control with Git and Github  V]
+[Snippet 12 - Git Operations I]
+ *"A shorthand for the git branch and git checkout commands is to use the git checkout -b <branch name> ."
+ *" Git branches are simply pointers (references) to a commit"
+ * "The team branches helps teams to organize their work."
+ *"The workflow typically begins by a pull"
+ *"Branches are used when developing new features."
+ *"A bare Git repository is a repository that is created without a Working Tree."
+ *"A remote 'origin' repository needs to be a 'bare' repository which means no commits can be done to it directly."
+
+
+
+ [Snippet 13 - GNU Debugger]
+ * "Gdb supports the controlled execution of programs including single stepping, breakpoints and examination of data."
+ * "Commandline based debugging."
+ * "gdb requires additional information to be embedded into a program for it to work effectively."
+ * "To disable all optimizations, use -o0 flag to disable all optimisations."
+ * "If a program terminates as a result of being signalled, the termination is classed as abnormal."
 
 
 
 
-[Solution to OS Exam Questions]
-* " A filter is something that can read frm a standard inptu to a standard output"
-* " Kill sends a signal to processes"
-* "Kill -9 is dangerous becaus eit "
+[Discussion of solutions to OS Exam Questions with Sam]
+* " A filter is something that can read frm a standard input to a standard output"
+* "Kill sends a signal to processes"
+* "Kill -9 is dangerous because it terminates the program without gin=ving the program time to save any resources."
+* "abc* for regular expressions indicates the pattern for ab and 0 or 1 occurence of c."
+*"Ddd is a frontend debugger based on the gdb"
+*"The Ddd  communicates with the actual debugger (known as the inferior debugger) through a pseudo-tty interface."
