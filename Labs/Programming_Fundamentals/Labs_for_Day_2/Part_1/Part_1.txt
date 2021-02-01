@@ -1,0 +1,41 @@
+# Question 1
+"
+
+
+#include <iostream>
+
+using namespace std;
+int main(){
+	enum {RED, YELLOW, AMBER=YELLOW, GREEN};
+	cout << RED <<endl;
+	cout << YELLOW <<endl;
+	cout << AMBER <<endl;
+	cout << GREEN <<endl;
+}
+
+
+"
+
+# Question 2
+"a. 
+    int first {};
+    int* first_pointer;
+    int& first_reference = first;
+    const int first_const = 8;
+"
+"b. 
+    first = 5;
+    first_pointer = &first;
+    (*first_pointer)++;
+    (first_reference)++;
+    cout << "First: "<< first << endl;
+"
+
+"c. 
+    float one = 0xf3f2;
+    float two = 0437;
+    float three = 'a';
+    cout << "One is: " << one << endl;
+    cout << "Two is: " << two << endl;
+    cout << "Three is: " << three << endl;
+"

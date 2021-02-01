@@ -1,0 +1,158 @@
+[Snippet 1]
+* "Type refers to the organisation of memory."
+*"A variable is an allocated chunk of memory."
+* "return 0 for success and any non-zero value for any error that it returns."
+* "Identifier is the name you give to the variable."
+* "int - 4 bytes of memory"
+* "signed and unsigned indicates whether its positive or negative respectively."
+* " The number of bytes associated with each type depends on the underlying hardware."
+
+
+[Snippet 2]
+"  - char: 1 byte 
+    - wchar_t: 2 bytes
+    - short int: 2 bytes
+    - int: 4 bytes 
+    - float: 4 bytes
+    - long int: 4 bytes
+    - long long: 8 bytes
+    - double: 8 bytes
+    - long double: 16 bytes."
+
+* "What is the difference btn long int and long long"
+* "How many byte can a boolean hold? - 1byte"
+
+    [Snippet 3]
+* "The standard lib adds useful data types: i. Scalar dT ii. collectionsT"
+*"Stacks:LIFO"
+*"Queue: FIFO"
+*"To use any lib, import it using the #include <string>"
+*"The  + operator is overloaded, and in C++, you are allowed to overload an operator."
+* "Namespaces provide a mechanism for scoping families,variables,classes within a single scope."
+
+
+[Snippet 4]
+*" They are also essential in avoiding name collisions when including code from multiple libraries"
+*"Literal constants are actual values and are typed."
+*" Namespaces are used to organize code into logical groups and to prevent name collisions that can occur especially when your code base includes multiple libraries."
+*"int hexnum = 0x522 is the same as int hexnum {0x522}"
+*"Remember implicit casting or implicit narrowing."
+*"Copy initialisation a.k.a = ."
+
+
+[Snippet 5]
+*"{} is known as the list initialisation."
+*"Know the types of initialisation."
+*"auto : this indicates that the compiler will detect and deduct the variable.  "
+*"auto gives a result or a variable a type that the compiler think its suitable."
+*"Vector is a linear structure"
+
+
+[Snippet 6-Pointer]
+*"Pointer is a variable that  stores the address of a variable  in memory"
+*" int var; --------------- variable
+    int *varptr; --------------- pointer"
+    *"Reference is a constant pointer."
+var  = 5837;
+varptr = &var;
+
+*"Reference"
+int i = 5
+int &ir = i
+
+*"Enum: they provide a convinient way to associate constant values with names"
+*"Unlike constants, enumerations are compile time constants and may not ultimately take up run-time memory. "
+*"Enums without names are anonymous."
+
+
+[Snippet 7-Arrays]
+*"An array is a collection of objects of one type"
+*"Eg of array: char name[] = {'C','+','+'}"
+*"All string in double quotes are demlimited by a null character"
+*"Last index is the length of the array - 1"
+
+
+[Snippet 8-Structures]
+*"Struct is an aggregate data type."
+|"Structs are like classes except the defualt visibillity."
+*"Everything in struct is public by default"
+*"Everything in class is private by default"
+
+
+[Snippet 9-constexpr(Not Clear)]
+*"All constexpr are constants"
+
+*"clear about preincrement and postincrement"
+*"Comma operators are mostly used in while loops"
+*"l-values refers to the address in memory of a variable"
+*"Know the opeartors that are left associated and right associated."
+*"Conversion operators - {}:  allows explicit conversions"
+
+[Snippet 10]
+*"Switch statements are used on expressions that evalute to integers."
+*"switch statements are optimised and efficient"
+*"continue - continues the loop and ignores the else statement"
+*"for(;;) : infinite loop"
+*"Functions need to be declared b4 its used."
+*"If you define the function b4 int main(), then you dont need to forward-** it"
+*"Values are passed into functions via argument lists"
+
+
+[Snippet 11]
+*"Function name overloading: allows mltiple functions to share the same name."
+* "Function overloading enables multiple functions to share the same name provided they can be distinguished by their parameter lists"
+*"Ambiguities can exist in programs when arguments have to be converted to match a function."
+"Pointer deferencing"
+*"In C++, ++i is preferred."
+*"++i :  increments the number before the current expression is evaluted"
+*"i++ :  increments the number after the expression is evaluated"
+*"In loops, ++i and i++ are the same."
+*"Enum is a 4-byte integer."
+
+[Snippet 11 - Notes on Pointers and References]
+*"For address use &, for value of pointer use *"
+"int* ptr : this creates a pointer called ptr."
+"int& ptr2 : this creates an address called ptr2"
+*"Reference are like hard links"
+*"Pointers can easily move between variables while refernces take on one variable at a time."
+
+[ Notes from AbuDari-Udemy I]
+*"cout: console output"
+*"cin: console input"
+"<< : insertion operator"
+*"cout and cin are in the iostream library"
+* "std:: - scope resolution with namespace"
+"namespace"
+*"use getline(cin,<variable>) to get the fullname instead of cin."
+*"Eg. 
+    string name;
+    cout << "May i know your full name: \n";
+    getline(cin,name);
+    cout << "Welcome " << name;
+"
+
+[ Notes from AbuDari-Udemy II]
+*"Data is either Numeric or Character/Alphabetic"
+*"Memory is represented in bytes."
+*"Data types in C++ include: Primitive, User-defined and Derived."
+*"Primitive: Integer,Bool,Floating Point"
+*"User-defined: Enum, Struct, Union, Class"
+*"Derived: Array, Pointer, Reference"
+*"A numeric variable is signed if it can represent both positive and negative numbers, and unsigned if it can only represent non-negative numbers (zero or positive numbers)."
+
+[ Notes from AbuDari-Udemy III]
+*" Bitwise and logical operators are ver similar, just take note.Eg of bitwise include: &,~,^"
+*"Modulus is allowed on only integers and characters(cuz of ASCIICode). i.e %"
+*""
+
+
+# Take note
+# "Const expressions run at compile time and the rest run at runtime".
+# "For pre, the output is not noticed until the next iteration and for post its the opposite."
+
+
+[Snippet - Evening Huddle]
+*"C style strings - char *"
+*"Constexpressions
+    - There are some expressions that occur at compile time. The compiler does the evaluation at compile time.
+"

@@ -1,0 +1,327 @@
+[Notes on the Unix /Linux API]
+*"In Linux/UNIX, access to system resources is ultimately obtained through system calls."
+
+*"System calls are special traps into the kernel."
+
+* "The only way a user application can invoke functionality within the kernel is by making a system call"
+
+*"system calls are normally made through C function calls"
+
+*"Examples of system call functions  are read, write, getpid and fork."
+
+*"These specialised functions calls can be found in the C library, often referred to as libc"
+
+ *"C++ programs may be linked against the C library, making the Unix system calls accessible from C++ programs"
+
+ *"When a system call function is called, some preparatory work is done, namely to store the system call number, and any argument pre-processing "
+
+
+ *" The effect is similar to that when hardware interrupts are received."
+
+ *"The kernel recognises that the trap was caused by a system call, extracts the system call number and arguments and calls the correct kernel function to satisfy the request "
+
+ ~[*"Know the steps in processing a system call."]
+
+ * "A hardware signal known as an interrupt is used to notify the operating system that the request has been completed.. "
+
+ *"Reading data from a file is synchronous, when it comes to system calls."
+
+ * "Asynchronous I/O is possible, however, and here the process can continue with other things while awaiting the data from the read operation."
+
+
+ *"Watch process execution includes: 
+    - Library calls
+    - System Calls
+    - Signals
+ "
+
+ * "Its good to trace, cuz its helps you know like what is going on when the system calls are in place."
+
+ *"You can try and printing statements at the beginning and end of programs to not what is going on with the system calls, but this is not ideal."
+
+ *"That can increase the size of the program considerably."
+
+ *"strace intercepts  system calls and signals to processes."
+
+ *"strace can also intercept library calls."
+
+ *"strace allows the tracing of programs.And it is provided by Linux."
+
+ * "System calls (and optionally library calls) made in the monitored process are intercepted and details about them printed to STDERR."
+  
+*"Using the option -o with strace, the output can be sent to a file and examined later."
+
+*"Strace  may also be used on a process already running, by attaching to the process using its process id. "
+
+* "strace also supports filtering (reporting only on specific system calls), call summaries and even tracing sub-processes"
+
+ *"strace is like truss in Solaris."
+
+ *"To enable tracing on runing processes, use the flag -p"
+
+ * "ltrace is for library calls."
+
+ * "The output of strace shows the system calls open, write and close as indicated by the program."
+
+ * "The second argument to open() is passed as a bit string with each bit indicating a different flag."
+
+
+
+* "strace will report the delivery of signals to a process, whether or not the signal causes termination of the process. "
+
+*"Check day 4 for the flags"
+
+* "With performance bottlenecks, the -T flag can help you with that."
+
+* "Sorting the table on any column."
+
+* "Strace can provide summary information after the execution completes."
+
+*" I/O operations are likely to introduce performance problems in a program."
+
+*"Strace doesn't not normally trace child processes"
+
+* "If we want to see information from the child, we must use the -f flag to strace. "
+
+* "To put each process' data in separate file, use the --f with -o flag."
+
+* "strace allows the tracing information to be filtered." 
+
+* " The -e flag allows an expression to be specified that alters the default set of traces being performed or the way in which information is presented."
+
+* "	strace -e trace=!open : instructs strace to print information about all calls except open."
+
+* "The -p option allows strace to attach itself to an already running process, opening up all its options thereafter."
+
+* "strace does not allow us to trace the library calls that may have led to these.So ltrace is used instead. "
+
+
+*"ltrace will by default display details of calls to functions in dynamically linked libraries, displaying their arguments and return values."
+
+*"The output of ltrace can be configured."
+* "ltrace allows de-mangling of C++ function names."
+
+* " ltrace is able to report system calls as well as library calls and this is done using the -S flag."
+
+*"system calls are represented in the output as SYS_NAME(...)"
+
+
+
+
+
+
+
+[Snippet on Process et al - Actual Class]
+* "What happens when a process terminates,the process will release its resources.And a signal is sent "
+
+* "When  a child process is fininshed, it sends a signal to the parent process and the parent process acknowledges it."
+
+* "Zombie process."
+
+* "An array of character pointers .ie char *argv[]"
+
+*"Command line arguments are passed into the main()."
+
+*"Its ended by a null not a nullptr."
+*"The first argument is the comand name"
+*" The first, argc, is a count of the number of command line "
+
+*"The path environment variables contain programs that can be invoked by the system.
+ANd every process that is being invoked has acces to these variables."
+
+*"Local variables are not inherited by other processes."
+
+*"To get acces to the environment variables,the library functions getenv and setenv are provided."
+
+* "The environment provides a simple mechanism of passing information from one process to another."
+
+*"Each call to getenv returns the value of an environment variable. "
+
+* "If the name passed to getenv is not set in the environment, NULL is returned."
+
+
+*"Static variables are the ones created using the word staic or if its a global variable."
+
+* "new and delete may have therie own scope."
+
+*"The executable instructions and the program code are stored in the text segment."
+
+*"You get a segmentation fault if you try to access the bottom part of the memory."
+
+
+*"There are four fundamental system calls: fork,execv,wait, and exit."
+
+* "fork creates a new process by replicating the current, calling process."
+
+* " The new process is known as the child, the current process is known as the parent."
+
+* "wait is a blocking function."
+
+* "Fork is used to create child process.After forking,the child is given a PID number and its 0."
+
+*"If the PID is not 0, then you are in the parent"
+
+*"Remeber dup and dup2"
+*"dup duplicates the fd. and dup2 duplicates the fd and indicates where to put it"
+
+
+*"We can terminate a parent process with the exti() call."
+
+
+*"exec and execlp differ in parameter arguments."
+
+*"To use threads, you need to import the threads library."
+* " "
+
+
+
+
+
+
+
+
+
+
+
+
+[Going over the Processes]
+* " When a program terminates, exit returns a status to the waiting parent process."
+
+* "delivered through an asynchronous event notification mechanism."
+
+*"The data segment is divided into two parts, an initialised part holding variables with initial values, and an uninitialised part."
+
+*"The stack and heap are used when the program runs. "
+
+*" The stack grows as functions are called, in chunks called stack frames"
+
+*"The heap is an area of memory from which variables may be allocated anywhere in the program."
+
+*"Any process in Linux may create child processes."
+
+*"fork causes the parent process to duplicate itself."
+*"PIDs - process identities"
+*"To the parent process fork returns the PID of its child,and to the child process fork returns zero"
+* "The parent, the calling process now waits for the child to terminate"
+* "The purpose of fork is to copy the environment and attributes of the parent into the child."
+
+*"Upon realising itself to be the child, the child process overlays itself with the program that represents the command the user wishes to execute. This is achieved with the execve system call. "
+
+
+*"Once the child has completed its work it returns control to the parent"
+
+*"The termination procedure is initiated by the child using the exit system call."
+
+*"This allows the child to pass an exit status back to the waiting parent.
+If the child is invoked as a background process the parent does not wait."
+
+* " As a consequence child processes are unable to exit properly because the exit status must be returned to the parent. In such cases the child becomes a zombie."
+
+* "fork creates child processes, where the child is made in the likeness of its parent."
+
+*"The child only differs from the parent in that it has a different PID and some different context information."
+
+* "fork is called once but returnd twice."
+*"both child and parent execute independently."
+
+* "Unique properties of a child:
+    -PID
+    -Times, pending alarms and locks
+    -forks return value of 0.
+"
+* "For efficiency, parent and child share all memory pages until either makes a modification, at which time an independent copy of the page is made to the memory area of the modifying process. This is known as Copy on Write."
+
+* "They only differ in that to the parent, fork now returns the PID of the child, to the child fork returns 0."
+
+
+* "The child process then uses execlp (one of the variants of execve) to execute the ls program."
+
+* "The parent process waits for the child to finish before continuing."
+
+
+* "The file descriptor table of the child is identical to that of the parent."
+
+
+* "file descriptors 0, 1 and 2 (STDIN, STDOUT and STDERR) respectively."
+
+*" Due to the inheritance of open files, the child process (the newly running program) may read and write any of the parents files"
+
+* "exit and wait are somewhat related in that during normal operation the parent will wait for the child to exit."
+
+* "wait is a blocking call. It will not return until a child terminates. If there are no children, however, wait returns at once with an error. "
+
+* "The waitpid call gives more flexibility, allowing a parent to wait for a specific child process to die, or performing a non-blocking wait operation."
+
+* "Sometimes child processes terminate before their parents are ready to be notified - Zombie process that"
+
+* "If the parent terminates without ever checking the child's exit status, the orphaned process will be adopted by the init process with PID of 1."
+
+* "Init process never terminates and can therefor perform the wait."
+
+* "wait returns the exit status and the PID of the dead child."
+
+*"waitpid can wait for a particular child process to die."
+
+*"If a child exits normally, its seen through the exit call and if it doesn't it is seen through a signal."
+
+* "There is a family of exec functions. execl and execlp"
+
+* " exec overlays the current process with the text, data, bss of the program in pathname or filename."
+
+
+* "execlp differs from execl in that it is able to follow the PATH environment variable in search of the program file."
+
+
+
+* "The reason that there are multiple exec  functions is because, the information needed (arguments) may be presented in a number of different ways"
+
+*"fork creates a new process but does not run a new program."
+
+* "Threads are created to execute a specific function, when the function returns the thread will terminate"
+
+* "Remember that, most of the data in a process is shared amongst all threads"
+
+* "POISX - Portable Operating System Interface"
+
+
+
+
+
+
+[Revision]
+*"Strings cant be used directly unless used with the std library."
+*"Array: collection of elements of the same type.The size is very important."
+*"Variables are initialised using the assingment variables or the asssignment operator."
+*"int i; - i gets a random value"
+*"int j{}; - j gets a value of 0."
+
+~Flow controls
+*"Swicth evaluates into an integer,bool, enum and a character."
+
+*"Diff btn while and do-while:
+    -do while executes once before checking the condition
+    -while executes on entry.
+
+"
+
+*"To call a function, you need to foward declare it b4 used."
+*"Arguments can be passed to function by value, reference or pointer."
+*"How do we pass arrays into functions:
+    -We pass a pointer to the array then, to the function
+"
+* "Dynamic memory Operators are new and delete."
+* "A multidimensional array is an aaray that contains rows and columns."
+*"Constant pointer to constant data: from right to left"
+*"Lvalues: Address in memory of the variables"
+*"Rvalues: "
+*"Linking can be done statically or dynamically."
+*"The return type of overloaded functions don't matter."
+*"Overloaded functions: are functions that can have multiple versions of parameter arguments"
+
+* "The key difference between while loop and do while loop is that, while loop checks the condition before executing the statements inside the loop while do while loop checks the condition after executing the statements inside the loop."
+
+[Rvalue and Lvalue]
+* "An lvalue is an expression that yields an object reference, such as a variable name, an array subscript reference, a dereferenced pointer, or a function call that returns a reference. An lvalue always has a defined region of storage, so you can take its address.
+
+An rvalue is an expression that is not an lvalue. Examples of rvalues include literals, the results of most operators, and function calls that return nonreferences. An rvalue does not necessarily have any storage associated with it."
+

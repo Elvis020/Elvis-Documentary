@@ -1,0 +1,197 @@
+[Snippet on Address Space of Process]
+*"Memory structure of the computer."
+*"The kernel takes 1GB of memory."
+* "At the very bottom, there is the null page."
+* "In the null page, no process can read or write in the null page."
+* "Data Segment: this is where static variable are stored."
+* "BSS: Block Started by symbol represents the uninitialized data.Has a pointer."
+*"Heap: Dynamic memory allocation."
+*"Memory mapping segment: This os where shared libraries are mapped in.LibC library sits here."
+*"Stack:Auto allocated variables. We also have a stack pointer.Has a limit of 8MB on Unix system."
+
+
+[Snippet 2]
+*"When dereferencing, the null page is accessed.And this causes the MMU to cause an interrupt(which is serviced by the CPU). And the CPU looks in the IDT(Interrupt Descriptor Table) for the interrupt number.Wch points to a function in the kernel.A signal is generated and sent to the process. The signal is called SIGSCGV(Signal Segmentation Violation). "
+
+"SIGSCGV(Signal Segmentation Violation:Accessing a segment of memory that you don't have permission to access"
+
+[Snippet 1]
+* "Unions are structures of classes that can hold only one attribute at a time.Gives a little bit of optimisation of the memory."
+* "void pointers provide a means of pointing to any type of data."
+* "Constant data and points: both data and points may be constant."
+* "char const *p1 {'hello'}   --------> Pointer to constant char, here the pointer can change but the value cant."
+* "we can promote variables to const."
+* "Eg of const pointer: const int *xp {&x}, where  int x{5}";
+* "constant data and pointers always need to be initialised."
+
+
+
+[Snippet 2]
+* "Constants can be demoted to variables. "
+* "const char * ---> Pointer to constant data."
+* "Dont understand constant dat-pointers and function-pointers"
+*"Pointer to a function: int (*p)() = foo;"
+* "Funtion pointers are a lil different to variable pointers."
+* "There are 3 different storage classes: Static, Automatic and Dynamic"
+*"Every single variable belongs to a storage class."
+
+[Automatic]
+* "Automatic objects has nothing to do with the type auto."
+* "Automatic variables are created when entering a function, destroyed on leaving."
+ *"It(Automatic variables) is on the stack of int main()"
+
+ [Static]
+ * "Static variables include global variables."
+ * "With the static variables, they are held in between function calls"
+ *"Static variables dont need to be initialised, the compiler will do that for you."
+  *"Static variables are scoped"
+  *"Static variables are in the Data segment."
+
+[Dynamic]
+*"Dynamic memory are stored on the heap."
+*"They need to be explicitly declared everytime, whether deleting or adding."
+
+ * "Work on examples of smart pointers"
+*"Smart pointers solve the problem of dynamic memory allocation."
+
+
+[System Calls - Snippet 1]
+* "Kernels are usually written in C."
+* "In working with the Kernel, there are some basic libraries that help uss do that."
+ * "strace intercepts the sys calls and signals to processes."
+ * "to enable traceing on a running process use -p"
+ * "ltrace focuses on library calls"
+ * "strace work on standard softwares not only on C++ code."
+ *"with strace, flags can be used: 
+   -r:  for relative timestamp on call enteries.
+   -c: summary of times and errors for each call.
+   -S <column_name>: for sorting.
+   -f: for child tracing
+   -T: record time spent on calls.
+ "
+ * "strace by default does not trace child processes"
+ *"strace provide a lot of filtering options using the -e trace=..."
+ *"fd  -> file descriptor."   
+ [System Calls - Snippet 2]
+ *" for ltrace, -S:  to report system calls as well as library calls."
+ *"EOF: End of File"
+ *"The kernel sees files through file descriptors."
+ * "a new descriptor is provided when a file is opened."
+ * "for file descriptors, 0 - stdin and 1-stdout"
+ *"a.out < data > other -> reading data from a.out and writing data into other"
+ *"the files are read and written from in the terminal using redirection, so you don't need to open or close it."
+ "If files dont open, they return a code of -1."
+
+ [Snippet 3]
+ *"When you create a file, umask is not applied i.e , so you need to add you numeric permissions"
+ "offsets(lseek) can be positive or negative"
+ * "od : octal dump"
+ *"when we duplicate the fd, we are creating a hard link. To do that, we use dup or dup2"
+ *"you can map a certain place in the memory into a file. This is done using mmap."
+ * "After the file desciption comes the offset value."
+ "There a list of functions that help us maange sys calls using c++"
+ "creating new directories in c++"
+ *"Read through the processes Slide."
+
+ [Snippet 4 - Git Grap]
+ *"The e9 is the start of the identifying hash of the file contents"
+ * "For git, its the contents that generate the hashcode not the filenames "
+
+
+
+ [Snippet 5-GNU Debugger]
+ * "When debugging a program it is always advisable not to use any compile time optimisations."
+ * "To disable the optimisation, we use the -O flag."
+ * "To disable all such processing, it is necessary to use the flag -O0 (zero) in the compile operation."
+
+ 
+[Snippet Evening Huddle]
+*"Setw :Its a mdifier for the string"
+* "Function pointer: In C++, it is the way we define a function signature"
+
+
+[Snippet 7]
+* "Storage classes nclude : Static, Automatic, Dynamic."
+* "There are three possible places in a C++ program, in the data segment, on the stack or in the free store heap."
+* "The C++ standard also defines thread_local, extern and mutable to be storage class specifiers"
+ *" The register keyword was deprecated in the 2011 C++ standard"
+ * "Automatic Objects: they come into existence when the function is called and are destroyed when it exits."
+ *"Autos are physically stored on the stack in a data structure known as the stack frame."
+ *"Formal arguments are also automatics and live on the stack frame associated with the function."
+ *"The keyword auto:refers to a variables whose type is deduced from the initialising expression. "
+
+
+ [Snippet 8]
+ *"Static objects are established by the compiler and exist in th =e data segment of the program."
+ *"Static objects are so named because their storage is fixed throughout the execution of the program"
+ *" Static variables, unless explicitly initialised otherwise, are set to 0."
+ *"Static variables are introduced into a program by either declaring the variables outside of any function or by qualifying the declarations with the keyword static."
+ * "Static objects declared within functions persist between function calls, cuz they reside in the data segment and not on the relatively volatile stack."
+ *"The problem with switch-case statements, is that it makes the code clumsy and less maintainable."
+
+ [Snippet 9]
+ *"State based programming may also be extremely efficient."
+ *"state based programs have significant interdependency, ensuring that the transition into one given state is only possible from another state."
+ *"Dynamic memory is memory claimed and released on demand."
+ * "Dynamic memory uses the new and delete keyword."
+ * "Variables are explicitly allocated from the pool of memory, and explicitly returned to the pool."
+ * "Dynamic allocation of variables is useful because it allows the program to be more responsive to the memory demands apparent while a program is running"
+ * "Dynamic objects may be created and destroyed at any time by the programmer."
+ * " Dynamic objects are referred to through the pointers which hold their addresses."
+ * "Dynamic objects do not have identifiers"
+ * "Dynamic objects simply have addresses which are stored in pointer variables."
+ *"new allocates and initialises memory, delete de-initialises and deallocates memory."
+ *"always use [] when deleting an array."
+
+
+[Snippet 10]
+ *" If the programmer fails to delete, there is a memory leak."
+ * "Note that after calling delete the programmer must now take care not to use the pointer (unless its assigned a new value) as the memory address held no longer refers to memory owned by the program. To mitigate this risk, the name pointer is explicitly assigned the value nullptr."
+ *"Avoid raw pointers and direct use of new and delete";
+ * "You can use either std::types, smart pointers and factories to do the work of dynamic memory for you."
+ * "heap - allocated from the free store heap"
+ * "The use of static to limit visibility to file scope is now deprecated in the language and should be avoided."
+
+#  NB   
+"static - exists in data segment
+auto - automatically allocated on stack frame
+dynamic - claimed from heap"
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+# From Afi
+ [ 
+-Principles of Programming
+-History
+-Process Address
+-GNU Debugger
+-WOrking with threads
+-Overloaded functions
+-Auto keywords
+-Pointers
+-Conversion from va to pointers
+-Structs
+-Volatile
+-cast
+-constexpres
+-diff btn do while and while
+-simple pointers
+-simple Arrays
+-promotion to const
+-Pointer on heap
+
+ ]

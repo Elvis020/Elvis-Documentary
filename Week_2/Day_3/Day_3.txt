@@ -1,0 +1,200 @@
+[Snippet 1]
+* "Forward declaration: declare your function b4 you use it."
+* "Function prototyping: a declaration of a function that specifies the function’s name but omits the function body"
+* "Vales can be passed in a function in 3 ways: Call by value ,Call by Pointer and Call by Reference"
+* "References are aliases to the variable."
+
+
+
+[Call by Value]
+ * "Functions takes copies of content argument"
+
+[Call by Pointer]
+ * "Functions takes copies of address of argument"
+
+[Call by Reference]
+ * "Functions makes aliases to arguments."
+ * "Its easier"
+ * "Efficient as using pointers"
+ * "Cant really tell if you are passing references or copies."
+ * "less cumbersome than pointers"
+
+
+ [Snippet 2]
+ * "Inline functions are meant to reduce memory cost. Start with #inline"
+ * "#inline notifies the compiler to pre-process the function."
+ * "Macros cant handle the expressions. Start with #define."
+ * "Macros are not a good-fit for creating an inline-functions"
+ * "All this is in-lieu of code optimisation"
+ * "Constexpr: a function that is evaluated at compile time if possible. Start with the 'constexpr' keyword."
+
+
+ [Snippet 3]
+  * "Scope refers to the visibilty of objects."
+* "static has got to do with where they are in memory"
+* "C++ programs are organised as a set of files."
+*"When compiling the code, it is compiles into a .o file."
+*"The program is spread over 3 files: main.C, max.h and max.C"
+
+
+[Snippet 4]
+"To compile, use th flag, -c"
+*"ELF: Executable and Linking Format. It contains a lot of meta-data."
+* "The type of ELF is relocatable."
+*"Relocatable means the file connot be directly executed."
+*"The symbol U indicates that the file is not resolved."
+*"The -o flag allows you to specify the file you want as an output."
+*"The file becomes executable if its linked during the compilr time"
+*"The Linker creates executable file and permissions are set correctly."
+
+[Snippet 5]
+ * "/proc contains folders for every running process"
+ *"Symbolic links to stdin,stdout,stderr: 0 -> <>, 1 -> <>, 2 -> <>"
+ * "Files can be compiled using libraries."
+ * "Static linking means all references are resolved by copying definitions into the exec file."
+ * "Static link leads to much bigger files."
+ * "With static linking, the executable file will be considerably larger than a dynamically linked file (since it contains all the symbols that are needed from the libraries)."
+
+
+ [Snippet 6]
+ * "An array variable is a contiguous vector. Its a collection of objects of the same type. "
+  *"The items in an array are stored next to each other: contiguous-vector."
+  * "The pointer points to the first item in the array, for pointers in array."
+  * "Arithmetic can be applied to pointers."
+  *"We dont have multiplication in pointers cuz of (1) the symbol and (2) the bounds of the memory."
+  *"Also we dont have division and modulus"
+  *"Their type is partly determined by what they point at."
+
+
+  [Snippet 7]
+  * "An array is a vector of variables"
+  *"Whenever your are manipulating strings, there is a null at the end."
+  *"An array cant be an l-value"
+  * "Pointers can be used as an l-value"
+  * "Arrays are passed to functions through pointers"
+  *"Pointers to a matrix has a formula. * (matrix + (r + total_cols + c))"
+  * "Void pointers can point to any type of object., but when its dereferenced, you need to cast it to the original type"
+  * "++ has precedence over *"
+  *"In *t++, the ++ operator is applied first."
+
+  [Snippet 8]
+  * "The ELF stores a large amount of metadata about the compiled file, and can be examined using the readelf command."
+  * "All ELF files begin with the magic number : 0x7fELF"
+  *"Traditional languages such as C or C++ are translated directly into machine code by a compiler"
+  * "The Unix compilers allow this translated file to be kept, by convention it has the suffix '.o'."
+  *"Binary files can be examined."
+  *"The -c flag to the Unix compiler ensures that the file is stored and not linked."
+  "After compiling the default name for the file is a.out."
+
+  
+  [Snippet 9]
+  * "The linker generates the executable file. The linker is used to turn the object into an executable."
+  "In computing, the Executable and Linkable Format (ELF, formerly named Extensible Linking Format), is a common standard file format for executable files, object code, shared libraries, and core dumps."
+  *"Header files are files with the .hpp extension."
+  *"Header files contain the declaration of features only and not the implementation of features."
+  *".s extension -Assembly Code."
+  *"The linker takes the features of the libraries involved whether external or standard and links them. Creating the executable file."
+
+  [Snippet 10]
+  * "There are two types of external libraries, static libraries and dynamic libraries."
+  * "Object Code + Standard lib + External Lib  = Executable file"
+  *"The linking process: The process of linking the Object Code + Standard lib + External Lib  = Executable file."
+  *"The loader loads the exec file (after the lining process) into the memory to be executed by the CPU."
+  *"The entries 0,1 and 2 in the fd directory are symbolic links to the same file /dev/pts/0"
+  * "Static linking resolves all symbols by copying the definitions required into the generated executable file."
+  *"Default linking is dynamic, meaning that instead of copying the definitions of the symbols into the executable file, the linker inserts an indirect call to a separate function that resolves the symbol when the call is first made on execution."
+
+  [Snippet 11]
+  *"By convention, Unix/Linux shared libraries are stored in files with the .so suffix."
+  *"The maps file in the /proc directory displays details of all the segments in the process' address space."
+  *"By convention, Unix/Linux shared libraries are stored in files with the .so suffix."
+  * "To ensure that the  runtime linker is given the freedom to link the symbols to any address, we  can compile the library files using the flag -fpic (or -fPIC if the library is large). "
+
+
+  [Snippet 12]
+  * "For dynamic linking to work, the libraries referenced must be available when the program runs, not just when it is linked."
+  * "The ldd command will display information about how it is going to link the program when it runs in the current environment."
+  *"When it comes to overloaded functions, there is a challeng in the process of linking."
+   *"Name mangling is the technique used to solve the overloaded function problem."
+   *"With name mangling, The name of a function is modified, so that it includes an indication of the number and types of its arguments."
+   * "the C compiler does not mangle identifiers, since the language does not support function overloading"
+
+
+[Pointers and Arrays with Shadrack]
+* "A pointer holds the address of another variable although the pointer is a variable. "
+* "* infront of a variable denotes a pointer."
+* "Dereferencing is resolving the address to get the value. *<pointer name> is used when dereferencing."
+* "With referencing, & is used."
+* " **j  - *j is pointing to another pointer * resulting to **j";
+* "To dereference, if the pointer is 2 steps deep, then you dereference it 2 times."
+* "Pointer is an independent entity."
+* "BSS: Block Started by Symbol."
+* "Objects in the BSS segment only have a name and a size but no value"
+* "0 initialized static data goes in .BSS (Block Started by Symbol), non 0 initialized data goes in .DATA."
+
+
+
+
+* "Smart pointers: A smart pointer is an object that acts, looks and feels like a normal pointer but offers more functionality."
+* "The new keyword returns a pointer."
+* "Heap: free store memory, as and when you need it."
+* "Smart pointers effectively manage custody. They help in deleting used/garbage variable and free memory."
+*"New means allocate the variable on the heap."
+*"Char pointers mean something different."
+* "CHar pointers behave differently."
+* "How to print the address of the first character of a string."
+* "int c = 20 -old fashined and int c {20} - new fashion."
+* "Null pointer is the special value 0, when you try to dereference the null pointer, the program crashes."
+*"ArrayList in Java is equivalent to vector in C++"
+
+
+
+* "Static with the BSS thing has to do witht the lifetime of the variable."
+* "Macro substitutions: preprocessor - macrosusbstitutibs"
+* "Inline functions:    "
+* "Stack: Variables are kept here."
+*"To call into a function means to copy the value of the variable in to the function  "
+
+* "The stack is a contiguous... of memory, it can shrink and expand"
+*"Size of a stack depends on the OS."
+*"Stack starts when the programs start."
+
+
+* " A pointer is a region of memory in which values may be stored."
+* "Pointer variable s=ain that their type is determined by the type of the objects which they can point at."
+* "recall that the & operator takes an address, and the * operator dereferences an address."
+* "An array variable is a variable able to hold multiple-values of the same type in an ordered, contiguous, sequence"
+*"Arrays are accessed by means of the subscript [] operator."
+" array == &array[0] "
+*"There are two ways of dereferencing, using the [] and *"
+
+
+[Notes on the Memory Layout]
+* "The executable program sits in the text segment of the memory."
+* "Global intialized variables sits in the initialized variables"
+* "Global unintialized variables sits in the uninitialized variables"
+* "Stack: Its stacks up variables for function. like main. The stack stores static memory"
+*"In the stack, the main calls the functions inside it."
+* "Heap: All the dynamic memory is allocated to Heap"
+*"  The stack grows down and the heap grows up. "
+* "The stack and heap can grow and merge, and you will run out of memory."
+*"We also have the command line arguments memory."
+*"So, the local variables of a function are located on a stack."
+
+
+[Stacks and Heaps]
+"They are two areas that we have in our RAM."
+* "Area of memory with a predefined size ~ 2MB"
+* "Heap can grow and change as time goes on."
+* "In heap, we you the new keyword to allocate the memory."
+
+
+
+[Notes on Inline functions and Macros]
+*"Macro -substitution is used for code re-use while inline functions are used to eliminate time-overhead during function call."
+* "With macros there is no type checking, but with inline functions, there is type checking."
+*"inline function is expanded by the compiler and the macros are expanded by the preprocessor."
+*"Inline function is the optimised version of macro-substitution."
+*"Macro functoins are functions"
+
+*"Disadvantages of inline functions: If used too often with large functions, you will have a tremenodusly large problem."
