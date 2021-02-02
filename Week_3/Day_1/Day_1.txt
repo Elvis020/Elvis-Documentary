@@ -1,0 +1,121 @@
+[Snippet 1]
+* "What is important when planning a project?
+    ~Answers
+    - Scope(requirements)
+    - Timeline
+    - Budget
+"
+* "The quality of a project is measured by  scope,timeline and budget."
+* "The code and fix approach is the development model used when no development model is followed"
+* "There were problems when developing large projects, that why these models were invented."
+* "The business analysts were the point of contact with the clients, and the pass the information to the software architects. That was how it was done in the old days."
+* "The waterfall model demonstrates this."
+* "The "Waterfall Model" is the most traditional software development cycle used."
+* "Requirements --> Design --> Develop --> Test --> Maintain"
+* "With this model, its very difficult to change the requirements."
+* "With the traditional approach, things become difficult since technologies are always changing."
+* "Clients also can change their minds anytime."
+
+
+
+
+[Snippet 2]
+* "Testing is done way too late in the process.When you are running out of time, people usually skip the testing phase."
+*"Communication can be an issue if not done very very well. Cuz it can create a lot of misunderstanding."
+*"The waterfall model is not completely wrong, just that, it has some issues."
+* "It is harder to refine analysis problems found during implementation which leads to the major drawback of the waterfall model"
+* "Modern SDLC Models include: Iterative and Agile SDLC Models"
+*"With the modern models, as you code, you have to test."
+* "A cross-functional team is suitable to make the Agile models work."
+* "Iterative models stem from the 1970s with, perhaps, Boehm's Spiral model of 1986 being the most widely recognized."
+
+Medium-[Snippet 3] *** [More recent developments in Agile models go by various names such as:
+    -Extreme Programming (XP) 
+    -Rational Unified process (RUP)
+    -DSDM (Dynamic Systems Development Method). ]
+
+
+    [2. "The Agile Manifesto is like a rough guidance to the Iterative Models."]
+    [3. "The Agile manifesto consists of 12 principles."]
+    
+    "
+* "There is an approach to development called LEAN."
+*"XP:The main purpose of XP is to lower the cost of change. "
+*"XP really takes into consideration TDD,pair programming."
+*"Kent Beck brought XP"
+* "With XP, you break down the work into small chunks and design and implement these chunks."
+
+
+[Snippet 4]
+*"Testing is done b4 actually coding the functions and it is done on simple usecases."
+* "TDD is characterized by the Test-Code-Refactor cycle"
+* "Scrum can be applied in the XP process"
+* "XP needs small teams (typically less than 10 developers) in a single location."
+*"An unsupportive business unit and XP are not a good match."
+
+* "Scrum is time boxed.Development takes place in sprints(10-20days)"
+*"The Sprint Backlog is refined version of the Product backlog.It includes, illustrations and screenshots of products."
+*"At the end of sprint, you shld have a functioning project. Its basically a vertical slice of everything included."
+* "The end of the sprint should result in a potential deliverable that can be demonstrated to customers and other stakeholders."
+*"There are three meetings:
+    -The Sprint PLanning Meeting
+    -The Daily Scrum
+    -The Sprint Review Meeting
+"
+*"The timebox for the spring planning meeting is 4hrs."
+* "Daily Scrum is a 15 mins stand-up meeting to review progress."
+*"Each member of the team answers three questions:
+    1) What have you done since the last meeting?
+
+    2) What will you do between now and the next meeting?
+
+    3) Is there anything preventing you from doing what you have planned? This could be anything from needing a new mouse to major organizational changes.
+"
+
+
+[Snippet 5]
+* "Once the planning has finished, the sprint starts."
+*"The Product Backlog is produced by the Product Owner, and is a list of customer requirements that have been prioritized by business value."
+* "There are 3 artifacts: Product Backlog, Sprint Backlog and Burndown Chart."
+*"There are 3 roles: Product Owner, Scrum Master and Team"
+*"The PO is responsible for defining the features of the project, and prioritizing the tasks that form the Product Backlog."
+*"The Scrum Master is the team leader, working closely with the Product Owner."
+*"The main task of the Master is to ensure that the process is followed, and that everything works smoothly."
+* "Responsibilities of a Scrum master include: 
+    1) They shield the team from outside interference.
+    2) Remove barriers to progress. 
+    3) Provide mentoring to team members if necessary. 
+    4) They will also act if interpersonal issues surface that affect team performance.
+".
+* "A Scrum team consists of between 5 and 9 members"
+*"In scrum, time is fixed."
+*"User stories is just a way we write requirements."
+* "User stories are informal requirements, produced by users, that are concise and contain little detail. "
+
+
+[Snippet 6]
+* "With user stories, they can be split into tasks."
+* "The "Three C's" describe three critical aspects of user stories."
+* "The 3 Cs: Card,Conversation and Confirmation."
+* "The card is a token representing the requirement, and is used in planning."
+* "Scrum often uses story points(SPs)"
+* "MoSCoW technique: Must haves,Should haves,Could haves, Whould haves"
+*"Because you want to improve your srpints, the graph would have a constant inpmrovement kaizen."
+* "The easiest tasks is given 2 SPs."
+* "The game of "Planning Poker" provides a useful approach to estimating using Story Points."
+*"The work burn-down helps monitor your progress. "
+* "Kanban is another flavor of Agile."
+*"Kanban is all about limiting the WIP(Work In Progress)"
+{question
+    -Sprints
+    -Scrums
+    -Story points
+}
+
+
+[Snippet 7]
+* "The aim of Kanban is to reduce the amount of waste and inventory."
+* "Kanban uses the pull, don't push principle."
+* "Unit testing is the basic/lowest testing method."
+* "DevOps is like the evolution of Scrum technology."
+ *""
