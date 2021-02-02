@@ -1,0 +1,25 @@
+[Question 1]
+"a. Email Address"
+"b. Crminal ID"
+"c. Telephone Numbers"
+"d. Employee ID"
+
+[Question 2]
+"Table: Table Number"
+"Monitors: Monitor Serial Number"
+"Headphones : Headphones Serial Number"
+
+
+[Question 3]
+"a. Composition: The sanitizer inside the container"
+"b. Composition: The Kisi system cant work on its own, it needs a room."
+"c. Association: The user and the monitor."
+"d. Association: "
+
+[Question 4]
+"a. In the case of the user and the monitor, the user is the one holdong custody."
+"b. "
+
+
+[Question 5]
+"a. The projector and the monitor"

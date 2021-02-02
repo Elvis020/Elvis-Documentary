@@ -1,0 +1,30 @@
+[Question 1]
+"a. Base Class: Devices
+    Inherited Class:
+    -> Input Device Output Device
+    -> Monitor
+    -> Keyboard
+    -> Serial Numbers
+    "
+""
+
+
+[Question 2]
+* "With the Serial Number abd the Devices relationship, the device can call the serialnumber method and involve the serial number, here the principle of substitutability is violated."
+
+[Question 3]
+""
+
+[Question 4]
+"rooms, house - Composition"
+"boat, fleet - Composition"
+"cruiser, boat - Inheritance"
+"living home, house - Composition"
+"son, child - Inheritance"
+"noun, word - Inheritance"
+"word, sentence - Composition"
+"child, family - Composition"
+
+
+[Question 5]
+*"A multiple inheritance scenario: For both input devices and output devices, the laptop multiple-inherits from them. Meanwhile, output and input devices both inherit from devices, creating a repeated inheritance scenario for the laptop."
