@@ -128,11 +128,26 @@
     -many graphics and numerical processing programs
     -JXB
 "
+[Snippet 10]
+* "A class describes a set if objects with common behaviour and attributes"
+* "Generalisation and Specialisation of all classes."
+* "Inheritance allows common behaviour and attributes to be defined once"
+* "Inheritance allows a group of related classes to come together under a single umbrella, so that they can be considered and managed collectively."
+* "Inheritance is about reuse and it also allows the refinement of an existing class."
+* "Generalisation is looking for parent class."
+* "Specialisation is refinement."
+* "Parent class is a.k.a base or super-class"
+* "The principle of the kind-of relationship is embodied in the notions of contravariance and substitutability."
 
 
-[Questions]
-* "Selectively stop and suspend?? - Jobs"
 
 
-[Notes form Jobs]
-* ""
+
+
+
+[Evening Huddle with Sam]
+* "Objects model real things in the world."
+* "First impression counts"
+* "Work on your presentations and learn as much as you can."
+* "Design patterns helpmake life easier."
+* "Research the patterns and see how they work."
