@@ -5,4 +5,134 @@
 * "You test as you code."
 * "Before Docker, Virtual machines were used."
 * "With, docker it contains the project with its dependencies."
+* "SRE: Site Reliability Engineering"
+* "In DevOps, there is something called"
+* "Jenkins, Kubernetes etc help you in the DevOps world"
+
+
+~ "There is a difference between continuous deployment and continuous delivery...try and find out."
+
+
+[Snippet 2]
+* "OOP is a programming paradigm."
+* "paradigm is a pattern or model that is followed."
+* "OOP - modelling everything through objects and has been arnd for sometime."
+* "The Dog is used as an example of an object, where the dog can bark,walk,run etc."
+* "Object: a struc that covers together a x'tics that an object can do."
+* "There are types of objects: singleton, factories etc"
+* "Objects have attribute/operation. eg: colour,size,speed etc"
+* "Almost anything can be considered as an object."
+* "According to Bjarne Stroustrup, there are two kinds of objects:
+    -Those that represent ideas in the problem domain.
+    -Those that are merely 'artefacts of the implementation'. 
+"
+
+
+[Snippet 3]
+* "Characteristics of OOP: A_PIE
+    -Abstraction
+    -Polymorphism
+    -Inheritance
+    -Encapsulation
+"
+*"Information hiding: Hiding object members from the external world.(public and private)"
+* "The advantage of hiding detail is that whilst the implementation of an object may change, external users dependent on it may remain completely unchanged."
+* "Identity is an object oriented concept in which each object in the system has a unique address, so that it can be known by other objects involved in the system."
+
+[Encapsulation Snippet]
+* "Objects encapsulate behaviour and state."
+*"An object's behaviour and state are referred to as its members"
+* "Encapsulation is the object-oriented term which describes the binding of behaviour and state to a particular object. "
+* "The egg example."
+
+
+[Snippet 4]
+* "Encapsulation and information hiding support the linking together of an object 's state and behaviour, and protection of the state data from unexpected external influences"
+* "You need to specify which members are private and public."
+* "The class acts as a kind of blue print for its objects. It has a name, and defines attributes and methods."
+* "You need to create an object from a class.Objects instanciated from the class have an identity, state and behaviour."
+* "An object is a particular instance of something, a particular car, or shop, or coin."
+*" When discussing objects it is convenient to classify them into groups with common possible states and behaviour."
+* "We have Class based privacy and Object based privacy."
+
+
+[Snippet 5]
+* "UML: Unified Modelling Language"
+* "One of the advantages of the object oriented approach is that it enables the problem to be represented in domain specific terms"
+* "Object relationships: Association,Aggregation and Composition."
+* "Association: The two objects are linked but are independent."
+* "Aggregation: This is a weaker form of composition"
+* "Composition: A strong type of relationship.Objects are highly dependent on each other."
+* "Filled diamond shape: Composition"
+* "Empty diamond shape: Aggregation"
+* "Association object: Objects created to specifically form an association."
+* "Properties of Compositon: Transitvity, Anti-symmetry, Propagation."
+[NB: Singleton is a special type of design pattern]
+
+
+[Snippet 6]
+* "Inheritance is often represented as a tree."
+ *"Inheritance allows a group of related classes to come together under a single umbrella, so that they can be considered and managed collectively."
+* "We have correct and incorrect inheritance."
+* "Proper inheritance occurs when the interface of the derived class requires no more and offers no less than the base class"
+* "Covariance and contravariance."
+* "In Java, when a ckass is inherited, the visibilty of the members is also inherited."
+* "Multiple inheritance is a technique whereby new classes are derived from multiple base classes. "
+* "Repeated inheritance is only done in C++, creating the diamond problems."
+* "Polymorphism: Simply means, many forms."
+* "Types of polymorphism includes: coercion, overloading, inclusion, parametric."
+ * "With Abstract classes, you cannot instantiate them.They are just there to hold the structure or generic logic."
+
+
+ [Snippet 7]
+ * "Design Patterns are solution to problems and are irrespective of a particular technology."
+ *"Design patterns can be split into 3 grps: Creational, Structural and Behavioural."
+ *"Anti-Pattern: The usual wrong solution for a particular problem."
+ * "Design heuristics are rules of thumb or guidelines and are orthogonal to design patterns"
+
+
+[Snippet 8]
+* "A design pattern presents a solution to a design problem, and is used to document best practices"
+* "Design patterns are not invented, they are discovered."
+* "Characteristics of a good design pattern:
+    -Solves a problem.
+    -Has a proven track record.
+    -Provides a non-obvious solution.
+    -Describes a relationship.
+"
+* "The Model-View idea in GUI toolkit is an  underlying design pattern known as the 'observer'."
+* "Patterns are language and platform independent."
+* "RAII (Resource Acquisition Is Initialization) is a technique used in C++, where resources are acquired during object initialization."
+* "Creational patterns are concerned with the creation and destruction of objects in a system."
+* "Structural patterns are concerned with how classes and objects are composed into larger structures."
+* "Behavioural patterns concern the distribution of algorithms across objects."
+
+[Snippet 9]
+* " Anti-patterns identify the commonly-reinvented bad solutions to problems. "
+*- "Anti-patterns are valuable because they provide knowledge of what does not work. Your goal must be to avoid or resolve anti-patterns!"
+* "Heuristics are strongly related to patterns"
+* "All of the interesting design heuristics are qualitative in nature"
+* "Reification: Refers to making something real or showing how a pattern can be implemented."
+* "Many design patterns sound very similar, and look similar when expressed as UML diagrams."
+* "UML is commonly used to show the way that classes and interfaces are used to implement design patterns."
+* "The Factory Method is often used in application frameworks"
+* "Examples of Creational Patterns include: Factory Method & Singleton."
+* "Examples of Structural Patterns include:Adapter(Object and Class) & Decorator."
+* "Examples of Behavioural Patterns include:Command."
+* "Architectural design patterns relate to how systems are structured at the highest level."
+* "They are thus at a much higher level than the Gang of Four patterns"
+* "The Pipe and Filter architectural pattern can be used to structure systems that process a stream of data."
+* "Examples of the Pipe and Filter architectural pattern include: 
+    -The Unix Pipe model
+    -Java Servlets filters
+    -many graphics and numerical processing programs
+    -JXB
+"
+
+
+[Questions]
+* "Selectively stop and suspend?? - Jobs"
+
+
+[Notes form Jobs]
 * ""
