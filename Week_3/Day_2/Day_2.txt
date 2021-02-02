@@ -2,4 +2,7 @@
 * "The 3 tier architechture: UI -> Server -> DB"
 * "In the professional software dev world, we create two separate environments: Dev env and Prod env."
 * "UAT:  User Acceptance Testing"
-*"You test as you code."
+* "You test as you code."
+* "Before Docker, Virtual machines were used."
+* "With, docker it contains the project with its dependencies."
+* ""
