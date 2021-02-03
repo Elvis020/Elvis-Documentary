@@ -1,0 +1,154 @@
+[Snippet 1]
+* "In the old days, like in the 1990s, UML was very big."
+* "In waterfall, UML was used a lot."
+* "UML is diagramatic"
+* "To create UML diagrams, go to draw.io"
+* "Created by Sun Microsystems and handed over to Oracle."
+* "There are 2 types: SDK edition and Enterprise Edition."
+* "Java was created to fix some quirky things in C++, like memory managemnt"
+* "In Java multi-threading is built-in.It has garbage collection for memory management."
+* "JVM: Java Virtual Machine."
+* "In Java , everything needs to belong to a Class, and classes start with capital letter."
+* "Two categories of data types: Primitive and Object References."
+* "null refers to no object"
+* "In Java, the amount of memory for data types does not depend on the computer, like C++"
+* "All the types in Java are signed."
+
+
+[Snippet 2]
+* "String is an object in Java."
+* "The JVM is optimised for int manipulation"
+* "The notation 0b is used to introduce an integer value represented in binary."
+* "Logical operators have lpwer precedence than arithmetic."
+* "A method is a callable unit of code"
+* "With overloading methods, the return type is not important."
+* "Switch-Case in Java can be applied to Strings, enums etc."
+*"Collection is like an array"
+* "Annotations: Various elements of Java source code may have additional metadata attached to them.These are annotations."
+* "Its a good practice to keep your data private.Use getters and setters to access them."
+*"Constructor: Special guy here, and he doesn't return anything. Has same name as the Class"
+* "The class includes a constructor, which is used to initialise an object of the class as it is being created."
+* "The setter methods helps us to reassign the value."
+* "In getter, manipulation of private data is posible."
+* "We need constructors because,it helps us create objects with the new operator.Eg. bruce = new Person("bruce",30)"
+
+
+[Snippet 3]
+* "0 is the default set for numeric//char primitive type."
+* "false is the default set for boolean."
+* "null is the default set for objects"
+* "Java creates a constructor by default, even if you dont create any constructor."
+* "When you copy, you have a refernce not the actual object"
+* "Every object has certain methods available, including: equals etc."
+* "Reason why the main method is static:
+    -Static methods can be called without instantiating the class."
+    -"the main method is static because, we will never instantiate the class."
+* "Arrays is a collection of the same type of an object."
+* "Arrays have a fixed size."
+* "The difference btn Array and Array list is that, arraylist dont have a definite size, and items can be added and removed at runtime."
+* "ArrayList are kindof used as a replacement for arrays."
+* "With Hashmaps, the method put is used to add items to it not add."
+
+
+[Snippet 4]
+* "With Hashmaps, you can change the indexing of an array"
+* "Strings are a sequence of unicode characters."
+* "Strings are objects in Java but are not initialised/created using the 'new' keyword."
+* "There are StringBuffer and StringBuilder."
+* "StringBuilder is slightly more efficient."
+* "Primitive values are not objects and therefore cannot have a toString() method."
+* "Primitive types are not classes"
+* "For every primitive value, we have a class."
+* " Java's collection types such as List, Set or Map can only contain objects, not primitives. "
+* "Boxing: Putting a primitive value inside an object"
+*"Boxing preserves memory and can improve performance"
+* "Arrays passed as parameters are always passed by copying the reference"
+* "Object declaration are references"
+* " A reference is a variable that holds the "address" of an area of memory in which the attributes of the object will be stored."
+* "When an "object" variable is declared in Java, only the reference is allocated"
+
+
+[Snippet 5]
+* "It is through the object references that Java implements the idea of identity in objects - each reference points to one and one only object."
+* "With the new operator, this requests the right amount of memory from the heap"
+* "When an object is initialised,First the memory is acquired from the heap, and all attributes are set to default initial values."
+* "Every class will, by default, have one constructor defined implicitly."
+* "However, as soon as a class contains one explicit constructor definition, the implicit no-argument constructor will be lost."
+* "To call another constructor, use the "method" name this(), the arguments supplied in this "call" will determine which of the other constructors is called."
+* "A common mechanism is to provide a copy constructor, which is a constructor that uses an existing object of the same type for initialisation."
+* "Local variables defined in a method or block of code have their memory deleted whenever the block is exited. The same is not true of object memory, however."
+
+[Snippet 6]
+* "The act of reclaiming unused memory is called garbage collection, and is carried out automatically by the Java Virtual Machine"
+* "Inheritance is a mechanism for defining a new class in terms of an existing class."
+* "Inheritance is about re-use and it also allows the refinement or specialisation of an existing class."
+* "The @Overrride annotation allows the compiler to verify that there is indeed a method in the super class with the same name and signature as this one."
+* "A derived class (one that extends a Base class) inherits all the non-private methods and data members of the Base Class."
+* "Overriding occurs when the subclass defines the same method as the super class."
+* "Inheritance is used to implement Polymorphism."
+*"The protected modifier makes things accessible to subclasses and classes in the same package"
+* "The ideas of subtyping are wrapped up in the principle of Substitutability (also called Liskov Substitutability, after Barbara Liskov (MIT))."
+* "All Java Classes are ultimately derived from Object(java.lang.Object)"
+* "By default any new class extends Object."
+
+
+[Snippet 7]
+* "A runtime error occurs if a 'down-cast' is not possible"
+* "The final modifier on a class prevents it from being extended and it also enables some runtime optimisations"
+* "When the final modifier is applied to a method then it may not be overridden in subclasses, and with a class it means that the class cannot be sub-classed."
+* "it is strongly recommended that junior Java programmers use it as much as they can."
+* "Abstraction is the distillation of essential features."
+* "Abstract classes are class Skeleton."
+* "The reason why autoboxing is there is because, with wrapper classes, we can get access to some methods that are not accessible if the type of the data is primitive."
+* "Autoboxing and Unboxing reduces efficiency, so use them when they are really neccessary else use the primitive types."
+* "Whenever the autoboxing and the unboxing is used, a method is run in the background, which provides a cost to efficiency."
+* "The compareTo method gives 3 results: 1,0,-1."
+
+
+
+
+
+[Snippet 8]
+* "Mark: The garbage collector identifies which pieces of memory are in use and which are not."
+* "Sweep: The GC automatically removes objects identified during the 'mark phase.' "
+*"The garbage collector works on the heap memory.It frees memory that does not have any reference"
+* "The Garbage collector works in 2 steps: Mark and Sweep."
+* "You have no direct control of garbage collection in Java."
+* "Objects that don't have any reference are eligible for garbage collection".
+* "The Mark and Sweep algorithm relies on the BFS algorithm, making graph algorithm very crucial."
+* "DIfference between an object and a reference:
+    -The reference is a variable that has a name and can be used to access the contents of an object, whiles an object sits on the heap memory and does not have a name.
+"
+* "GC is non-deterministic, the programmer doesn't control the GC to clean"
+*"The JVM decides when to run the GC."
+* "The finalize method is called before removing an object from memory by the GC."
+// Unmanaged code
+
+
+
+
+[Concepts to watch videos on]
+* "Collections and array -> partially done"
+* "nextline"
+* "Singleton in Java"
+* "Java collection types"
+* "Abstract classes" 
+
+[Group Work]
+* "Modern Struct initialization in C++"
+* "Different forms of Struct initialization"
+
+
+
+
+[Mistakes they made]
+-Slides was too colorful
+-A lot of wordiness
+-Don't write whatever you are going to specifically
+
+
+[Evening Huddle]
+* "The new in Java is an operator, that invokes a constructor and references an object."
+* "You should know what Person p = new Person() means.
+    -p is a reference to the object Person.
+"

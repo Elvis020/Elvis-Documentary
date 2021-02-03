@@ -2,20 +2,20 @@ package com.elvis.training_labs;
 
 public class Question_6_Part_1 {
     public static void main(String[] args) {
-//        int min = 1;
-//        int max = 49;
-//        int range = max - min;
-//        int counter = 1;
-//
-//        while(counter < 7){
-//            int randy6 = (int) (Math.random() * range) + min;
-//            counter++;
-//            if(counter != 7){
-//                System.out.print(randy6 + ",");
-//            }else{
-//                System.out.print(randy6+" ");
-//            }
-//        }
+       int min = 1;
+       int max = 49;
+       int range = max - min;
+       int counter = 1;
+
+       while(counter < 7){
+           int randy6 = (int) (Math.random() * range) + min;
+           counter++;
+           if(counter != 7){
+               System.out.print(randy6 + ",");
+           }else{
+               System.out.print(randy6+" ");
+           }
+       }
 
 
 //        Using the random generator method

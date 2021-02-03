@@ -17,7 +17,7 @@ public class Question_4_Part_1 {
 //        OR(While_Loop)
 
         while(randy3 != 0){
-            randy3 = (int) (Math.random() * range) + min;
+            randy3 = (int) (Math.random() * (max - min)) + min;
             System.out.print(randy3+",");
         }
 
