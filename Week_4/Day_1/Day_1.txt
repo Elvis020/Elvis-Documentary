@@ -1,0 +1,51 @@
+[Snippet 1]
+* "The reason why primitive types have wrapper classes is:
+    1. To get access to some functions
+    2. To get access to collections
+    3. For generic type representation
+"
+* "Remember to put out and .idea in a .gitignore file."
+* "For data that you dont want to modify, use some methods in collections".
+*"The iterable interface, help usloop by knowing what is next etc"
+* "Varrgs help pass indefinite elements into a method"
+* "Classes dont need generics."
+* "Generics help spolve the convariant array dilemma.
+Eg. Person[] pArr = new Person[3];
+    Object[] oArr =pArr;
+    oArr.add(new Integer(5)); // This raises an error -> Covariant Array
+"
+
+
+[Snippet 2]
+* "With generics, the parameter is checked by the compiler.However, at runtime, the parameter is erased causing:
+    Type Erasure."
+* "Type Erasure is due to backward compatibility."
+* "Generics are implemented to be invariant."
+* "Unknown type: ? - wildcard."
+* "Bounded wildacrds"
+* "You can have multiple bounds eg S extends T & C"
+* "Exceptions are unexpected runtime situations"
+* "Java exceptions are objects."
+* "Throwable is at the top of the exception hierarchy"
+* "Under throwable we have Error and Exception(Checked and Unchecked Exceptions) "
+* "Unchecked - occurs at runtime."
+* "Checked - occurs at compile time."
+* "You cant recover from unchecked exceptions"
+
+
+[Snippet 3]
+*"You can catch multiple exceptions"
+* "The finally clause helps to ensure proper cleanup if resources."
+* "For resource management, use try-with-resources."
+* "Exception Swallowing is an anti-design pattern.  "
+* "With vargs, this feature allows variable length argument lists to be supplied to methods."
+* "The compiler automatically packs arguments into an array of the appropriate type before passing them to the method."
+* "A "raw" type in Java is a class which is non-generic and deals with "raw" Objects, rather than type-safe generic type parameters."
+* ""
+
+
+[Login Process]
+* "The init process starts everything."
+Init -> Getty Process -> Login Prompt ->
+* "Using function overloading or overridding in checking the type of a class."
+

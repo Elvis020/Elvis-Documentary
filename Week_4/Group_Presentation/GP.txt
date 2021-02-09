@@ -1,0 +1,4 @@
+[Notes on Struct]
+* "It is a collection of components of any data type in which the components are given names"
+* "Structures are useful because they allow related data to be grouped together and provide the convenience of allowing the data to be passed around the program within variables."
+* ""

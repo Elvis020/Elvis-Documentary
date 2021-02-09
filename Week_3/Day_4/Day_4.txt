@@ -1,0 +1,95 @@
+[Snippet 1]
+* "Strings are not a primitive type in Java, its a class."
+* "They are created using either String literals or String Objects."
+* "In comparinging use .equals instead of ==, to compare value instead of a pointer."
+* "Every class you declare inherits from Object(java.lang.Object)."
+* "When an attribute is declared final it means its a constant"
+* "Final used on a class, method and a variable means a different thing but the same idea."
+*"With an abstract class, we cant instantiate it."
+* "Once a method is declared abstract in a classs, whichever child class extends must declare it, otherwise an error will be created."
+
+
+
+[Snippet 2]
+*"After a class inheriting,it acn then be polymorphised."
+* "In Java a class cannot do multiple inheritance, only single inheritance."
+* "== in string comparison has to do with the memory location, while to .equals has to do with the value, they both do the same thing."
+* "JVM never duplicates object in the String Pool"
+* "You can have more than one interface.We use the implements keyword when using interfaces."
+*"From java 8, we can provide default implementation in interfaces."
+*"Implementation methods can be overided."
+*"Interfaces can have static methods."
+* "In C++, we could do .length() but it can be done in Java."
+* "When passing an array in Java, you are passing a copy of the reference of the array."
+*"Covariance: If S is a subtype of T, then the S[] is a subtype of T[]"
+* "Enum is used when you want a limited number of instances of a specific class."
+* "Enums in Java can be used in a swirtch-case statement"
+*"Some annotations can either have values in them or not"
+* "Collections in Java are interfaces."
+
+[Snippet 3]
+* "Collections are used with Generics"
+*"Hashcode and equals are two methods on every class."
+* "The hascode method is used with the equals method."
+* "Hashcode return an integer number."
+*"Lists provides an ordered list of objects."
+* "There are so many types of collection, they include: List,ArrayList,Set,Queue"
+* "HashSet and TreeSet are in the Set"
+* "Queue: FIFO"
+* "The Iterator includes: hasNext and Next methods fro iterator."
+* "The Map interface is separate from the Collection interface."
+
+
+
+[Miscellanous]
+* "The intern method is to be used on Strings that are constructed with the new String() method."
+* "The intern method inserts an variable into the String pool if its not already there."
+* "The String method is immutable. i.e once its created, it cant be changed."
+* "The String class has a number of methods that appear to modify strings but since strings are immutable, these methods just create and return a new string on the heap making it very memory inefficient."
+* "This is where string Buffer and Builder comes in."
+* "String buffer and StringBuilder are used where there is a need to make a loot of modifications to String characters"
+*"Whenever you modify a string, a new object is created on the heap."
+
+[Miscellanous 2]
+*"String buffer is thread safe whereas StringBuilder is not."
+* "Use StringBuilder whenever possible cuz its faster than StringBuffer"
+* "For multi-threaded application, use String Buffer."
+* "For single-threaded application, use String Builder."
+* "Enum is a special data type that represents a grp of constants. Used with the enum keyword."
+* "Field names of enum are written in Capital Letters."
+* "Enums can be public,static and final.That is, they cannot be overidden."
+* "Enum can be used to create objects and cannot extend other classes."
+* "They should be used when you have values that cannot be changed."
+
+
+
+[Miscellanous 3]
+* "For primitive types, the  quick-sort algorithm is used."
+* "For objects, the merge-sort algorithm is used."
+
+
+
+
+
+[Checkout videos on ]
+*"Interfaces"
+*"Arrays and Covariance"
+* "Problems with Covariance"
+* "Enums in Java"
+*"Annotations"
+*"JUnit Testing"
+
+
+
+[Notes from the C++ Linker Presentation]
+* "When you run a C++ program, Compiling -> Linking -> Execution"
+* "When external lib are referenced, it brings gaps after the compilation process."
+* "Linkers find and collect symbols."
+[is there a default type when linking occurs]
+[relation with linking and the stack and the heap]
+* "Dynamic linker makes use of a DSA called JumpTable."
+* "nm <filename> "
+* "ldd <filename>"
+* "ls -l"
+* "size <filename>"
+* "When statically linked, has different segments in the address space."

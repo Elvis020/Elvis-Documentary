@@ -1,0 +1,26 @@
+* "Working on Java Project"
+[Notes on preprocessor Directives]
+* "The directive are given to the compiler b4 compiling."
+* "Types of preprocessor directives:Macros,File Inclusion,Conditional Compilation"
+* "illustatrion of file inclusion in demo"
+ * "is macro in captial letters a convention or preferential treatment"
+* "Eg. of macros:
+
+    #define PLUS(l,b) (l+b)
+    #define BEGIN 0
+    #define END 0
+    #ifndef DEBUG
+    #else
+    #endif
+
+    ifndef -> not defined
+    ifdef -> defined
+"
+* ""
+
+
+[Solutions to Exam 2]
+* "do while loop improve perfomance and efficiency of code."
+*"Short circuit evaluations of booleam."
+* "= has the lowest precedence."
+* "name-mangling is for type-safe"
