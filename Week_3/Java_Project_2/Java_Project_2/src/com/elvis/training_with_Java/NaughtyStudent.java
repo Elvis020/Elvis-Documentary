@@ -9,6 +9,11 @@ public class NaughtyStudent extends Student {
     }
 
     @Override
+    public Student checkStatus(Student student) {
+        return super.checkStatus(student);
+    }
+
+    @Override
     public Double getAverageGrade() {
         double naughtyStudGrade;
         return naughtyStudGrade = super.getAverageGrade() + (super.getAverageGrade()*0.1);

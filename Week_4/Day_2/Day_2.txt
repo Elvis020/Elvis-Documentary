@@ -1,0 +1,62 @@
+[Snippet 1]🤠
+* "Unit Testing aims to detect and repair errors in program code."
+* "Errors found at this stage will be easy to fix"
+* "Unit testing catches 65% of defects found in testing."
+* "TDD approach: Write test first, b4 you write the code."
+* "Test coverage: a number(percent) that indicates how your code was covered for unit testing."
+* "If don't have any business logic , then you dont need unit testing in that particular section."
+* "The optimal test coverage result is 80% and above."
+* "Definition of Done: 
+    -unit test: 80% coverage
+    -documentation
+    -peer review by 2 peers
+    -successful build.Eg. Maven, Gradle etc.
+"
+
+[Snippet 2]🤠
+* "100% test coverage does not guarantee an efficient application"
+* "For rntime exception, you dont do try and catch"
+* "Maven is a dependency management tool."
+* "Mockito -> Maven"
+* "Testing with Mockito"
+* "With Mockito, when,verify, thenThrow,Mockito.anyDouble are some of the keywords used."
+* "@Before annotation: They are run before any test case."
+* "@After annotation: They are run after any test case.Almost always empty."
+* "The mock is to record the interaction of the methods"
+* "Difference btn mocking and stub
+    -Mocking: interacting with objects and methods
+    -Stubing: verifies that you are able to use the return values from the mock tests.
+"
+* "Stub: recieving a certain value and being able to use it."
+* "Don't create a getter just to use it in the test.Rather create one public method to invoke all your private members."
+* "Don't change the visibility modifiers just to test."
+
+[Snippet 3]🤠
+* "We can declare class within classes"
+* "Inner class can either be static or non-static"🤭
+* "No relationship between constructor of inner and outer class."
+* "Inner and Outer classes are compiled into separate files."
+* "Cant have an object of the inner class without having an obbject of the outer class."
+* "You can create a class within a method😀"
+* "Anonymous classes 🤪 : A local class without a name. "
+* "Observer design pattern -> Inner Classes👨‍🦰"
+* "Annonymous class also have their own compiled file."
+* "Nested classes may have access to private members in their scope."
+
+
+
+[Snippet 4]🤩
+* "In functional programming, we wan the data top flow from one function to another.😁"
+* "Higher Order Functions: Functios that accept functions as theri parameters or return functions."
+* "Functional interfaces"
+* "Lambdas are functional literals.There are no return statements in lambda function cuz the last expressin acts as a return statement automatcally."
+* "C.apturing: Scope of lambda functions, can't access"
+* "Solving Sams instanceOf thing:
+    -Creating an overloaded function that returns a type of Student and passing in a Naughty student, and it has to return to Show that it is a type of student.
+"
+
+[Group Presentations]🙎‍♀️
+* "Examples of startup files include:  .profile ,.bashrc,.bash_profile"
+* ".profile is a startup file that saves the configuration for a user in an interactive login shell."
+* ".bash_profile takes precedence over .profile in the bash shells."
+

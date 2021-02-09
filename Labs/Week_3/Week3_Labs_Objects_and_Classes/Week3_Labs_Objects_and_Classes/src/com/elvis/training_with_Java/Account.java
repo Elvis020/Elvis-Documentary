@@ -1,7 +1,7 @@
 package com.elvis.training_with_Java;
 
 public class Account {
-    Double vaueOfAllTrades;
+    protected Double vaueOfAllTrades = 10000.0 ;
 
     public Double getVaueOfAllTrades() {
         return vaueOfAllTrades;

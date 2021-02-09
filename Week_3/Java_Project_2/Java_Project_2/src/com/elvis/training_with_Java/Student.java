@@ -2,6 +2,8 @@ package com.elvis.training_with_Java;
 
 import java.util.ArrayList;
 import java.util.List;
+import java.util.stream.DoubleStream;
+import java.util.stream.Stream;
 
 public class Student implements Nameable,HasLevel {
     public  List<Double> listOfStudentGrades;
@@ -29,6 +31,10 @@ public class Student implements Nameable,HasLevel {
         this.studentLevel = studentLevel;
     }
 
+    public Student checkStatus(Student student){
+        return student;
+    }
+
     public Double getAverageGrade(){
         double start = 0.0;
         for(Double d : listOfStudentGrades){
@@ -36,6 +42,10 @@ public class Student implements Nameable,HasLevel {
         }
         return start/listOfStudentGrades.size();
     }
+
+//    public DoubleStream gradesOfStudent(){
+////        return Stream.of(listOfStudentGrades).mapToDouble(Double::valueOf).collect(Collectors.toList());
+//    }
 
     @Override
     public String getName() {
