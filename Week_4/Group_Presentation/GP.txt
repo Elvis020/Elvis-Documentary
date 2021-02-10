@@ -1,4 +1,15 @@
 [Notes on Struct]
 * "It is a collection of components of any data type in which the components are given names"
 * "Structures are useful because they allow related data to be grouped together and provide the convenience of allowing the data to be passed around the program within variables."
-* ""
+
+Why we dont initialize in a struct
+* "We can't initialize because when we declared any structure than actually what we do, just inform compiler about their presence i.e no memory allocated for that and if we initialize member with no memory for that. Normally what happens when we initialize any variable that depends on the place where we declared variable compiler allocate memory for that variable.
+
+"int a = 10;
+if it's auto than in stack memory going to allocate
+if it's global than in data sections memory going to allocate
+So what memory is required to hold that data but in case of structure no memory is there so not possible to initialize it."
+
+
+
+"As you said it's just a member not a variable. When you declare a variable the compiler will also provide memory space for those variables where you can put values. In the case a of a struct member the compiler is not giving memory space for it, so you cannot assign values to struct members unless you create a variable of that struct type."
