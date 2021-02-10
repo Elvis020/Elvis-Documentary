@@ -15,7 +15,6 @@ struct Person
 int main()
 {
     Person p {.height=20,.weight=3,.age = 18};
-    // Person f {.weight=3,.height=21,.age = 18}; //Gives an error cuz it needs to be in order
     cout << p.weight << endl;
     cout << p.height << endl;
     cout << p.age << endl;

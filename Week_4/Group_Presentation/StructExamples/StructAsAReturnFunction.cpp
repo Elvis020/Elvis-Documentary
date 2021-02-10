@@ -20,7 +20,7 @@ Person getData(Person f){
 int main(){
     Person p;
 
-    p = getData(p); 
+    p=getData(p); 
     cout << p.age << endl; 
     cout << p.salary << endl; 
 

@@ -1,12 +1,10 @@
 package com.elvis.training_with_Java;
 
-import java.util.ArrayList;
 import java.util.List;
 import java.util.stream.DoubleStream;
-import java.util.stream.Stream;
 
 public class Student implements Nameable,HasLevel {
-    public  List<Double> listOfStudentGrades;
+      List<Double> listOfStudentGrades;
     private Level studentLevel;
 
 
@@ -43,9 +41,11 @@ public class Student implements Nameable,HasLevel {
         return start/listOfStudentGrades.size();
     }
 
-//    public DoubleStream gradesOfStudent(){
-////        return Stream.of(listOfStudentGrades).mapToDouble(Double::valueOf).collect(Collectors.toList());
-//    }
+    public DoubleStream gradesOfStudent(){
+        return listOfStudentGrades.stream().mapToDouble(g -> g);
+    }
+
+
 
     @Override
     public String getName() {

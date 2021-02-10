@@ -1,0 +1,38 @@
+[Snippet 1]
+* "Composing function: where the output of one funjctino is the input into another function"
+* "to execeue lamda functions, we use the appply() function"
+* "There are 4 different types of method reference:
+    -Reference to a static method.
+    -Reference to a constructor
+    -
+    -
+"
+* "Characteristics of Pure functions
+    1. Pure functions and side effects
+    2. Referential transparency.
+    3. First Class functions and HO functions
+    4. Anonymous Function
+    5. Immutability
+    6. Recursion(calling a function with that same function) and tail recursion
+    7. Avoid Statements
+    8. Strict and lazy evaluation.
+    9. Pattern Matching
+    10. Closures.
+"
+* "Pure functions: Functions that take in values and don't modify the values, rather they return the same values.
+    eg. public int addition(int a, int b){
+        return a+b;
+    }
+"
+
+
+[Snippet 2]
+* "Closure: Scoped variables."
+* "Partially applied functions -> Function currying."
+* "When you need to manipulate large amount of data"
+* "Terminal and nontermial"
+
+
+
+[SNippet on Optional with Sam]
+* ""

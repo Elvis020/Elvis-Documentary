@@ -8,9 +8,9 @@ import static org.junit.jupiter.api.Assertions.*;
 
 class RegisterTest {
 
-    List<Double> grades1 = Arrays.asList(20.0,30.5,21.5,99.0,22.7);
+    List<Double> grades1 = Arrays.asList(20.0,30.5,21.5,99.9990,22.7);
     List<Double> grades2 = Arrays.asList(10.0,92.9,20.43,2.5,9.0);
-    List<Double> grades3 = Arrays.asList(70.0,12.9,31.3,29.5,39.0);
+    List<Double> grades3 = Arrays.asList(100.0,12.9,31.3,29.5,39.0);
 
     Student Kwaku = new Student("Kwaku",grades1,Level.LEVEL100);
     Student Abena = new Student("Abena",grades2,Level.LEVEL200);
@@ -73,5 +73,21 @@ class RegisterTest {
         Student searchByName = r1.getStudentByName("Marfo");
 
 //        System.out.println(nameOfStudent);
+    }
+
+    @Test
+    void getHighestGrade() {
+        List<Student> students = Arrays.asList(Abena,Marfo,Kwaku,Akua,Mansa,Pokuaa);
+        Register r1 = new Register(students);
+        System.out.println(r1.getHighestGrade());
+        assertEquals(100.0,r1.getHighestGrade());
+    }
+
+    @Test
+    void averageOfAllStudentsGrades() {
+        List<Student> students = Arrays.asList(Abena,Marfo,Kwaku,Akua,Mansa,Pokuaa);
+        Register r1 = new Register(students);
+        System.out.println(r1.averageOfAllStudentsGrades());
+//        assertEquals(100.0,r1.averageOfAllStudentsGrades());
     }
 }

@@ -2,8 +2,6 @@ package com.elvis.training_with_Java;
 
 import java.util.*;
 import java.util.stream.Collectors;
-import java.util.stream.DoubleStream;
-import java.util.stream.Stream;
 
 public class Register {
     List<? extends Student> nameables;
@@ -114,5 +112,18 @@ public class Register {
 //        System.out.println(sa);
         return selectedStudent;
     }
+
+
+
+    public double getHighestGrade(){
+        return nameables.stream().flatMapToDouble(g->g.gradesOfStudent()).max().getAsDouble();
+    }
+
+    public double averageOfAllStudentsGrades(){
+        return nameables.stream().flatMapToDouble(g->g.gradesOfStudent()).average().getAsDouble();
+    }
+    
+    
+//    public findGradesOfAllAbove
 
 }
