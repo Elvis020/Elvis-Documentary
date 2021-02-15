@@ -72,7 +72,7 @@ public class Register {
 //
 //        for(Student s : nameables){
 //            System.out.println(
-//
+//                  s.getName() + " -------> " + s.getLevel()
 //            );
 //        }
 
@@ -113,6 +113,13 @@ public class Register {
         return selectedStudent;
     }
 
+
+//    Optional<Student> getOptionalStudentByName(String name) {
+//        return (Optional<Student>) this.nameables.stream()
+//                .filter(s -> s.getName().equals(name))
+//                .findAny()
+//                .orElse(Optional.);
+//    }
 
 
     public double getHighestGrade(){

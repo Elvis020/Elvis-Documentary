@@ -1,0 +1,65 @@
+[Snippet 1]
+* "A thresd can be associated with one work, but many works can be associated with ...."
+* "A thread is started using the start() method."
+* "When the threads' start() methods are called, a brand new operating system thread is created"
+* "execution of that thread starts with the run() method is invoked on the Runnable object."
+* "the Thread class itself implements the Runnable interface, with an empty implementation of the run() method."
+* "The Thread is then created automatically when an instance of the subclass is created."
+* "Creating a thread object doesn't create a thread."
+* "The addition of the waiting state into the thread model allows a much more efficient implementation of indefinite wait for a condition."
+* "A thread is finished when we return from the run method."
+* "Thread States include:
+    -NEW
+    -RUNNABLE
+    -BLOCKED
+    -TIMED_WAITING
+    -TERMINATED
+"
+
+
+
+[Snippet 2]
+* "With threads, sometimes the scheduler decides how and what to run and the time to run it."
+* "A thread will continue executing until the run() method of its Runnable object returns"
+* "Atask is an abstraction over a unit of work."
+* "Threads are created and used to perform some unit of work, that we can call a task."
+* " the idea of a thread pool, where threads are created ahead of time and used when tasks are submitted."
+* "The FixedThreadPool class creates a fixed number of threads ahead of time, and maintains this number by automatically detecting when a thread dies because of a failure and creating a replacement."
+* "The CachedThreadPool class creates threads "on demand", in other words when a task arrives and there are no available threads to handle it."
+* "The ScheduledThreadPool class allows for tasks to be scheduled to run at specific times"
+* "Thread pools offer a much better solution for implementing servers, as they allow scalability to very large number of requests without running out of resources so quickly."
+* "There are a number of utility methods defined on Thread Pool based Executors that can prove very useful in diagnostics and also for further customisation and control."
+* "The size of the thread pool can be retrieved using getPoolSize()."
+* "Shutdown() method waits for existing tasks to complete."
+* "Once all tasks have completed, the service moves to the Terminated state."
+* "Future is a placeholder that will contain the result of an expression or task that is being executed asynchronously."
+* "Different implemtations of Queues include: ArrayBlockQueue,LinkedBlockingQueue,PriorityBlockingQueue,SynchronousQueue"
+
+
+[Snippet 3]
+* "Remember, that all interfaces, non public classes and inner classes will always be compiled into separate class files, and will also be known by their package-qualified names."
+* "Single characters are used to represent the primitive types, the '[' character is used to represent arrays (repeated once for each dimension of the array)."
+* "Class types are represented by the letter 'L' followed by the fully qualified class name (with '/' replacing '.'), terminated by a semicolon."
+* "Reflection allows us to look  into a class at runtime."
+* "JAVA's reflection API"
+* "Getting access to Class object.     "
+* "Constructors are special types of methods that dont return anything"
+* "With reflection, there are three possible checked exception conditions, and at least one unchecked exception that could occur."
+* "Class Loading."
+* "There are different class loader."
+
+
+
+[Snippet for Design Patterns Presentations]
+* "Design Patterns are divided into 3 categories:
+    -Creational Design Patterns
+    -Behavioural Design Patters
+    -Structural Design Patterns
+"
+* "Anti-patterns: 
+    -Ambiguous naming of variables. List<Student> s = new ArrayList<>();
+    -Copy and Paste.
+    -Using huge lines of comments
+    -Empty catch body.
+    -Spaghetti Code.
+"

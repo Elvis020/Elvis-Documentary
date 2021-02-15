@@ -31,8 +31,3 @@
 * "Partially applied functions -> Function currying."
 * "When you need to manipulate large amount of data"
 * "Terminal and nontermial"
-
-
-
-[SNippet on Optional with Sam]
-* ""
