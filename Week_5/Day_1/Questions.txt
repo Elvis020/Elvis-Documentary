@@ -1,0 +1,5 @@
+* "What is currency of data. data being currernt"
+* "What is functional dependency."
+* "Ad-hoc queries. - These are unplanned queries "
+* "Know more about the logical DB design."
+* "Know more about primary,composite,foreign and alternate keys"

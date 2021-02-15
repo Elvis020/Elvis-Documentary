@@ -1,0 +1,230 @@
+[Snippet 1]
+* "A database is an organised collection of data."
+* "A database is managed by the DBMS(Database Management Systems)"
+* "DB is more than just a file."
+* "DBs help us reduce redundancy...that is having more than one copy of the same thing."
+* "DBs reduce inconsistency"
+* "DBs improve integrity"
+* "DBs  imporve concurrent access"
+* "Reasons we use DBs
+    - Data sharing
+    -Quality
+    -Performance
+    -Centralised Control
+"
+* "A schema is a DB object that owns tables."
+* "A schema in Oracle DB is different from POSTgres"
+* "DDL: Data Definition Language"
+* "DML: Data Manipulation Language"
+* "DBMS
+    -Provides facilities to define the database schema
+    -Provides facilities to manipulate database instance
+"
+* "CRUD: Create,Retrieve,Update and Delete"
+
+
+[Snippet 2]
+* "We are gonna look at relational DBs"
+* "DBs are structured according to data model"
+* "In a relational DBs, data  is stored in tables(rows and columns)"
+* "there are no pre-defined connections, when tables are created, you have to create the relations."
+* "Goals of Logical DB Design
+    -Capture all informational needs of system
+    -Logical design typically normalised
+"
+* "There are different Normal forms when doing Logical design."
+* "We use up to 3NF, sometimes we only use 3NF"
+* "Logical DB Design Process
+    1. Identify Goals
+    2. Find and Organize Info required
+    3. Identify Entities
+    4. Identify Attributes
+    5. Identify Keys
+    6. Identify Relationships
+    7. Normalize
+    8. Review and Iterate.
+"
+
+[Steps in identifying the entities and attributes]
+* "Copy the question"
+* "Paste in word"
+* "Highlight all the nouns"
+* "Nouns may be attributes or entity"
+* "Attribute: describe eg. rate, size,types"
+* "Entities eg room, hotel"
+
+
+* "An attribute in an entity will be a column in a table."
+* "An attribute is a piece of info about an entity"
+* "The Customer example
+    ID - NN - Primary Key
+    NAME -NN
+    ADDRES-NN - Secondary key
+    EMAIL-Null
+    DOB-NN
+
+    1,Bob Smith, At Home, (null/unknown), 12.12.12
+"
+* "NULL in DB means we have missing data or data is unknown"
+
+* "select * from customer where email = null     : will never work"
+* "select * from customer where email is null     : will always work"
+
+* "We have types of Keys: Primary Key,Artificial Key"
+* "Associate information in different relations(tables)"
+* "|| -Parent  "
+* "|-:Child  "
+* "Can only have one primary key, but can have one primarimry key on 2 things"
+* "Entity-Relationship diagram"
+* "Primary key has a star in-front it."
+
+
+[Snippet 3]
+* "Student ||---------------||IDPicture: This is a one-to-one relationship"
+* "1:1 relationship is bi-direcitonal"
+* "1:N: One-to-many"
+* "The many side is where the foreign key is going to go."
+* "M:N - Many-to-many"
+* "M:N are solved by adding a date."
+*"The only way to resolve the M:N is to add an intersection table"
+* "Normalization: Decopose or breakdown our data modeling without losing anything."
+* "1NF,2NF,3NF,BCNF,4NF,5NF,6NF"
+
+[1NF]
+* "No repeating groups of attributes"
+[Snippet 4]
+* "2NF has Functional depency on the whole column"
+* "Data integrity is all about the quality of the data."
+* "Domain Intergrity, Entity Integreti,Referencial Integerity"
+* "In 2NF, we compare to the key and in 3NF we compare with non-key columns."
+* "Conceptual model is a higher level than the logical design"
+* "Logical models go deeper than the conceptual models"
+* "DB Shardding - New Concept in DBMS"
+
+
+
+[Revision Snippet 1]
+* "Database management systems provide facilities to define (DDL) and manage (DML) information held in databases."
+* "The DML provides facilities to Create, Delete, Retrieve, Update, Insert, and Modify the database"
+* "DML also provide services for data backup, user management, security control, rollback and recovery, and consistency checking."
+* "DBs are structured according to a data model."
+* "Most current generation databases are based on the relational model."
+* " In relational, data is stored in tables, and arbitrary relationships are established by means of the query language"
+* "The relational database model is much more flexible than the others, but may also be more expensive."
+
+
+[Revision Snippet 2]
+* "Each table models a specific data entity in the application."
+* " A hierarchical or network database will always out-perform the relational counterpart, given a pre-defined compatible data structure."
+* "The relational model can store arbitrarily complex data structures, and return good performance for most ad-hoc queries."
+* "the relational model trades flexibility for performance"
+* "The relational model was created by Ted Codd in the 1970s."
+* "Examples of relational databases include: Sybase, Oracle, Ingress, Microsoft SQL Server and DB2."
+* "Logical design is often associated with entity relationship modelling."
+* "Logical design is normalised to the 3NF"
+
+
+
+
+[Revision Snippet 3]
+* "Types of entities include:
+    -Person
+    -Role
+    -Place
+    -Event
+    -in general: things of interest
+"
+* "We identify entities as the primary data objects about which data will be collected"
+* "entities do not allow duplicates."
+* "An attribute is a piece of information we may hold about an entity or relationship."
+* "Characteristics of an attribute include:
+    -A name
+    - A domain of possible values
+    - optionality: whether or not they allow nulls
+    -cardinalty: whether they allow more than a single value.
+"
+
+
+
+[Revision Snippet 4]
+* " C. J. Date is a particularly outspoken critic of the inclusion of nulls in the relational model."
+* "A candidate key is any combination of attributes that uniquely indentifies tuples within a relation."
+* " Candidate keys with more than one attribute are known as composite keys."
+* "The candidate keys that are not selected to act as the primary key are known as alternate keys."
+* "Artificial keys are introduced if no suitable candidate key is available."
+* "One candidate key is chosen as the primary key for the relation."
+* "Relationships occur when data in one table can be linked to data in another table"
+
+
+[Revision Snippet 5]
+* "The attributes added to the referring table are known as a foreign key."
+* "Foreign keys typically reference primary keys."
+* "Foreign keys may be composite."
+* "Examples of notations include:
+    - Chen notation
+    - Crow's Foot notation
+    - Bachman notation
+    - IDEF1X
+    - Martin notation
+"
+* "The most commonly used are Chen and Crow's Foot."
+* "Chen is most commonly used and taught in the USA, while Crow's Foot is widely used in the UK and parts of Europe."
+* "NB: The ER(entity-relationship) diagramming tools typically favour a particular notation."
+* "some such as Microsoft Visio allow for multiple notations to be used."
+*"
+    - MYSQL Workbench - Crow's Foot
+    - Microsoft Visio - Crow's Foot & Chen
+    - ERWin - IDEF1X
+"
+
+
+[Revision Snippet 6]
+* "Entities are connected by lines"
+* "Each entity is represented by a box"
+* " Primary keys are typically identified by the presence of an * or the use of underlining"
+* "Note the shapes in the Crow Foot notation are read from right-to-left"
+* "1:1 relationships are bidirectional"
+* "1:1 may be collapsed into a single table"
+* "Most common type of relationship is the 1:N"
+
+
+
+[Group Presentation - Builder]
+* "The builder is a pattern"
+* "The builder pattern is a creational and abstract design pattern that allows production of complex different representation of objects using the same base contruction."
+*"It gives you a clean way of "
+
+[Worload analysis]
+* "Way to bench mark your DB analysis as to see the constraints of the DB"
+
+
+
+[DB Course - Snippet 1]
+* "Referential Integrity is maintained when every foreign key refers to one and only one existing primary key."
+* "The schema is a collection of tables."
+* "A DB is a collection of schemas"
+* "DBs use the B-tree algorithm"
+*"A B-tree is a self-balancing tree data structure that keeps data sorted and allows searches, sequential access, insertions and deletions in logarithmic time."
+* "B-tree indexing power: N = (m-1)^d"
+*"B-trees are used to index tables and columns, in order to reduce the time complexity from a O(N) to O(logN)"
+
+
+[DB Course - Snippet 2]
+* "Tuple/Record is a row in a table."
+* "Attribute is a column in a table."
+* "Relation is a set of tuple/record that share the same attribute."
+* "DB design is the process of producing a detailed data model of database."
+*"Ad-hoc == unplanned"
+* "The database structure is easy to modify and maintain"
+* "The data is easy to modify."
+* "The primary keys is a set of columns"
+
+
+
+[DB Course - Snippet 3]
+*"Three levels of database design
+    - Conceptual
+    - Logical
+    - Physical
+"
+ * "Data Modelling: Conceptual and Logical"
