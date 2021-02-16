@@ -1,0 +1,5 @@
+1. "select * from titles where price is null";
+2. "select title, case  when price is null then '$20.00'  else price end as price  from titles;"
+3. "select substring(pr_info,1,20) from pub_info;"
+4. "select pubdate, to_char(pubdate,'mm/dd/yyyy') from titles;"
+5. "select ord_date, to_char(ord_date, 'Day ddth month yyyy') from sales;"

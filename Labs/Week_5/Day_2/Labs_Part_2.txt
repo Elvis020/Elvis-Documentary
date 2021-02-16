@@ -1,0 +1,21 @@
+
+[Current Time]
+1. "select current_date;"
+2. "select current_time;"
+3. "select current_timestamp;"
+[Converting from Strings]
+4. "select to_date('2018-09-26','yyyy-mm-dd');"
+5. "select to_timestamp('2018-09-26 12:45:32','yyyy mm dd hh24:mi:ss') ;"
+[Subtracting Dates]
+6. "select abs(to_date('2018-09-26','yyyy mm dd') - to_date('2018-12-25','yyyy mm dd')) ;"
+7. "select pubdate, abs(pubdate - current_date) as difference from titles;"
+[Extracting components from dates]
+8. "select extract(year from pubdate) as years, pubdate from titles t;"
+9. "select extract(day from pubdate) as days, pubdate from titles t;"
+
+
+[Exercises]
+1. "select to_char(ord_date,'dd-mm-yy'), (current_date - date('2011-01-01')) + ord_date as difference from sales;
+"
+NB: [Thanksgiving: 25th November,2021, Christmas: 25th December,2021, 1st January, 2021]
+2. 

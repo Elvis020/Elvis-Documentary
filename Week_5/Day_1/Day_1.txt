@@ -192,9 +192,9 @@
 [Group Presentation - Builder]
 * "The builder is a pattern"
 * "The builder pattern is a creational and abstract design pattern that allows production of complex different representation of objects using the same base contruction."
-*"It gives you a clean way of "
+*"It gives you a clean way of writing multiple constructors. "
 
-[Worload analysis]
+[Workload analysis]
 * "Way to bench mark your DB analysis as to see the constraints of the DB"
 
 

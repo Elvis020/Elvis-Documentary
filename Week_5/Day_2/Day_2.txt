@@ -1,0 +1,265 @@
+[Snippet 1]
+* "You can have only 1 PK per table but possible to have >1 column and MUST NOT BE NULL."
+* "You can have >1 unique key, they can be >1 column in one UQ and they can be NULL."
+* "What is ANSI-SQL"
+* "----- : Optional"
+* " __________ : Mandatory"
+* ". - many "
+* "SELECT doesn't modify data."
+* "Group By is for aggregation"
+* "Order By is for sorting.It takes either the column index or the name of the column"
+* "Simple calculations can be done in SQL queries. "
+* "Column aliases are inserted using AS and without using AS."
+* "You can order by more than one column."
+* "The WHERE clause is more of a filter."
+* "Commenting is done using --"
+* "For literal values used in the where clause, single quotes is used."
+* " <> is the same as !="
+
+[Snippet 2]
+* "When price is money, to convert price to numeric, we use:
+    -price::numeric
+"
+* "the where clause can be use with "in" and  "not in" statements"
+* "watch carefully when using "like" , they are used with wildcards."
+* "% is a wildcard for none,one or more."
+* "_ is a wildcard for only a single character only."
+* "You can do more than one _"
+* "order by must always come last"
+* "Case allows row-by-row data manipulation"
+* "The case is ended with the end keyword."
+* "distinct is used with the select keyword."
+* "Fetch first keyword is used as a terminal query and its supported by POSTGres and some other ones."
+* "Case is used with when(cast)"
+
+
+[Snippet 3]
+* "Table colums have a data type."
+* "We have fixed and  variable length data types"
+* "Null is distinct from 0 or empty String"
+* "To test that a column is null, use "is null" not "= null" "
+* "Postgres does Null values at the end of orderBy"
+* "Null values are placed at the end or at the start of a table depending on the RDBMS"
+* "Sometimes repeated values are FK in the table"
+* "Nullif() shows a null if the column mathes the expression. i.e nullif(type,'Business') "
+* "Remmeber to use nvl() instead of case with null"
+* "nvl does the opposite of nullif()"
+
+
+[Snippet 4]
+* "The get the month,day and year from a tuple in a DB, you can use the EXTRACT keyword."
+* "TRANSLATE is also available"
+* "Substr(start,start,length) "
+* "We can nest functions...eg. upper(sub(col1,1,1))"
+* "To concatenate more than one column, you can use ||"
+* "Postgres, Oracle, DB2 etc is an ORDBM"
+
+[Financial Markets Introduction]
+* "Equity market"
+* "The algo decides when and what to trade."
+[Agenda]
+* "What is a market"
+* "Negotiable Securities and Derivatives"
+* "Buy-Side vrs Sell-Side"
+* "Role of Banks"
+*"What is a "Market" and ehat is their purpose? "
+* "For a market to be effective, its about the way a deal gets done."
+* "The process of bringing together a buyer and a seller"
+* "What is the oldest equity market? - London"
+* "Market: A meeting place where buyers and sellers come together to agree on prices and exchange goods and services"
+* "A market can be: 
+    - A physical venue.
+    - An electronic venue(LSE,Nasdaq,Eurex)
+    - A brokered market (inter-dealer brokers)
+    - A direct market (phone or reuters dealer)
+"
+
+* "The inter-dealer brokers bring together the various parcipants to get things done."
+* "The tape: all bids are going to central locations"
+* "The dimenesion of finding the best price"
+* "What is being traded"
+* "Where and how trading takes place"
+* "Futures Exchange"
+
+
+[Exchange Traded vrs OTC]
+* "CLOB - Central Limit Order book"
+* "Excahnge Trade: CLOB"
+* "Over the counter: Deals not done over the exchange."
+* "OTC: Gov't bonds etc"
+* "Hybrid is combination of ET and OTC"
+* "With ET, products are standardised by the exchange"
+* "With ET, deal takes place on a centtralised location."
+
+[Negotiable Securities]
+* "Every time you trade a share, the exchange takes a small fee"
+* "Shares, Bonds etc"
+* "A negotiable security.... is a piece of paper that represeents ownership of a company."
+* "You can't just sell it to someone if you get it from a bank"
+* "Negotiable Security: Tradeable/Transferable shares or bonds/financial assets."
+* "The reason the assets are negotiable is to give flexibility."
+* "Financial assets can be readily bought and sold with negotiable securities"
+* "NS provide flexibility to investors"
+
+
+[Primary Market]
+* "Where those that need funding raise money from inverstprs by selling securities."
+* "The issuer receives the funds"
+* ""
+
+[Secondary Markets]
+* "This is where investors are selling to other investors"
+* "The issuer does not receive the funds"
+* "All it does it update the register."
+* "Instruments issued in the primary markets are traded in the secondary markets"
+* "The traders are involved in the secondary markets"
+
+
+
+[Derivatives / Contracts]
+* "A derivative contract is a contract whose values is derived from and is dependent on, the value on the underlying assets, such as commodity,currency or securtiy."
+*  "Eg. Futures,Swaps and Options"
+* "Derivatives are risk transfer mechanisms"
+* "Its all about transfering risks between parties"
+
+
+[CFD-Contract For Difference Example]
+"1800 per ounce
+contract price 1810 per ouncein 3 months CFD basis
+
+// After 3 months
+Gold is now 1835 per ounce"
+
+* "The only payment is the net in value when it comes to CFD."
+*"When the time is up, you pay for the difference between: 1835-1810. i.2 25."
+
+
+* "Every thing is about supply and demand."
+* "Hedging: Converting uncertain future cashflow to a certain cashflow"
+* "Risk is uncertainty."
+* "CFD is a Derivative/Contract"
+* "A market bring the buyer and the seller together."
+* "Hedgin is all about reducing uncertainty"
+
+[Spot vrs Forward]
+* "Spot price: is for Standard settlement delivery conditions"
+* "Every product traded, the trade date + 2 business days is the standard expression"
+
+[Financial Markets]
+-Bond Markets, Equity Markets ,Foreign Markets,Money Markets,Commodity Markets
+[Capital Markets]
+-Bond Markets, Equity Markets
+
+* "The money markets is short term finance and the cutoff point is 1 year or less."
+* "If cutoff point is more than 1 year, then its Capital market"
+
+
+[Capital Structure]
+ * "Capital Structure: refers to the combination of Debt and Equity a firm uses to finance its assets."
+ * "Within a CS, there are many different classes"
+ * "In the event of bankrupcy, its a waterfall effect"
+ * "Assets -> Debts -> Equity"
+ * "Key class of Debt: Senior/Unsecured Debt"
+
+
+ [Question - Financial Market Participants]
+ * "Who are the participants in the global financial markets?"
+ [Answer]
+ * "Buy Side and Sell Side"
+ [Buy Side]
+ * "Firms that are looking to  invest other peoples money"
+ *"Eg. Pension Funds,Mutual Funds,Hedge Funds, Insurance Companies, Sovereign Wealth"
+ * "They need liquidity"
+ [Sell Side]
+ * "Banks"
+ * "Investment Banks"
+ * "Price Makers"
+ * "Brokers"
+ * "They provide liquidity for all the buy side firms"
+ * "Sell side - Secondary Markets"
+
+
+ * "The Sell Sides makes money by making trade with the Buy Side and making profit from it."
+
+ [What is a Bank and why are they treated differently to other companies]
+ * "In the early days, Banks were for safe storage"
+ * "Now the role of the Bank is beyound savings"
+ * "The primary role of a bank is Intermediation between borrowers and Lenders"
+ * "Key role of a bank: Transfer short-term deposits into long-term loans - Maturity Transformation"
+ * "If the maturity transformation,  is not taken care of, leads to bankrupt."
+ * "The relationship btn Borrowers and Lenders"
+* "Too big to fail, something that happened to a bank"
+* "The other role of banking is Credit Transformation"
+* "Socitites can't function without having Banks"
+
+
+[Types of Banks]
+
+[Run by gov't]
+-Export Banks-Developmen Banks
+
+-Agric Banks
+-Mortgage Banks
+
+[Categories of Bank]
+-Investment Banks
+-Commercial Banks
+
+
+
+[Commercial vrs Investment]
+*"Rlational lending vrs Coporate advisory"
+* "Commercial: Retail Banking and Cmmercial Banking"
+* "Investment: Takeovers, Capital Structur and Mergers"
+* "Investment: Trading and sales(market making) and fee income"
+* "Commercial Banks: Transaction banking and net interest margin"
+
+* "Most bank do both separated activities(Commercial and Investment)"
+
+
+[Users of Capital(Borrowers)]
+-Gov't
+-Corporations
+-Supranationals
+
+[Providers of Capital]
+-Mutual Funds
+-Pension Funds  
+-Hedge Funds
+-Insurance Funds
+-Retails and HNW
+
+[Hedge Funds]
+* "MANAGERS RECEIVE PERFORMANCE FEES"
+* "Active management and high frequency trading"
+* "Minimum money required in US to start is 5 million dollars"
+
+[Traditional Fund Manager]
+* "Highly regulated"
+* "Manage relatively large sums of money"
+
+[Hedge Fund Strategies]
+* "Event Driven"
+* "Global Macro"
+* "Long-short equity"
+
+[Inter Dealer Brokers]
+* "Act as an agebt between the banks and securities dealers"
+* "Dont take positions, simply bring the 2 parties to trade together"
+* "Earn brokerage fees for deals done."
+* "only among the major financial markets"
+
+[Trading Venues]
+* "Exchange"
+* "OTC markets"
+* "Electronic Trading Networks"
+
+[Regulators]
+* "Financial markets and financial firms are heavily regulated"
+* "Central Banks and the Bank of International Settlement"
+* "Securities regulators Eg. SEC"
+* "Market  regulators. Eg. CFTC,exchanges"
+
+
+*"Bank Bail-outs"
+
