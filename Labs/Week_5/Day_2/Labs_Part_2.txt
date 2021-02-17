@@ -18,4 +18,18 @@
 1. "select to_char(ord_date,'dd-mm-yy'), (current_date - date('2011-01-01')) + ord_date as difference from sales;
 "
 NB: [Thanksgiving: 25th November,2021, Christmas: 25th December,2021, 1st January, 2021]
-2. 
+2. a." select abs(date('2021-11-25') - current_date ) as days_before_thanksgiving;"
+b. "select abs(date('2021-12-25') - current_date ) as days_before_christmas;"
+c. "select abs(date('2022-01-01') - current_date ) as days_before_new_year;"
+
+3. "select abs(date('1996-10-22') - date('2020-10-22')) as how_old_i_am;"
+4. "select pubdate, (abs(pubdate - current_date)) as difference_in_days from titles t ;"
+5. "select ord_date, to_char(ord_date,'dd/mm/yy') from sales s ;"
+6. ""
+7. "select title,pubdate, (to_char(pubdate,'MM/DD/YY')) as USA_date,(to_char(pubdate,'YY/MM/DD')) as JAPAN_date,(to_char(pubdate,'DD/MM/YY')) as UK_date from titles t ;"
+8. ""
+
+
+[Date format in USA: MM/DD/YY]
+[Date format in JAPAN: YY/MM/DD]
+[Date format in UK: DD/MM/YY]
