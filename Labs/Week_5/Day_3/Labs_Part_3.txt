@@ -10,8 +10,7 @@
 
 
 [Business Queries]
-* "Not finished"
-1. "select type,age(current_date,pubdate),date_part('month',age(current_date,pubdate)) as "Age in months" from titles group by type,pubdate ;"
+1. "select type,avg(extract(year from age(current_date, pubdate)) * 12 + extract(month from age(current_date, pubdate))::integer) from titles group by type order by type;"
 
 2. "select city,count(city) as "Number of authors in each city" from authors group by city;"
 3. "select substring(title,1,12),title,length(title) as lenny2 from titles group by title order by lenny2 desc;"
