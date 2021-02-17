@@ -14,3 +14,7 @@
 When will we have the independent lab?
 How is the day structured?
 I have done some editing
+
+
+[People to contact for Java]
+* "Willington Bedu-Addo / Johnny Aggrey-Woode / Hector Amoah and Enock-Boadi"

@@ -1,0 +1,48 @@
+[Snippet 1]
+* "Use date_part in place of timestampdiff"
+* "use age to get the age of a person."
+* "Aggregate functions generate summary values."
+* "The keyword having is used to filter data that has been aggregated"
+* "where keyword is also used to filter non-aggregated data"
+* "most expensive - max"
+* "The earliest - min"
+* "Multiple aggregate functions can be used in a single query."
+* "Coalesce gives the first non-null values in a list"
+* "with coalesce if the value is null, you can specify like 0."
+* "for row counting use count()"
+* "Having is a way of excluding rows in a result set"
+* "Having is the where clause for aggregates"
+* "The from clause is first executed, then the where clause, then in the select  then the group by, then the having, then order by
+3 -- select
+1 -- from
+2 -- where
+4 -- group by
+5 -- having
+6 -- order by
+"
+
+
+[Snippet 2]
+* "A table without a fK is a parent/master table"
+* "Joining for one-to-many relationships"
+* "Inner join is an ANNSI syntax"
+* "join needs a common thing between the  two tables to join"
+* "When you write only join then it means inner join."
+* "There are 3 scenarios of inner join.
+    -One row in the first, matches many rows in the second, and the data is repeated.
+"
+
+
+[Snippet 3]
+* "A full outer join can be the same as the left outer join"
+* "Full outer join = left outer join + right outer join"
+* "Multi joins are also there"
+* "Non ansi join is done using from and where"
+* "Cross joins are not a good thing never tolerate them."
+* "Data Science is built on top of DB"
+* "DS is all about extracting knowledge from data in various forms to generate business value"
+* "BI - Business Intelligence"
+* "Data Analytics: Process of examining data to help with decision making"
+
+[Objectives  after lec]
+* "Know more about inner join,outer join etc"

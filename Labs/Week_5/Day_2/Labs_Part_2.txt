@@ -4,8 +4,8 @@
 2. "select current_time;"
 3. "select current_timestamp;"
 [Converting from Strings]
-4. "select to_date('2018-09-26','yyyy-mm-dd');"
-5. "select to_timestamp('2018-09-26 12:45:32','yyyy mm dd hh24:mi:ss') ;"
+4. "select to_date('2018-09-26','yyyy-mm-dd');" or "select ('2018-09-26'::date)"
+5. "select to_timestamp('2018-09-26 12:45:32','yyyy mm dd hh24:mi:ss') ;" or "select ('2018-09-26 12:45:32'::timestamp)"
 [Subtracting Dates]
 6. "select abs(to_date('2018-09-26','yyyy mm dd') - to_date('2018-12-25','yyyy mm dd')) ;"
 7. "select pubdate, abs(pubdate - current_date) as difference from titles;"
@@ -27,9 +27,12 @@ c. "select abs(date('2022-01-01') - current_date ) as days_before_new_year;"
 5. "select ord_date, to_char(ord_date,'dd/mm/yy') from sales s ;"
 6. ""
 7. "select title,pubdate, (to_char(pubdate,'MM/DD/YY')) as USA_date,(to_char(pubdate,'YY/MM/DD')) as JAPAN_date,(to_char(pubdate,'DD/MM/YY')) as UK_date from titles t ;"
-8. ""
+8. "select (substring(title,1,1)) as first_word_from_each_title from titles t2 ; "
+9. ""
 
-
+NB:
 [Date format in USA: MM/DD/YY]
 [Date format in JAPAN: YY/MM/DD]
 [Date format in UK: DD/MM/YY]
+
+

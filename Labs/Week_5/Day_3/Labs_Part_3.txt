@@ -1,0 +1,12 @@
+1.  "select type::character(30), avg(price::numeric) as "Average _Price_By_Type" from titles group by type;"
+2. "select abs(min(pubdate) - max(pubdate)) as "Difference between earliest and latest publication date" from titles  ;"
+3. "select type, pub_id, avg(price::numeric) as "Average_Price",max(price::numeric),min(price::numeric) from titles group by pub_id,type;"
+4. "select type, pub_id, avg(price::numeric) as "Average_Price",max(price::numeric),min(price::numeric) from titles group by pub_id,type having avg(price::numeric) > 20 ;"
+5. "select title,length(title) as lenny from titles group by title order by lenny;"
+
+
+[Business Queries]
+* "Not finished"
+1. "select type,age(current_date,pubdate),date_part('month',age(current_date,pubdate)) as "Age in months" from titles group by type,pubdate ;"
+
+2. "select city,count(city) as "Number of authors in each city" from authors group by city;"
