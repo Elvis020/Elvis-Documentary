@@ -46,3 +46,9 @@
 
 [Objectives  after lec]
 * "Know more about inner join,outer join etc"
+
+
+
+[Factory]
+* "Its a creational design pattern."
+* "It aims to reduce coupling"

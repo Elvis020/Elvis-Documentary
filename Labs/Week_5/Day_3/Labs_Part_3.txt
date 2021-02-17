@@ -1,7 +1,11 @@
-1.  "select type::character(30), avg(price::numeric) as "Average _Price_By_Type" from titles group by type;"
-2. "select abs(min(pubdate) - max(pubdate)) as "Difference between earliest and latest publication date" from titles  ;"
+1.  "select type::character(30), avg(coalesce(price::numeric,0)) as "Average _Price_By_Type" from titles group by type;"
+
+2. "select abs(min(pubdate) - max(pubdate)) as "Difference between earliest and latest publication date" from titles;"
+
 3. "select type, pub_id, avg(price::numeric) as "Average_Price",max(price::numeric),min(price::numeric) from titles group by pub_id,type;"
-4. "select type, pub_id, avg(price::numeric) as "Average_Price",max(price::numeric),min(price::numeric) from titles group by pub_id,type having avg(price::numeric) > 20 ;"
+
+4. "select type, pub_id, avg(price::numeric) as "Average_Price",max(price::numeric),min(price::numeric) from titles group by pub_id,type having avg(price::numeric) > 20 order by "Average_Price";"
+
 5. "select title,length(title) as lenny from titles group by title order by lenny;"
 
 
@@ -10,3 +14,8 @@
 1. "select type,age(current_date,pubdate),date_part('month',age(current_date,pubdate)) as "Age in months" from titles group by type,pubdate ;"
 
 2. "select city,count(city) as "Number of authors in each city" from authors group by city;"
+3. "select substring(title,1,12),title,length(title) as lenny2 from titles group by title order by lenny2 desc;"
+
+4. 
+a. "select stor_id,sum(qty)  as "Books sold by each store" from sales group by stor_id;"
+b. "select sum(qty) as "Books sold in total" from sales;"
