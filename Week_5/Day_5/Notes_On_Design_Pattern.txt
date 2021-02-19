@@ -1,0 +1,8 @@
+* "The abstraction has a composition relation with the implementor."
+* "In the Bridge pattern we have two hierachies"
+* "The bridge has 2 parts, the abstraction and the implementation."
+* "Abstraction: interface/abstract class"
+* "Implementation: interface/abstract class."
+*"Allows the abstraction and implementation to be developed independently. - Lose coupling"
+* "The abstraction contains a reference to the implementor."
+* "Children of the abstraction are called refined abstraction."
