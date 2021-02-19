@@ -1,0 +1,29 @@
+[Snippet 1 - Animal shelter project]
+* "Animal type, id,name,approx age,staff comments,whether spayed or neutered"
+* "breed and size-d, breed and hair-c,species and descrip-others"
+* "Date of arrival,reason and comments related to the circumstances or information available from the donor"
+* "dates of service, cost,types of vaccinations,descriptions of procedures,prescriptions with medication prescribed, amount and dosage and related"
+
+
+
+*"For adoptions"
+First name,lname,street addresss,city,state,zip,code,phone,email,animal preferences and number of children.
+date of adoptions
+increase further adoptions by tracking visitors who come to the agency.and find animal suitable to their preference
+in the event that the person returns an animal,connect the returned animal to its previous history.
+
+
+*Staff information
+how many staff are working at a time
+holidays,weatherconditions
+know more abt employees and know their efficiency
+
+* "non-animal donations"
+non-profit donationstracking gifts received by shelter
+
+* "Animal specific"
+receives all types of animals but mainly dogs and circumstances
+primary info when animal is collected into shelter
+-Date of arrivall,
+-reason for delivery
+-animal type-name-approximate age
