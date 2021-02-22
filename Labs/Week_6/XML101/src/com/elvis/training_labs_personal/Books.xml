@@ -1,0 +1,9 @@
+<?xml version="1.0" ?>
+<!DOCTYPE book SYSTEM "bookex.dtd">
+<book>
+    <title>Learning XML</title>
+    <author>Erik T. Ray</author>
+    <publisher>O'Reilly</publisher>
+    <pubdate>2001</pubdate>
+    <cost>34.95</cost>
+</book>
