@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="21a77427-d7fb-471e-8fa9-6708c2c5fd7a" name="Default Changelist" comment="" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="ProjectId" id="1oFlp0ERCq25oqNmroWmKkFhuLG" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/com/elvis/training_labs_personal2" />
+    <property name="project.structure.last.edited" value="Modules" />
+    <property name="project.structure.proportion" value="0.0" />
+    <property name="project.structure.side.proportion" value="0.2" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\TURNTABL\Downloads\Telegram Desktop\Elvis_Update_9\Elvis_Update_10\Elvis\Week_3\Sams_Example\src\com\elvis\training_labs_personal2" />
+    </key>
+  </component>
+  <component name="RunManager">
+    <configuration name="Main" type="Application" factoryName="Application" temporary="true">
+      <option name="MAIN_CLASS_NAME" value="com.elvis.training_labs_personal.Main" />
+      <module name="Sams_Example" />
+      <option name="WORKING_DIRECTORY" value="file://$PROJECT_DIR$" />
+      <RunnerSettings RunnerId="Run" />
+      <ConfigurationWrapper RunnerId="Run" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.Main" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="21a77427-d7fb-471e-8fa9-6708c2c5fd7a" name="Default Changelist" comment="" />
+      <created>1612890400233</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1612890400233</updated>
+    </task>
+    <servers />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="2131" y="110" key="#com.intellij.ide.util.MemberChooser" timestamp="1612891286452">
+      <screen x="1366" y="-113" width="1920" height="1040" />
+    </state>
+    <state x="2131" y="110" key="#com.intellij.ide.util.MemberChooser/0.0.1366.728/1366.-113.1920.1040@1366.-113.1920.1040" timestamp="1612891286452" />
+    <state x="2056" y="152" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog" timestamp="1612977095145">
+      <screen x="1366" y="-113" width="1920" height="1040" />
+    </state>
+    <state x="2056" y="152" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.0.1366.728/1366.-113.1920.1040@1366.-113.1920.1040" timestamp="1612977095145" />
+    <state x="2106" y="111" key="FileChooserDialogImpl" timestamp="1612981046920">
+      <screen x="1366" y="-113" width="1920" height="1040" />
+    </state>
+    <state x="2106" y="111" key="FileChooserDialogImpl/0.0.1366.728/1366.-113.1920.1040@1366.-113.1920.1040" timestamp="1612981046920" />
+    <state width="955" height="273" key="GridCell.Tab.0.bottom" timestamp="1612892730977">
+      <screen x="1366" y="-113" width="1920" height="1040" />
+    </state>
+    <state width="955" height="273" key="GridCell.Tab.0.bottom/0.0.1366.728/1366.-113.1920.1040@1366.-113.1920.1040" timestamp="1612892730977" />
+    <state width="955" height="273" key="GridCell.Tab.0.center" timestamp="1612892730977">
+      <screen x="1366" y="-113" width="1920" height="1040" />
+    </state>
+    <state width="955" height="273" key="GridCell.Tab.0.center/0.0.1366.728/1366.-113.1920.1040@1366.-113.1920.1040" timestamp="1612892730977" />
+    <state width="955" height="273" key="GridCell.Tab.0.left" timestamp="1612892730976">
+      <screen x="1366" y="-113" width="1920" height="1040" />
+    </state>
+    <state width="955" height="273" key="GridCell.Tab.0.left/0.0.1366.728/1366.-113.1920.1040@1366.-113.1920.1040" timestamp="1612892730976" />
+    <state width="955" height="273" key="GridCell.Tab.0.right" timestamp="1612892730977">
+      <screen x="1366" y="-113" width="1920" height="1040" />
+    </state>
+    <state width="955" height="273" key="GridCell.Tab.0.right/0.0.1366.728/1366.-113.1920.1040@1366.-113.1920.1040" timestamp="1612892730977" />
+    <state x="1806" y="-19" key="SettingsEditor" timestamp="1612981275279">
+      <screen x="1366" y="-113" width="1920" height="1040" />
+    </state>
+    <state x="1806" y="-19" key="SettingsEditor/0.0.1366.728/1366.-113.1920.1040@1366.-113.1920.1040" timestamp="1612981275279" />
+  </component>
+</project>

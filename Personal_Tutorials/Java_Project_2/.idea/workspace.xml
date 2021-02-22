@@ -1,0 +1,207 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="4ae6a1b5-fe03-4f62-925e-5f811baecc29" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/Java_Project_2/.travis.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Java_Project_2/src/com/elvis/training_with_Java/Register.java" beforeDir="false" afterPath="$PROJECT_DIR$/Java_Project_2/src/com/elvis/training_with_Java/Register.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Java_Project_2/src/com/elvis/training_with_Java/RegisterTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/Java_Project_2/src/com/elvis/training_with_Java/RegisterTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Java_Project_2/src/com/elvis/training_with_Java/Student.java" beforeDir="false" afterPath="$PROJECT_DIR$/Java_Project_2/src/com/elvis/training_with_Java/Student.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Java_Project_2/com/elvis/training_with_Java/Register.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Java_Project_2/com/elvis/training_with_Java/Register.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Week_4/Day_3/Day_3.txt" beforeDir="false" afterPath="$PROJECT_DIR$/../../Week_4/Day_3/Day_3.txt" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../.." />
+  </component>
+  <component name="ProjectId" id="1oBu1soUf0MVXoLqM48D7y0Q1yb" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary" value="JUnit5" />
+    <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit5" value="" />
+    <property name="create.test.in.the.same.root" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../../../../../tlc-last-minute" />
+    <property name="settings.editor.selected.configurable" value="preferences.lookFeel" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CreateTestDialog.RecentsKey">
+      <recent name="com.elvis.training_with_Java" />
+    </key>
+    <key name="CreateTestDialog.Recents.Supers">
+      <recent name="" />
+    </key>
+  </component>
+  <component name="RunManager" selected="JUnit.LectureTest">
+    <configuration name="LectureTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="Java_Project_2" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.elvis.training_with_Java.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.elvis.training_with_Java" />
+      <option name="MAIN_CLASS_NAME" value="com.elvis.training_with_Java.LectureTest" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="RegisterTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="Java_Project_2" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.elvis.training_with_Java.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.elvis.training_with_Java" />
+      <option name="MAIN_CLASS_NAME" value="com.elvis.training_with_Java.RegisterTest" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="RegisterTest.averageOfAllStudentsGrades" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="Java_Project_2" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.elvis.training_with_Java.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.elvis.training_with_Java" />
+      <option name="MAIN_CLASS_NAME" value="com.elvis.training_with_Java.RegisterTest" />
+      <option name="METHOD_NAME" value="averageOfAllStudentsGrades" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="RegisterTest.getHighestGrade" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="Java_Project_2" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.elvis.training_with_Java.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.elvis.training_with_Java" />
+      <option name="MAIN_CLASS_NAME" value="com.elvis.training_with_Java.RegisterTest" />
+      <option name="METHOD_NAME" value="getHighestGrade" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="StudentTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="Java_Project_2" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.elvis.training_with_Java.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.elvis.training_with_Java" />
+      <option name="MAIN_CLASS_NAME" value="com.elvis.training_with_Java.StudentTest" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="JUnit.LectureTest" />
+        <item itemvalue="JUnit.StudentTest" />
+        <item itemvalue="JUnit.RegisterTest" />
+        <item itemvalue="JUnit.RegisterTest.averageOfAllStudentsGrades" />
+        <item itemvalue="JUnit.RegisterTest.getHighestGrade" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="4ae6a1b5-fe03-4f62-925e-5f811baecc29" name="Default Changelist" comment="" />
+      <created>1612772094254</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1612772094254</updated>
+    </task>
+    <servers />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="1880" y="114" key="#com.intellij.ide.util.MemberChooser" timestamp="1613058422154">
+      <screen x="1366" y="-113" width="1920" height="1040" />
+    </state>
+    <state x="366" y="159" key="#com.intellij.ide.util.MemberChooser/0.0.1366.728/1366.-113.1920.1040@0.0.1366.728" timestamp="1612785696122" />
+    <state x="1880" y="114" key="#com.intellij.ide.util.MemberChooser/0.0.1366.728/1366.-113.1920.1040@1366.-113.1920.1040" timestamp="1613058422154" />
+    <state x="1880" y="424" key="#com.intellij.ide.util.MemberChooser/0.0.1366.728/1366.0.1920.1040@1366.0.1920.1040" timestamp="1612773551852" />
+    <state x="1477" y="40" key="FileChooserDialogImpl" timestamp="1613147475409">
+      <screen x="1366" y="-113" width="1920" height="1040" />
+    </state>
+    <state x="1477" y="40" key="FileChooserDialogImpl/0.0.1366.728/1366.-113.1920.1040@1366.-113.1920.1040" timestamp="1613147475409" />
+    <state width="1863" height="130" key="GridCell.Tab.0.bottom" timestamp="1613147477582">
+      <screen x="1366" y="-113" width="1920" height="1040" />
+    </state>
+    <state width="1309" height="70" key="GridCell.Tab.0.bottom/0.0.1366.728/1366.-113.1920.1040@0.0.1366.728" timestamp="1613146556121" />
+    <state width="1863" height="130" key="GridCell.Tab.0.bottom/0.0.1366.728/1366.-113.1920.1040@1366.-113.1920.1040" timestamp="1613147477582" />
+    <state width="1319" height="2" key="GridCell.Tab.0.bottom/0.0.1366.728/1366.0.1920.1040@0.0.1366.728" timestamp="1612776315005" />
+    <state width="1368" height="85" key="GridCell.Tab.0.bottom/0.0.1366.728/1366.0.1920.1040@1366.0.1920.1040" timestamp="1612779977453" />
+    <state width="1863" height="130" key="GridCell.Tab.0.center" timestamp="1613147477582">
+      <screen x="1366" y="-113" width="1920" height="1040" />
+    </state>
+    <state width="1309" height="70" key="GridCell.Tab.0.center/0.0.1366.728/1366.-113.1920.1040@0.0.1366.728" timestamp="1613146556120" />
+    <state width="1863" height="130" key="GridCell.Tab.0.center/0.0.1366.728/1366.-113.1920.1040@1366.-113.1920.1040" timestamp="1613147477582" />
+    <state width="1319" height="2" key="GridCell.Tab.0.center/0.0.1366.728/1366.0.1920.1040@0.0.1366.728" timestamp="1612776315004" />
+    <state width="1368" height="85" key="GridCell.Tab.0.center/0.0.1366.728/1366.0.1920.1040@1366.0.1920.1040" timestamp="1612779977453" />
+    <state width="1863" height="130" key="GridCell.Tab.0.left" timestamp="1613147477582">
+      <screen x="1366" y="-113" width="1920" height="1040" />
+    </state>
+    <state width="1309" height="70" key="GridCell.Tab.0.left/0.0.1366.728/1366.-113.1920.1040@0.0.1366.728" timestamp="1613146556120" />
+    <state width="1863" height="130" key="GridCell.Tab.0.left/0.0.1366.728/1366.-113.1920.1040@1366.-113.1920.1040" timestamp="1613147477582" />
+    <state width="1319" height="2" key="GridCell.Tab.0.left/0.0.1366.728/1366.0.1920.1040@0.0.1366.728" timestamp="1612776315004" />
+    <state width="1368" height="85" key="GridCell.Tab.0.left/0.0.1366.728/1366.0.1920.1040@1366.0.1920.1040" timestamp="1612779977453" />
+    <state width="1863" height="130" key="GridCell.Tab.0.right" timestamp="1613147477582">
+      <screen x="1366" y="-113" width="1920" height="1040" />
+    </state>
+    <state width="1309" height="70" key="GridCell.Tab.0.right/0.0.1366.728/1366.-113.1920.1040@0.0.1366.728" timestamp="1613146556121" />
+    <state width="1863" height="130" key="GridCell.Tab.0.right/0.0.1366.728/1366.-113.1920.1040@1366.-113.1920.1040" timestamp="1613147477582" />
+    <state width="1319" height="2" key="GridCell.Tab.0.right/0.0.1366.728/1366.0.1920.1040@0.0.1366.728" timestamp="1612776315004" />
+    <state width="1368" height="85" key="GridCell.Tab.0.right/0.0.1366.728/1366.0.1920.1040@1366.0.1920.1040" timestamp="1612779977453" />
+    <state x="1598" y="39" key="SettingsEditor" timestamp="1613118438042">
+      <screen x="1366" y="-113" width="1920" height="1040" />
+    </state>
+    <state x="1598" y="39" key="SettingsEditor/0.0.1366.728/1366.-113.1920.1040@1366.-113.1920.1040" timestamp="1613118438042" />
+    <state x="1598" y="327" key="SettingsEditor/0.0.1366.728/1366.0.1920.1040@1366.0.1920.1040" timestamp="1612772868552" />
+    <state x="2096" y="124" key="com.intellij.testIntegration.createTest.CreateTestDialog" timestamp="1612976094237">
+      <screen x="1366" y="-113" width="1920" height="1040" />
+    </state>
+    <state x="2096" y="124" key="com.intellij.testIntegration.createTest.CreateTestDialog/0.0.1366.728/1366.-113.1920.1040@1366.-113.1920.1040" timestamp="1612976094237" />
+    <state x="1717" y="-22" key="new project wizard" timestamp="1612944657057">
+      <screen x="1366" y="-113" width="1920" height="1040" />
+    </state>
+    <state x="1717" y="-22" key="new project wizard/0.0.1366.728/1366.-113.1920.1040@1366.-113.1920.1040" timestamp="1612944657057" />
+  </component>
+</project>

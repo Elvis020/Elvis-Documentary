@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="cb06b088-991b-4344-84a3-be6f8ea9cb63" name="Default Changelist" comment="" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Interface" />
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="ProjectId" id="1oEqw4SZzRxNNpscK7N5oRIlVgP" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="last_opened_file_path" value="$USER_HOME$/Documents/mockito-core-3.5.15.jar" />
+    <property name="project.structure.last.edited" value="Modules" />
+    <property name="project.structure.proportion" value="0.15" />
+    <property name="project.structure.side.proportion" value="0.2" />
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="cb06b088-991b-4344-84a3-be6f8ea9cb63" name="Default Changelist" comment="" />
+      <created>1612862334796</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1612862334796</updated>
+    </task>
+    <servers />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="1366" y="-16" key="#Project_Structure" timestamp="1612863259504">
+      <screen x="1366" y="-113" width="1920" height="1040" />
+    </state>
+    <state x="1366" y="-16" key="#Project_Structure/0.0.1366.728/1366.-113.1920.1040@1366.-113.1920.1040" timestamp="1612863259504" />
+    <state x="1666" y="126" key="#com.intellij.ide.util.MemberChooser" timestamp="1612864795997">
+      <screen x="1366" y="-113" width="1920" height="1040" />
+    </state>
+    <state x="1666" y="126" key="#com.intellij.ide.util.MemberChooser/0.0.1366.728/1366.-113.1920.1040@1366.-113.1920.1040" timestamp="1612864795997" />
+    <state x="1567" y="150" key="FileChooserDialogImpl" timestamp="1612863256547">
+      <screen x="1366" y="-113" width="1920" height="1040" />
+    </state>
+    <state x="1567" y="150" key="FileChooserDialogImpl/0.0.1366.728/1366.-113.1920.1040@1366.-113.1920.1040" timestamp="1612863256547" />
+    <state x="74" y="0" key="new project wizard" timestamp="1612971896445">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="74" y="0" key="new project wizard/0.0.1366.728/1366.-113.1920.1040@0.0.1366.728" timestamp="1612971896445" />
+  </component>
+</project>

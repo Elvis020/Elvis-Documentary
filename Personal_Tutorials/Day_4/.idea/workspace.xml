@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="bfe1494d-82fe-4fb6-b28b-35aa52cabcfb" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/../Day_3/Java_Snippets/.idea/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Day_3/Java_Snippets/.idea/Java_Snippets.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Day_3/Java_Snippets/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Day_3/Java_Snippets/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Day_3/Java_Snippets/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Day_4.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Java_Concepts/.idea/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Java_Concepts/.idea/description.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Java_Concepts/.idea/encodings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Java_Concepts/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Java_Concepts/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Java_Concepts/.idea/project-template.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Java_Concepts/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Java_Concepts/Java_Concepts.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Java_Concepts/src/com/elvis/training_labs_personal/ArraysTut.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Java_Concepts/src/com/elvis/training_labs_personal/EnumExample.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Java_Concepts/src/com/elvis/training_labs_personal/InternExample.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Java_Concepts/src/com/elvis/training_labs_personal/StringBuilder_Buffer_Eg.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Java_Concepts/src/com/elvis/training_labs_personal/StringBuilder_Buffer_Test.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Java_Concepts/src/com/elvis/training_labs_personal/StrngManipulation.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Day_4.txt" beforeDir="false" afterPath="$PROJECT_DIR$/Day_4.txt" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../.." />
+  </component>
+  <component name="ProjectId" id="1o0i1MHCRuNBkB0jHZnNRtSyHe3" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../Day_3/Java_Snippets" />
+  </component>
+  <component name="RunManager">
+    <configuration name="Main" type="Application" factoryName="Application" temporary="true">
+      <option name="MAIN_CLASS_NAME" value="com.elvis.training_labs_personal.Main" />
+      <module name="Day_4" />
+      <option name="WORKING_DIRECTORY" value="file://$PROJECT_DIR$" />
+      <RunnerSettings RunnerId="Run" />
+      <ConfigurationWrapper RunnerId="Run" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="bfe1494d-82fe-4fb6-b28b-35aa52cabcfb" name="Default Changelist" comment="" />
+      <created>1612429694208</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1612429694208</updated>
+    </task>
+    <servers />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="165" y="122" key="FileChooserDialogImpl" timestamp="1612429804156">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="165" y="122" key="FileChooserDialogImpl/0.0.1366.728/1366.0.1920.1040@0.0.1366.728" timestamp="1612429804156" />
+  </component>
+</project>

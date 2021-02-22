@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="14c07085-86bd-4035-b709-2a0dfa46a0e4" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/Java_Snippets.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Day_4/Day_4.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Java_Concepts/.idea/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Java_Concepts/.idea/description.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Java_Concepts/.idea/encodings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Java_Concepts/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Java_Concepts/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Java_Concepts/.idea/project-template.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Java_Concepts/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Java_Concepts/Java_Concepts.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Java_Concepts/src/com/elvis/training_labs_personal/ArraysTut.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Java_Concepts/src/com/elvis/training_labs_personal/ArraysTut2.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Java_Concepts/src/com/elvis/training_labs_personal/EnumExample.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Java_Concepts/src/com/elvis/training_labs_personal/InternExample.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Java_Concepts/src/com/elvis/training_labs_personal/StringBuilder_Buffer_Eg.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Java_Concepts/src/com/elvis/training_labs_personal/StringBuilder_Buffer_Test.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Java_Concepts/src/com/elvis/training_labs_personal/StrngManipulation.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Java_Concepts/src/com/elvis/training_labs_personal/TwoD_Arr.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Java_Concepts/src/com/elvis/training_labs_personal/VarArgsTut.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Java_Project/.idea/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Java_Project/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Java_Project/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Java_Project/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Java_Project/Java_Project.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Java_Project/Java_Project/Java_Project_1.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Java_Project/Java_Project/src/com/elvis/training_with_Tim_Buchalka/IHasLevel.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Java_Project/Java_Project/src/com/elvis/training_with_Tim_Buchalka/Nameable.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Java_Project/Java_Project/src/com/elvis/training_with_Tim_Buchalka/Register.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Java_Project/Java_Project/src/com/elvis/training_with_Tim_Buchalka/StudentTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../OOPTut/.idea/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../OOPTut/.idea/description.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../OOPTut/.idea/encodings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../OOPTut/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../OOPTut/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../OOPTut/.idea/project-template.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../OOPTut/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../OOPTut/OOPTut.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../OOPTut/out/production/OOPTut/com/elvis/training_labs_personal/Child.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../OOPTut/out/production/OOPTut/com/elvis/training_labs_personal/Main.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../OOPTut/out/production/OOPTut/com/elvis/training_labs_personal/Parent.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../OOPTut/src/com/elvis/training_labs_personal/AloneInterfaceExam.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../OOPTut/src/com/elvis/training_labs_personal/Child.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../OOPTut/src/com/elvis/training_labs_personal/ForStandAlone.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../OOPTut/src/com/elvis/training_labs_personal/GrandChild.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../OOPTut/src/com/elvis/training_labs_personal/HybridClass.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../OOPTut/src/com/elvis/training_labs_personal/Interface1.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../OOPTut/src/com/elvis/training_labs_personal/Interface2.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../OOPTut/src/com/elvis/training_labs_personal/Interface3.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../OOPTut/src/com/elvis/training_labs_personal/MultipleInterfaces.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../OOPTut/src/com/elvis/training_labs_personal/Parent.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Day_4/Day_4.txt" beforeDir="false" afterPath="$PROJECT_DIR$/../../Day_4/Day_4.txt" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../../.." />
+  </component>
+  <component name="ProjectId" id="1o0iFdJ57XvRM7VCUfid9adaI57" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="project.structure.last.edited" value="Modules" />
+    <property name="project.structure.proportion" value="0.15" />
+    <property name="project.structure.side.proportion" value="0.2" />
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="14c07085-86bd-4035-b709-2a0dfa46a0e4" name="Default Changelist" comment="" />
+      <created>1612429805546</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1612429805546</updated>
+    </task>
+    <servers />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="0" y="0" key="#Project_Structure" timestamp="1612429824123">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="0" y="0" key="#Project_Structure/0.0.1366.728/1366.0.1920.1040@0.0.1366.728" timestamp="1612429824123" />
+    <state x="0" y="0" key="new project wizard" timestamp="1612439689922">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="0" y="0" key="new project wizard/0.0.1366.728/1366.0.1920.1040@0.0.1366.728" timestamp="1612439689922" />
+  </component>
+</project>

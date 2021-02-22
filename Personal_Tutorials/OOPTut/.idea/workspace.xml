@@ -1,0 +1,166 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="de4cf961-1799-4989-bb54-65716c408aa8" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/../Day_3/Java_Snippets/.idea/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Day_3/Java_Snippets/.idea/Java_Snippets.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Day_3/Java_Snippets/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Day_3/Java_Snippets/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Day_3/Java_Snippets/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Day_4/Day_4.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Java_Concepts/.idea/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Java_Concepts/.idea/description.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Java_Concepts/.idea/encodings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Java_Concepts/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Java_Concepts/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Java_Concepts/.idea/project-template.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Java_Concepts/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Java_Concepts/Java_Concepts.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Java_Concepts/src/com/elvis/training_labs_personal/ArraysTut.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Java_Concepts/src/com/elvis/training_labs_personal/ArraysTut2.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Java_Concepts/src/com/elvis/training_labs_personal/EnumExample.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Java_Concepts/src/com/elvis/training_labs_personal/InternExample.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Java_Concepts/src/com/elvis/training_labs_personal/StringBuilder_Buffer_Eg.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Java_Concepts/src/com/elvis/training_labs_personal/StringBuilder_Buffer_Test.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Java_Concepts/src/com/elvis/training_labs_personal/StrngManipulation.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Java_Concepts/src/com/elvis/training_labs_personal/TwoD_Arr.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Java_Concepts/src/com/elvis/training_labs_personal/VarArgsTut.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Java_Project/.idea/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Java_Project/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Java_Project/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Java_Project/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Java_Project/Java_Project.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Java_Project/Java_Project/Java_Project_1.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Java_Project/Java_Project/src/com/elvis/training_with_Tim_Buchalka/IHasLevel.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Java_Project/Java_Project/src/com/elvis/training_with_Tim_Buchalka/Nameable.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Java_Project/Java_Project/src/com/elvis/training_with_Tim_Buchalka/Register.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Java_Project/Java_Project/src/com/elvis/training_with_Tim_Buchalka/StudentTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/description.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/project-template.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/OOPTut.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/OOPTut/com/elvis/training_labs_personal/Child.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/OOPTut/com/elvis/training_labs_personal/Main.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/OOPTut/com/elvis/training_labs_personal/Parent.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/elvis/training_labs_personal/AloneInterfaceExam.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/elvis/training_labs_personal/Child.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/elvis/training_labs_personal/ForStandAlone.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/elvis/training_labs_personal/GrandChild.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/elvis/training_labs_personal/HybridClass.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/elvis/training_labs_personal/Interface1.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/elvis/training_labs_personal/Interface2.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/elvis/training_labs_personal/Interface3.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/elvis/training_labs_personal/MultipleInterfaces.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/elvis/training_labs_personal/Parent.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Day_4/Day_4.txt" beforeDir="false" afterPath="$PROJECT_DIR$/../Day_4/Day_4.txt" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+        <option value="Interface" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../.." />
+  </component>
+  <component name="ProjectId" id="1o3PqOwQcjH84dN4AsEWftXYHiG" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="ASKED_SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+  </component>
+  <component name="RunManager" selected="Application.AloneInterfaceExam">
+    <configuration name="AloneInterfaceExam" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.elvis.training_labs_personal.AloneInterfaceExam" />
+      <module name="OOPTut" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.elvis.training_labs_personal.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Main" type="Application" factoryName="Application" temporary="true">
+      <option name="MAIN_CLASS_NAME" value="com.elvis.training_labs_personal.Main" />
+      <module name="OOPTut" />
+      <option name="WORKING_DIRECTORY" value="file://$PROJECT_DIR$" />
+      <RunnerSettings RunnerId="Run" />
+      <ConfigurationWrapper RunnerId="Run" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <list>
+      <item itemvalue="Application.Main" />
+      <item itemvalue="Application.AloneInterfaceExam" />
+    </list>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.AloneInterfaceExam" />
+        <item itemvalue="Application.Main" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="de4cf961-1799-4989-bb54-65716c408aa8" name="Default Changelist" comment="" />
+      <created>1612512492887</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1612512492887</updated>
+    </task>
+    <servers />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="2052" y="96" key="#com.intellij.ide.util.MemberChooser" timestamp="1612514554567">
+      <screen x="1366" y="0" width="1920" height="1040" />
+    </state>
+    <state x="488" y="67" key="#com.intellij.ide.util.MemberChooser/0.0.1366.728/1366.0.1920.1040@0.0.1366.728" timestamp="1612513905463" />
+    <state x="2052" y="96" key="#com.intellij.ide.util.MemberChooser/0.0.1366.728/1366.0.1920.1040@1366.0.1920.1040" timestamp="1612514554567" />
+    <state width="910" height="110" key="GridCell.Tab.0.bottom" timestamp="1612519104037">
+      <screen x="1366" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1319" height="110" key="GridCell.Tab.0.bottom/0.0.1366.728/1366.0.1920.1040@0.0.1366.728" timestamp="1612514144868" />
+    <state width="910" height="110" key="GridCell.Tab.0.bottom/0.0.1366.728/1366.0.1920.1040@1366.0.1920.1040" timestamp="1612519104037" />
+    <state width="910" height="110" key="GridCell.Tab.0.center" timestamp="1612519104037">
+      <screen x="1366" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1319" height="110" key="GridCell.Tab.0.center/0.0.1366.728/1366.0.1920.1040@0.0.1366.728" timestamp="1612514144867" />
+    <state width="910" height="110" key="GridCell.Tab.0.center/0.0.1366.728/1366.0.1920.1040@1366.0.1920.1040" timestamp="1612519104037" />
+    <state width="910" height="110" key="GridCell.Tab.0.left" timestamp="1612519104037">
+      <screen x="1366" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1319" height="110" key="GridCell.Tab.0.left/0.0.1366.728/1366.0.1920.1040@0.0.1366.728" timestamp="1612514144867" />
+    <state width="910" height="110" key="GridCell.Tab.0.left/0.0.1366.728/1366.0.1920.1040@1366.0.1920.1040" timestamp="1612519104037" />
+    <state width="910" height="110" key="GridCell.Tab.0.right" timestamp="1612519104037">
+      <screen x="1366" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1319" height="110" key="GridCell.Tab.0.right/0.0.1366.728/1366.0.1920.1040@0.0.1366.728" timestamp="1612514144867" />
+    <state width="910" height="110" key="GridCell.Tab.0.right/0.0.1366.728/1366.0.1920.1040@1366.0.1920.1040" timestamp="1612519104037" />
+    <state x="498" y="273" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1612512553966">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="498" y="273" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.0.1366.728/1366.0.1920.1040@0.0.1366.728" timestamp="1612512553966" />
+  </component>
+</project>
