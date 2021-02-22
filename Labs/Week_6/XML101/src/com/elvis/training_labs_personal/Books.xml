@@ -1,9 +1,18 @@
 <?xml version="1.0" ?>
-<!DOCTYPE book SYSTEM "bookex.dtd">
-<book>
-    <title>Learning XML</title>
-    <author>Erik T. Ray</author>
-    <publisher>O'Reilly</publisher>
-    <pubdate>2001</pubdate>
-    <cost>34.95</cost>
-</book>
+<!DOCTYPE library SYSTEM "bookex.dtd">
+<library>
+    <book>
+        <title>Learning XML</title>
+        <author>Erik T. Ray</author>
+        <publisher>O'Reilly</publisher>
+        <pubdate>2001</pubdate>
+        <cost>34.95</cost>
+    </book>
+    <book>
+        <title>Learning XML with DTD</title>
+        <author>Spacey Elvis</author>
+        <publisher>Johnson and Sons</publisher>
+        <pubdate>2021</pubdate>
+        <cost>22.87</cost>
+    </book>
+</library>

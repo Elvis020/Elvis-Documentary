@@ -1,0 +1,11 @@
+<!ELEMENT expenses (bags,watches,shirts,shoes) >
+<!ELEMENT bags (travelling_Bag,school_Bag)>
+<!ELEMENT shirts (with_cuffs,without_cuffs) >
+<!ELEMENT shoes (lofers,desert_boot)>
+<!ELEMENT travelling_Bag (#PCDATA)>
+<!ELEMENT school_Bag (#PCDATA)>
+<!ELEMENT with_cuffs (#PCDATA)>
+<!ELEMENT without_cuffs (#PCDATA)>
+<!ELEMENT watches (#PCDATA)>
+<!ELEMENT lofers (#PCDATA)>
+<!ELEMENT desert_boot (#PCDATA)>

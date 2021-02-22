@@ -1,0 +1,18 @@
+<?xml version="1.0" ?>
+<!DOCTYPE expenses SYSTEM "expenses.dtd">
+
+<expenses>
+    <bags>
+        <travelling_Bag/>
+        <school_Bag/>
+    </bags>
+    <watches/>
+    <shirts>
+        <with_cuffs/>
+        <without_cuffs/>
+    </shirts>
+    <shoes>
+        <lofers/>
+        <desert_boot/>
+    </shoes>
+</expenses>

@@ -1,6 +1,8 @@
+<!ELEMENT library (book)*>
+<!ELEMENT book (title,author+,publisher,pubdate,cost) >
 <!ELEMENT title (#PCDATA)>
 <!ELEMENT author  (#PCDATA)>
 <!ELEMENT publisher  (#PCDATA)>
 <!ELEMENT cost  (#PCDATA)>
 <!ELEMENT pubdate (#PCDATA) >
-<!ELEMENT book (title,author+,publisher,pubdate,cost) >
+
