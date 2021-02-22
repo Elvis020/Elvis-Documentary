@@ -1,0 +1,18 @@
+<?xml version="1.0" ?>
+<!DOCTYPE file[ 
+    <!ELEMENT file (type, permissions,hard-links,file-owner,file-group,size,date,name)>
+    ]>
+<file>
+    <type>d</type>
+    <permissions>
+        <!-- <owner>rwx</owner>
+        <group>rwx</group>
+        <user>r-x</user> -->
+    </permissions>
+    <hard-links>2</hard-links>
+    <file-owner>evad</file-owner>
+    <file-group>cc3591</file-group>
+    <size>8192</size>
+    <date>Oct-29-2001</date>
+    <name>play</name>
+</file>

@@ -1,0 +1,12 @@
+<!ELEMENT file (type, permissions,hard-links,file-owner,file-group,size,date,name)>
+<!ELEMENT type (#PCDATA)>
+<!ELEMENT owner (#PCDATA)>
+<!ELEMENT group (#PCDATA)>
+<!ELEMENT user (#PCDATA)>
+<!ELEMENT permissions (owner,group,user)>
+<!ELEMENT hard-links (#PCDATA)>
+<!ELEMENT file-owner (#PCDATA)>
+<!ELEMENT file-group (#PCDATA)>
+<!ELEMENT size (#PCDATA)>
+<!ELEMENT date (#PCDATA)>
+<!ELEMENT name (#PCDATA)>
