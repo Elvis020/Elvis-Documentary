@@ -1,0 +1,81 @@
+[Snippet 1 - Welcome to XML]
+* "Semi-Structured data is data that is not entirely structured."
+* "XML - extensible markup language"
+* "XML's biggest contender is json."
+* "Most settings file are in XML format."
+* "XML was created after HTML"
+* "XML is used to structure data...not for display purposes."
+* "Its a markup lang for marking data for processing"
+* "Root element is exactly one."
+* "Each element needs a closing tag"
+* "Elements with no body are called empty elements....and they are self-closing tags."
+* "Attributes are often used with empty tags.They convey additional info"
+* "Entity references: Characters that mean something to the XML processor."
+
+[Snippet 2]
+* "CDATA section: Section in XML that charaters are not processd by the XML processor."
+* "CDATA is useful when incorporating certain types of data."
+* "CDATA - Character Data"
+* "XML docs may also contain comments <!--  -->"
+* "XML have headers, which provide information abt the XML docs"
+* "In XML, attributes must be quoted."
+* "Namespace: A collection of element and attribute names."
+* "Namespace are indicated by a prefix."
+* "URI are used to identify namespace."
+* "CSS can be applied to XML for styling"
+
+
+[Snippet 3]
+* "For reading XML : Parsing"
+* "For writing XML : Directly or by Serialisation"
+* "For querying XML : XPath"
+* "XPath allows info to be extracted from XML Documents"
+* "XML is stricter than HTML in terms of syntax"
+* "A doc may be well formed(parseable) and not valid"
+* "DTD is used to determine whether the XML doc is valid."
+* "DTD: Document Type Definition"
+* "DTD may be internal/external or a mixture."
+* "In DTD, order is not considered.And that is a downside."
+* "ID - like primary Key in DB"
+* "IDREF - like foreign Key in DB"
+* "Entities are strings that are replaced when the XML is processed."
+* "Parameter entities are used within the DTD doc"
+
+
+
+[Snippet 4]
+* "DTD is independent of namespaces"
+* "Schema Instance doc is the doc to be validated by your Schema"
+* "In XML Schema, you can define your own types."
+* "Element occurence count can be stated in the Schema"
+* "XML is used to caary information and messages."
+* "SAX - push:stream"
+*""
+{focus one
+    -Schemas
+    -Java Parsing
+    -Anything without .NET
+}
+
+[??What is SOAP API??]
+[SOAP - Simple Object Access Protocol]
+
+* "Attributes of elements are declared in the DTD"
+* "Attribute type may be String, tokenized or enumerated."
+* "Format for attribute declaration: <!ATTLIST element-name attribute-defs>"
+* "attribute-defs: attribute-name   attribute-type   default value"
+* "Eg. of String type: <!ATTLIST country name CDATA>"
+* "Eg. of Enumerated type: <!ATTLIST country currency (GBP | EUR | USD|JPY) "GBP">"
+* "Eg. of Tokenized type: <!ATTLIST person residence IDREF #REQUIRED>"
+* "Attributes can have additional information, and this is done using #"
+* "Eg include: #REQUIRED,#IMPLIED, #FIXED"
+* "Tokenized attributes have values that can be recognised by XML processors as tokens with specific meanings."
+* "Document prologin xml is <?xml version="1.0" ?>"
+
+
+[Snippet 5]
+* "Elements are the primary building blocks of XML."
+* "PCDATA or "Parseable Character Data" "
+* "Processing Instructions (PIs) can be considered as directives to XML processors that will be reading the document."
+* "Some processors perform optimisations if the standalone value is set to "yes",indicating that all the necessary information can be found locally in the file."
+* ""

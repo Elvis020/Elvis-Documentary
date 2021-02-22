@@ -1,0 +1,34 @@
+<!-- My Version -->
+<?xml version="1.0" ?>
+<file>
+    <type></type>
+    <permissions>
+        <owner></owner>
+        <group></group>
+        <user></user>
+    </permissions>
+    <number-of-hard-links></number-of-hard-links>
+    <file-owner></file-owner>
+    <file-group></file-group>
+    <file-size></file-size>
+    <date></date>
+    <file-name></file-name>
+</file>
+
+
+
+<!-- Alternative Solution -->
+<file-representation>
+    <file filetype="d" permissions="rwxrwxr-x" hardLinks="2" owner="evad" group="cc3591" size="8192" date="Oct-29-2001">play</file>
+    <file filetype="-" permissions="rw-rw-r--" hardLinks="1" owner="evad" group="cc3591" size="5539" date="Jul-27-2000">resist</file>
+    <file filetype="-" permissions="rw-rw-r--" hardLinks="1" owner="evad" group="cc3591" size="88" date="Sep-28-2001" >rory2.html</file>
+    <file filetype="-" permissions="rwxrwxr-x" hardLinks="1" owner="evad" group="cc3591" size="1902" date="May-18-2001" >rory.cgi</file>
+    <file filetype="-" permissions="rw-r--r--" hardLinks="1" owner="evad" group="cc3591" size="1697" date="Nov-28-2000">rory.html</file>
+   
+    <file filetype="l" permissions="rwxrwxrx" hardLinks="2" owner="evad" group="cc3591" size="8192" date="Oct-29-2001" name="play" ></file>
+    <file filetype="-" permissions="rwxrwxrx" hardLinks="2" owner="evad" group="cc3591" size="8192" date="Oct-29-2001" name="play" ></file>
+    <file filetype="-" permissions="rwxrwxrx" hardLinks="2" owner="evad" group="cc3591" size="8192" date="Oct-29-2001" name="play" ></file>
+    <file filetype="-" permissions="rwxrwxrx" hardLinks="2" owner="evad" group="cc3591" size="8192" date="Oct-29-2001" name="play" ></file>
+    <file filetype="l" permissions="rwxrwxrx" hardLinks="2" owner="evad" group="cc3591" size="8192" date="Oct-29-2001" name="play" ></file>
+    <file filetype="d" permissions="rwxrwxrx" hardLinks="2" owner="evad" group="cc3591" size="8192" date="Oct-29-2001" name="play" ></file>
+</file-representation>

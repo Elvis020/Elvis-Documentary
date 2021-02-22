@@ -1,0 +1,37 @@
+* Type  
+    -directory
+    -file
+    -symbolic link
+    -device
+    -named pipe
+*Ownership and permissions
+*size
+*timestamps
+*name
+
+
+// Version 1
+<fileInformation>
+    <type directory="" file="" symbolicLink="" device="" namedPipe=""   ></type>
+    <ownership><permissions></permissions></ownership>
+    <size></size>
+    <timestamps></timestamps>
+    <name></name>
+</fileInformation>
+
+
+// Version 2
+<?xml version="1.0" ?>
+<file>
+    <permissions>
+        <owner></owner>
+        <group></group>
+        <user></user>
+    </permissions>
+        <number-of-hard-links></number-of-hard-links>
+        <file-owner></file-owner>
+        <file-group></file-group>
+        <file-size></file-size>
+        <date></date>
+        <file-name></file-name>
+</file>
