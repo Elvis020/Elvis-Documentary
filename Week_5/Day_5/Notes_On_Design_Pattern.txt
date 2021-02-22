@@ -1,8 +1,59 @@
+
+
 * "The abstraction has a composition relation with the implementor."
 * "In the Bridge pattern we have two hierachies"
 * "The bridge has 2 parts, the abstraction and the implementation."
 * "Abstraction: interface/abstract class"
+
+
 * "Implementation: interface/abstract class."
 *"Allows the abstraction and implementation to be developed independently. - Lose coupling"
 * "The abstraction contains a reference to the implementor."
+
 * "Children of the abstraction are called refined abstraction."
+
+
+
+
+"Abstraction – core of the bridge design pattern and defines the crux. Contains a reference to the implementer."
+
+
+"Refined Abstraction – Extends the abstraction takes the finer detail one level below. Hides the finer elements from implemetors."
+
+
+"Implementer – It defines the interface for implementation classes. This interface does not need to correspond directly to the abstraction interface and can be very different. Abstraction imp provides an implementation in terms of operations provided by Implementer interface."
+
+
+"Concrete Implementation – Implements the above implementer by providing concrete implementation."
+
+
+
+
+Advantages include:
+1. "Decoupling abstraction from implementation"
+2. "Cleaner code and Reduction in executable size."
+3. "Improved Extensibility – Abstraction and implementation can be extended independently."
+4. "Loosely coupled client code – Abstraction separates the client code from the implementation."
+
+Disadvantages
+1. "Increases complexity."
+2. "Double indirection"-This will have a slight impact on performance. The abstraction needs to pass messages along to the implementator for the operation to get executed.
+
+switch implementation at runtime
+
+Uses 
+Mobile Phone buttons
+Webservice approximate
+multil platform invariant.
+
+
+Difference:
+
+Bridge Pattern: Separates abstraction from its implementation, so both can be modified independently.
+Factory Pattern: It is way of creating object but letting subclasses decide which class to instantiate.
+
+
+
+
+
+In the above example, operating system specific methods are implemented by subclasses of CImageImp class. CImage class must delegate the message to a CImageImp subclass which implements the appropriate method. This will have a slight impact on performance.

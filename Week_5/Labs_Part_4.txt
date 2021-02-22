@@ -1,0 +1,16 @@
+1. "select p2.pub_name,substring(pf.pr_info,1,40) from publishers p2 inner join pub_info pf on p2.pub_id = pf.pub_id ;"
+2. "select t.title,p.pub_id,p.pub_name,t.title_id from publishers p inner join titles t on p.pub_id = t.pub_id;"
+3.  "select t.title_id,sum(s.qty) as "Total sold"from titles t inner join sales s on t.title_id = s.title_idgroup by t.title_id;"
+4. "select s.ord_num,d2.discount ,d2.discounttype  from stores st inner join sales s  on st.stor_id = s.stor_id inner join discounts d2  on s.stor_id = d2.stor_id order by s.ord_num ;"
+5. "select a.au_fname,p.pub_name  from authors a inner join publishers p  on a.city = p.city ;"
+6. "select a.au_fname,p.pub_name  from authors a inner join publishers p  on a.city = p.city inner join titles t  on p.pub_id = t.pub_id;"
+7. "select * from publishers p2  full outer join pub_info pf  on p2.pub_id = pf.pub_id;"
+8. "select p.pub_name,t.title,sum(s.qty) as "Total quantity of books sold" from publishers p inner join titles t  on p.pub_id = t.pub_id inner join sales s  on t.title_id  = s.title_id group by p.pub_name,t.title;"
+
+
+[Business Queries]
+1. "select p.pub_name,count(t.title) as "Books published by each publisher" from publishers p inner join titles t  on p.pub_id = t.pub_id  group by p.pub_name ;"
+2. "select p.pub_name,t."type" ,count(t."type")
+from publishers p inner join titles t 
+on p.pub_id = t.pub_id 
+group by p.pub_name,t."type" ;"
