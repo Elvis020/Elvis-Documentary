@@ -1,0 +1,12 @@
+[Snippet on XML b4 python]
+* "If XML doc follows the Schema file, i.e XSD, then the XML doc is a valid doc."
+* "XML schema files have the extension .xsd"
+* "The XML Schema is a contract between 2 application users"
+* "The Schema file is such that by looking at the Schema file, you would know what to include in the config files."
+* "Schema types:  Inbuilt types,simple types,complex types"
+* "The in-built Schema types are extended by creating simple types"
+
+
+
+[Snippet 1]
+* ""
