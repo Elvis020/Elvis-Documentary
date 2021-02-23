@@ -78,4 +78,6 @@
 * "PCDATA or "Parseable Character Data" "
 * "Processing Instructions (PIs) can be considered as directives to XML processors that will be reading the document."
 * "Some processors perform optimisations if the standalone value is set to "yes",indicating that all the necessary information can be found locally in the file."
-* ""
+* "The first line n the XML doc is the declaration."
+* "The standalone attribute indicates whether the xml doc need external data to work or not.By default, standalone="no""
+* "If the standalone attribute is yes, the it means it does not use anyother doc"

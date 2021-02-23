@@ -1,0 +1,24 @@
+<?xml  version="1.0" encoding="UTF-8" standalone="no" ?>
+<!--This xml documents olds licence information-->
+<DriversLicense status="suspended">
+    <Number>12345</Number>
+    <FirstName>Elvis</FirstName>
+    <LastName>Amoako &amp;</LastName>
+    <DateOfBirth>22nd October, 1996</DateOfBirth>
+
+<!--    Inserting CDATA blocks-->
+    <![CDATA[
+        <DateOfIssue>11th June, 2012</DateOfIssue>
+    ]]>
+    <VehicleType>Car</VehicleType>
+
+    <ExpiryDate>11th June, 2015</ExpiryDate>
+    <Photo location="servername/filename"/>
+    <Address>
+        <Street>Steven Kings Rd</Street>
+        <City>King of Russia</City>
+        <State>KR</State>
+        <country>Myghanistan</country>
+        <ZipCode>198320</ZipCode>
+    </Address>
+</DriversLicense>
