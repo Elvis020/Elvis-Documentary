@@ -32,7 +32,10 @@
 1. This means python supports passing functions as arguments to other functions
 2. Returning them as the values from other functions.
 3. Assigning them to variables or storing them in data structures."
-
 *"You can create aliases for functions"
 
+[difference between yield and re]
+
 [Snippet 3]
+* "You can use **kwargs to pass arguments into a dictionary"
+* "You can use *args to pass arguments into a tuple"
