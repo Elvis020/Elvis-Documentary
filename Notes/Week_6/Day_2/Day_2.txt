@@ -9,4 +9,30 @@
 
 
 [Snippet 1]
-* ""
+* "Came in 1991 , created by Guido van Rossum"
+* "Its an interpreted language. i.e It is executed line-by-line"
+* "Jython = Python on JVM"
+* "For the Zen of python, import this."
+* "Pep 8 is the style guide for writing python code."
+* "Use the #! directive to specify path to Python interpreter"
+* "Lazy evaluation, the values are only returned when needed."
+* "You can use else with for-loops"
+* "We don't have do-while loop in Pyhton"
+
+
+[Snippet 2]
+* "We don't have i++ and ++i in python"
+* "This is because Integers are immutable, so u rather do i +=1"
+*"Lists are ordered while sets are unordered"
+* "Inegers in python, don't have max value. But floats do."
+* "When you slice a tuple, the result is also a tuple"
+* "In python3, keys(),values(),items() are lazily evaluated."
+*"Nonetype is also a type in  python"
+* "Functions are first-class objects. i.e
+1. This means python supports passing functions as arguments to other functions
+2. Returning them as the values from other functions.
+3. Assigning them to variables or storing them in data structures."
+
+*"You can create aliases for functions"
+
+[Snippet 3]
