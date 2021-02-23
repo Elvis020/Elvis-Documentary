@@ -1,0 +1,44 @@
+[Snippet 1]
+* "Starting a business...where  do you get money
+    - Loans: When to pay them after getting it
+    -Who to get it from. Parents,Family etc
+    -
+"
+* "1602: First time share paper cert was issued"
+* "Paper that represents property. LSE"
+*"VC Funding: Companies that invest in start up businesses"
+* "With debt, there is a legal obligation on you to pay it  but if its an equity, there is no legal obligation on you."
+* "With equity, there is no repayment"
+* "With equity, it can be paid in dividends"
+* "The risk for equity is higher if things go wrong."
+
+
+[Snippet 2]
+* "Debt has no vote, but with equity, shares have a vote."
+* "Too much debt, leads to bankruptcy"
+* "Common shares are the best known equity product"
+* "Limited liablility: You can't lose more than the money you have invested."
+* "Types of Equity Products:
+    -Common Shares
+    -
+"
+* "Problems with issuing shares are:
+    -Loss of control
+    -
+"
+* "10-Q: Quarterly reports"
+* "10-k: Annual Reports"
+* "Equity: The value of shares sold by a company"
+* "Outstanding shares: Issued - Treasury"
+* "Dividends: Discrete cashflow"
+
+
+
+
+[Snippet 3]
+* "There are different classes of shares"
+* "Bull market is market with prices going up"
+* "Bear market is not like the bull market"
+*"If share price is too low, its a problem in US and Germany"
+* "Preference share is between a bond and a common share"
+* "Market capitalization: No of outstanding-shares * share price"
