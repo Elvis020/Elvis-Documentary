@@ -1,0 +1,39 @@
+[Snippet on Python decimal Arithmetic conundrum]
+* "decimal is more precise than floating point numbers"
+* "https://docs.python.org/3.7/library/decimal.html?highlight=rounding%20error
+    -Check 2nd and 3rd points
+"
+
+
+[Snippet 1]
+* "Data Science is a multidisciplinary field that aims to extract knowledge (or insights) from data to generate business value"
+* "Data -> Dev't of Data Product -> Business Value"
+* "Data -> Discovery of Data Insight -> Business Value"
+* "ML - helps you to train your models and then it can predict"
+* "There are two branches of statistics - classical statistics and Bayesian statistics."
+* "Many inferential techniques and machine learning algorithms lean on knowledge of linear algebra."
+* " A popular method to discover hidden characteristics in a data set is SVD (Singular-Value Decomposition)"
+* "Having this business acumen is just as important as having acumen for tech and algorithms."
+* "Data science utilizes technology in order to process enormous data sets and work with complex algorithms, and it requires tools far more sophisticated than Excel."
+* "Core languages associated with data science include SQL, Python, Java, Scala and R."
+
+[Snippet 2]
+* "Data munging is a term to describe the data wrangling to bring together data into cohesive views, as well as the janitorial work of cleaning up data so that it is polished and ready for downstream usage."
+* "
+Data Analytics LifeCycle
+Discovery -> Data Prep -> Model Planning -> Model Building -> Communicate Results -> Operationalize"
+* "NumPy seamlessly and speedily integrate with a wide variety of databases."
+* "With numpy, you don't need to apply a loop todo operations on elements in an array/matrix."
+* "Stride: Indicates the number of bytes to movefrom one cell to another"
+* "Remember that ranges are lazily evaluated."
+* "Difference between eye and identity: Identity is for square matrix and eye is for rectangular matrix"
+* "You can copy arrays using the copy() method."
+* "Matrix multiplication = 1st row * 1 column + 1st row * 2nd column"
+
+[Snippet 3]
+* "Multidimensional arrays can be flattened into a 1D array"
+* "ravel??? --> not clear"
+* "To update 1D array to 2D aray use np.newaxis()"
+* "tiling arrays"
+* "np.savetext() : to save into a file"
+* "np.loadtxt(): used to load data"

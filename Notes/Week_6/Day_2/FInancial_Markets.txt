@@ -20,7 +20,7 @@
 * "Limited liablility: You can't lose more than the money you have invested."
 * "Types of Equity Products:
     -Common Shares
-    -
+    -                 
 "
 * "Problems with issuing shares are:
     -Loss of control

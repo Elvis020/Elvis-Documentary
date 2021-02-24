@@ -34,7 +34,7 @@
 3. Assigning them to variables or storing them in data structures."
 *"You can create aliases for functions"
 
-[difference between yield and re]
+[??difference between yield and return???]
 
 [Snippet 3]
 * "You can use **kwargs to pass arguments into a dictionary"
