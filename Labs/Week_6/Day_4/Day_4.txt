@@ -1,0 +1,22 @@
+[Snippet 1]
+* "The pandas library is highly optimized for performance."
+* "2 data structures in pandas: Series and Dataframes"
+* "With series, you can access them via labels"
+* "With df, different columns have different data types"
+* "The structure in df, is tabular and spreadsheet-like"
+* "You can apply function to a series"
+* "Series is a 1D array with labels/indexes"
+* "There is an apply() in series"
+* "To check for missing data use the isnull() method"
+
+
+[Snippet 2]
+* "😗To discard missing data use the dropna() method."
+* "Use fillna(<value>)  method, is used when you want to replace the na values  with somthing"
+* "You can plot Series, by just plotting using the data vrs the index"
+* "With df, data can be accessed via rows, columns and intersection of rows and columns"
+* "sumsum() method for cumulated addition, and it is done in a series"
+* "In df, we have the sort() for sorting values"
+* "In df, we have the groupby() to split data in different grps based on a criteria"
+* "Use the agg() function to use statistical methods inside..check slides for it. :)😂"
+* "Plotting a df"
