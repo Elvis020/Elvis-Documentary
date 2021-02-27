@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<pat:Patient xmlns:pat="http://www.example.org/Patient">
+  <pat:name>Elvis Amoako</pat:name>
+  <pat:age>23</pat:age>
+  <pat:email>elvis@gmail.com</pat:email>
+  <pat:gender>Male</pat:gender>
+  <pat:phone>0544181919</pat:phone>
+</pat:Patient>

@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<pas:Passenger xmlns:pas="http://elvis.com/Passenger">
+  <pas:name>Kojo Nututu</pas:name>
+  <pas:date_of_birth>2008-09-29</pas:date_of_birth>
+  <pas:seat_no>3</pas:seat_no>
+  <pas:gender>male</pas:gender>
+</pas:Passenger>

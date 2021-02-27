@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<schema xmlns="http://www.w3.org/2001/XMLSchema"
+        targetNamespace="http://www.example.org/Patient"
+        xmlns:tns="http://www.example.org/Patient"
+        elementFormDefault="qualified">
+
+    <element name="Patient" type="tns:Patient" />
+        <complexType name="Patient">
+            <sequence>
+                <element name="name" type="tns:String15Chars"/>
+                <element name="age" type="int"/>
+                <element name="email" type="string"/>
+                <element name="gender" type="tns:Gender"/>
+                <element name="phone" type="string"/>
+            </sequence>
+        </complexType>
+
+<!--    Creating a simple data type-->
+    <simpleType name="String15Chars">
+        <restriction base="string">
+            <maxLength value="15" />
+        </restriction>
+    </simpleType>
+
+<!--    Creating another simple data type with enumeration-->
+    <simpleType name="Gender">
+        <restriction base="string">
+            <enumeration value="Male" />
+            <enumeration value="Female" />
+            <enumeration value="Other" />
+        </restriction>
+    </simpleType>
+</schema>

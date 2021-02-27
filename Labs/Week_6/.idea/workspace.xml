@@ -1,10 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="78a9d8ea-f815-4773-a50a-1287ead54fa7" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/XML101/src/com/elvis/training_labs_personal/bookex.dtd" beforeDir="false" afterPath="$PROJECT_DIR$/XML101/src/com/elvis/training_labs_personal/bookex.dtd" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Notes/Week_6/Day_1/Day_1.txt" beforeDir="false" afterPath="$PROJECT_DIR$/../../Notes/Week_6/Day_1/Day_1.txt" afterDir="false" />
-    </list>
+    <list default="true" id="78a9d8ea-f815-4773-a50a-1287ead54fa7" name="Default Changelist" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />

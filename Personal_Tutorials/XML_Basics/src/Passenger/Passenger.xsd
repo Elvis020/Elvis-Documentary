@@ -1,0 +1,15 @@
+<schema xmlns="http://www.w3.org/2001/XMLSchema"
+        targetNamespace="http://elvis.com/Passenger"
+        xmlns:tns="http://elvis.com/Passenger"
+        elementFormDefault="qualified">
+
+    <element name="Passenger" type="tns:Passenger" />
+        <complexType name="Passenger">
+            <sequence>
+                <element name="name" type="string" />
+                <element name="date_of_birth" type="date" />
+                <element name="seat_no" type="int" />
+                <element name="gender" type="string" />
+            </sequence>
+        </complexType>
+</schema>
