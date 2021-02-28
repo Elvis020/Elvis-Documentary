@@ -12,7 +12,7 @@ object Values_Objects_Types extends App{
   val aLong: Long = 123313213213L
   val aFloat: Float = 32.3443F
   val aDouble: Double = 23.12
-  println("Types of variables in Scala")
+  println("Types of variables in Scala: ")
   println(aDouble)
   println(aFloat)
   println(aLong)
