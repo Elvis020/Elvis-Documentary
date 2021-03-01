@@ -1,6 +1,25 @@
 <?xml version="1.0" ?>
-<!DOCTYPE file SYSTEM "file_System.dtd">
+<!-- <!DOCTYPE file SYSTEM "file_System.dtd"> -->
+<!ELEMENT file (type, permissions,hard-links,file-owner,file-group,size,date,name)>
+
+
+
+
+<!ELEMENT type (#PCDATA)>
+<!ELEMENT owner (#PCDATA)>
+<!ELEMENT group (#PCDATA)>
+<!ELEMENT user (#PCDATA)>
+<!ELEMENT permissions (owner,group,user)>
+<!ELEMENT hard-links (#PCDATA)>
+<!ELEMENT file-owner (#PCDATA)>
+<!ELEMENT file-group (#PCDATA)>
+<!ELEMENT size (#PCDATA)>
+<!ELEMENT date (#PCDATA)>
+<!ELEMENT name (#PCDATA)>
+
+
 <file>
+
     <type>d</type>
     <permissions>
         <owner>rwx</owner>
@@ -13,4 +32,11 @@
     <size>8192</size>
     <date>Oct-29-2001</date>
     <name>play</name>
+
+
 </file>
+
+
+
+-type   -permissions      -hard-links   -file-owner    -file-group   -size    -date             -file-name
+d       rwx | rwx | r-x       2          evad           cc3591       8192     Oct 29  2001      play
