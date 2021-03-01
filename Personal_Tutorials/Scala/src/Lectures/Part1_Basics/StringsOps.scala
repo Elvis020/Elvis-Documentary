@@ -24,9 +24,27 @@ println("*** Special Scala Operations ***")
 
   println("**** Scala Specific Interpolators ****")
   val name = "Elvis"; val age=32
+
+//  Using the S-interpolators
+  println("-- S-Interpolator --")
   val greetings = s"💻 Hello, my name is $name, and I am $age years old! 💻" //
   val anotherGreetings = s"💻 Hello, my name is $name, and I will become ${age+2} in 2 years time! 💻" //
   println(greetings)
   println(anotherGreetings)
+  println()
+
+
+
+//  Using F-Interpolators
+  println("-- F-Interpolator --")
+  val speed = 1.2f
+  val myth = f"$name%s can eat $speed%2.2f burgers per minute."
+  println(myth)
+  println()
+
+  println("-- Raw Interpolator --")
+  println(raw"This is a \n newline.")
+  val escapedLine = "This is a \n newline"
+  println(raw"$escapedLine")
 }
 
