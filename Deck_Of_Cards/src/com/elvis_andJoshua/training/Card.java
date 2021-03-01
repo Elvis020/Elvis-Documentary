@@ -9,11 +9,6 @@ public class Card {
         this.type = type;
     }
 
-//    public Card(String suite, String type) {
-//        Suite = suite;
-//        this.type = type;
-//    }
-
     public void getValue(){}
 
 }
