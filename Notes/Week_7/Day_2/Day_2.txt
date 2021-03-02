@@ -1,0 +1,65 @@
+Domain
+-Card
+-Deck
+-Player
+
+
+[Snippet 1]
+* "Scala addresses the failures of Java"
+* "Scala takes a different approach to exceptions"
+* "Scala supports multiple programming paradigms: OOP and Functional"
+* "MS has the largest Scala codebase"
+* "Scala - Scalable Language"
+* "Scala created by Martin Odersky"
+* "Language Features:
+    -Static Type Checking
+    -Keep the language small
+    -Concise Syntax
+"
+* "Singleton class: A class that has only one instance."
+* "Witih method arguments, you will have to state the type, scala compiler can't infer from method arguments"
+
+
+
+[Snippet 2]
+* "When compiled, you get one compile file for the object and one compiled file for the class"
+* "REPL: Read,Evaluate,Print,Loop"
+* "Scala is a scripting language and can be run on Unix...have .scala suffix"
+* "To run on Windows, will have to use .bat"
+* "SBT: Scala build tool"
+* "Everything in Scala is a function"
+* "Everything in Scala is an expression, everything is evaluated."
+* "Instead of switch case, we use match"
+* "Match doesn't need break in statements"
+
+
+
+[F.Markets]
+*"Types of Corporate Borrowing:
+    -Term Loans
+    -Revolving Credit facility
+    -Bridge loans
+    -Letter of Credit
+    -Syndicate loan
+    -Prjectt finance
+    -Bond Issue
+"
+* "Term Loans: Secured/ Unsecured"
+* "For an unsecured loaner,all assets  are sold to replace money borrowed.And you will be bankrupted."
+* "Secured loaner is better."
+* "Non-recourse loan: "
+* "Revolving Credit facility: You can borrow and pay and borrow and pay some - very helpful for companies"
+* "Bridge loans: Short term but very large."
+* "Letter of Credit: The importer obtains a letter of credit to secure his goods."
+* "Syndicate loan: The banks form a syndicate to get the client a loan, that is if one bank wants to split the risk."
+
+*"Fixed Income is from bonds"
+* "Coupon clipping"
+*"Treasury bonds, treasury bills, treasury notes"
+* "Gov't securiturities for short term: Treasury Bills"
+* "Bonds, long term products"
+* "30-yesr bond: treasury bonds"
+*"1 year or less: Treasury Bill"
+
+*"pension funds go into inflation linked bonds "
+* "biggest corporate bond issue was 45 billion dollars by verizon, second biggest was Apple "
