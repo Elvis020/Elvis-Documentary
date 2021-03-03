@@ -1,12 +1,14 @@
+import jdk.vm.ci.hotspot.HotSpotCompilationRequestResult.{failure, success}
+
 import scala.Console.println
 import scala.math.abs
 
-class Trade(val ID: String,
+class Trade private (val ID: String,
             val Symbol: String,
             val quantity: Int,
-            private[this] var price: Double) {
+            var price: Double) {
 
-  def this(ID: String, Symbol: String, quantity: Int) =this(ID, Symbol, quantity, 23.4F)
+//  def this(ID: String, Symbol: String, quantity: Int,price:Double) =this(ID, Symbol, quantity,price)
   override def toString: String = s"$ID,$Symbol,$quantity,$price"
   def setPrice(newPrice: Double): Unit = if (newPrice >= 0) this.price = newPrice else this.price = 0.0F
 
@@ -29,9 +31,14 @@ class Trade(val ID: String,
 
 
 //  Creating the Object
-//object Trade{
-//  def apply(ID: String,Symbol: String,quantity: Int,  price: Double) = new Trade(ID,Symbol,quantity,price)
-//}
+object Trade{
+  def apply(ID: String,Symbol: String,quantity: Int,  price: Double):Trade = {
+    if(quantity < 0)
+      new Trade(ID,Symbol,quantity=0,price)
+    else
+      new Trade(ID,Symbol,quantity,price)
+  }
+}
 
 
 //Creating the Case Class
