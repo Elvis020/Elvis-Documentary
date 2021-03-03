@@ -1,0 +1,43 @@
+[Snippet 1 - OOP in Scala]
+* "Just like Java, a class is instantiated with a new keyword."
+* "The compiler infers types"
+* "val and def are similar but they evaluate differently"
+* "lazy val ... : Evaluates once when when instantiated."
+* "infix occurs with methodss with one argument."
+* "prefix unary operator: +,-,!,~"
+"static keyword: define an attribute that is only for that particular class."
+ *"Companion object: object with the same name as the Class."
+" A constructor without the new keyword is a factory. this is possible becuz of the new keyword."
+* "Scala uses packages to organize namespace"
+ *"Imported symbols can be renamed to avoid possible collisions"
+ * "Visibility: private,public,protected"
+ * "you can restrict a constructor. and use a companion object to call the instance of the class..."
+
+
+ [Snippet 2]
+ * "Scala implements single inheritance"
+ * "if you don't want to extend a class use the final keyword!"
+ * "Also apply final to a method, if you don't want to override it."
+ * "sealed types can only be extended within the same source file"
+ * "Sealed types are used to create ADT."
+ * "UAP: the val and def can be used interchangeably and when the class doesn't take any vlaue."
+ *"def can be overridden by def or val"
+  *"val cannot be overridden by def"
+  * "You can't instantiate an abstract class but you can extend it."
+  "Abstract class must be extended before instantiation"
+  * "Traits are for behaviour"
+  * "Traits are abstract and cannot be instantiated."
+  * "Becareful about the order of trait"
+  * "Extends can be used with traits"
+  * "Tuple with 2 values is known as a PAIR"
+  * "To access the elements of a tuple, use the _<index of element> to access it."
+
+
+  * "Functional programming separates state from behaviour"
+  * "The diamond problem???"
+  * "Do javap -c -v"
+  * "Scala uses composition to make a concrete base class to have multiple traits"
+  * "Scala and JVM"
+  * "Linearization solves the problem of name collisions"
+  mypeople map getname map length fold (_+_)
+  * "Optimizing Java book "

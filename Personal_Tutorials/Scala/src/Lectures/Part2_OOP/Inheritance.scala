@@ -47,4 +47,5 @@ object Inheritance extends App {
 //  1 - use final on member
 //  2 - use final on the entire class
 //  3 - seal the class = extend classes in THIS FILE, prevent extension from another file
+//  4. Super prevent overrides of methods in the super class
 }
