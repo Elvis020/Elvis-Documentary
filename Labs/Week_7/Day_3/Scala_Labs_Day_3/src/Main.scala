@@ -1,6 +1,8 @@
+import defaults.Trade
+
 object Main extends App {
 //  val trade1 = new Trade("T1", "APPL", 100, 15.25)
-//  val trade2 = new Trade("T1", "APPL", 100,21.1)
+//  val trade2 = new Equity_Trade("T1", "APPL", 100,21.1)
   //Creating the Case Class
 //  case class Trade (ID: String,Symbol: String,quantity: Int,price: Double)
 //  val t3 = Trade("T3", "AYT", 160, 189.25)
@@ -24,6 +26,10 @@ object Main extends App {
 
 
 //  Part 2 of Labs
+  val t4: Trade = new Equity_Trade("T1", "APPL", 100, 15.25)
+  val t5 = new Transactions("T1", "APPL", 100, 15.25)
+//  t4.value()
+  println(t5.amount)
 
 
 }

@@ -1,21 +1,15 @@
 
-
-abstract class Trade  (val ID: String,
-            val Symbol: String,
-            val quantity: Int,
-            var price: Double) {
+package defaults
+abstract class Trade  (val ID: String,var price: Double) {
 
 //  def this(ID: String, Symbol: String, quantity: Int,price:Double) =this(ID, Symbol, quantity,price)
-  override def toString: String = s"$ID,$Symbol,$quantity,$price"
+//  override def toString: String = s"$ID,$Symbol,$quantity,$price"
   def setPrice(newPrice: Double): Unit = if (newPrice >= 0) this.price = newPrice else this.price = 0.0F
 
-    def value():Double = {
-      println(f"Value of the trade is: ${quantity * price}%4.2f")
-      quantity * price
-    }
+    def value():Double
 
 
-  abstract def isExecutable();
+  def isExecutable:Boolean;
 
 
   //  Trying other means
