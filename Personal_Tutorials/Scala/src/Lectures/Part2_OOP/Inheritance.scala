@@ -1,6 +1,6 @@
 package Lectures.Part2_OOP
 
-object Inheritance_and_Traits extends App {
+object Inheritance extends App {
   sealed class Animal {
     val creatureType:String = "Wild";
     def eat():Unit  = println("nom - nom")
