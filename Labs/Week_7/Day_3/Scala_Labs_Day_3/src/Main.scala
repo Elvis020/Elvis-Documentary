@@ -12,8 +12,8 @@ object Main extends App {
 //  trade1.value()
 
 //  For companion object
-  val trade3 = Trade("T3", "GOOGL", -190, 11.99)
-  println(trade3)
+//  val trade3 = Trade("T3", "GOOGL", -190, 11.99)
+//  println(trade3)
 
 //  Comments on Question 1 - Additional Exercises (if you have time)
 //  You can use the companion object as a factory method to ensure that some parameters are valid
@@ -21,6 +21,11 @@ object Main extends App {
 //  Require is used to enforce a precondition on the caller of a function or the creator of an object of some class.
 //  Whereas, assert is used to check the code of the function itself. So, if a precondition fails, then you get an illegal argument exception.
 //    Whereas, if an assertion fails and it's not the caller's fault and consequently you get an assertion error.
+
+
+//  Part 2 of Labs
+
+
 }
 
 

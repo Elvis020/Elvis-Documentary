@@ -1,9 +1,6 @@
-import jdk.vm.ci.hotspot.HotSpotCompilationRequestResult.{failure, success}
 
-import scala.Console.println
-import scala.math.abs
 
-class Trade private (val ID: String,
+abstract class Trade  (val ID: String,
             val Symbol: String,
             val quantity: Int,
             var price: Double) {
@@ -16,6 +13,9 @@ class Trade private (val ID: String,
       println(f"Value of the trade is: ${quantity * price}%4.2f")
       quantity * price
     }
+
+
+  abstract def isExecutable();
 
 
   //  Trying other means
@@ -31,14 +31,14 @@ class Trade private (val ID: String,
 
 
 //  Creating the Object
-object Trade{
-  def apply(ID: String,Symbol: String,quantity: Int,  price: Double):Trade = {
-    if(quantity < 0)
-      new Trade(ID,Symbol,quantity=0,price)
-    else
-      new Trade(ID,Symbol,quantity,price)
-  }
-}
+//object Trade{
+//  def apply(ID: String,Symbol: String,quantity: Int,  price: Double):Trade = {
+//    if(quantity < 0)
+//      new Trade(ID,Symbol,quantity=0,price)
+//    else
+//      new Trade(ID,Symbol,quantity,price)
+//  }
+//}
 
 
 //Creating the Case Class
