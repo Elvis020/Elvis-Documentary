@@ -1,0 +1,27 @@
+[Snippet 1]
+* "Pure functions are functions that dont have anyside effects.They return the same output value as the input value"
+* "Functions are fist class citizens in Scala."
+* "First class functions: Functions that can be passed as parameters and used as return values. HOF(Higher Order Functions)"
+* "Functional Programming produces compact code, immutability."
+* "Refer to Week_4 -> Day_3 for more information."
+* "Function Composition: Chaining functions together"
+* "Closures: Functions that refer to their environment on definition"
+* "Difference between functions and methods
+    -Functions and methods are not the same
+    -methods can be lifted to a function
+"
+
+
+[Snippet 2]
+* "We have different types of collections because they have diferetn structures."
+* "Combinator functions incluse, map,fold,reduce"
+* "Partitoning splits acollection into 2"
+* "The zip function converts two collection to a collection of pairs"
+* "map and flatten results into a flatMap"
+* "in for comprehension, use yield to return a value"
+* "guarded for comprehension"
+
+
+
+[Snippet 3]
+* "With the normal recursion, you create new stack frames everytime and it can lead to stack overflowx"

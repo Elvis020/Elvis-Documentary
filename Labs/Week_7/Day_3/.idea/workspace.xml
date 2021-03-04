@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="91945514-c9f6-47f2-9ea8-0bba9d807ef6" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/../.idea/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../.idea/codeStyles/Project.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../.idea/codeStyles/codeStyleConfig.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../.idea/libraries/lib.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Week_7.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Scala_Labs_Day_3/src/Equity_Trade.scala" beforeDir="false" afterPath="$PROJECT_DIR$/Scala_Labs_Day_3/src/Equity_Trade.scala" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Personal_Tutorials/Java_Project_2/Java_Project_2" beforeDir="false" afterPath="$PROJECT_DIR$/../../../Personal_Tutorials/Java_Project_2/Java_Project_2" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="CodeStyleSettingsInfer">
+    <option name="done" value="true" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../../.." />
+  </component>
+  <component name="ProjectCodeStyleSettingsMigration">
+    <option name="version" value="1" />
+  </component>
+  <component name="ProjectId" id="1pHjeUoACpaqkezzxyVEKm1qbnl" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/Scala_Collections_Labs" />
+    <property name="project.structure.last.edited" value="SDKs" />
+    <property name="project.structure.proportion" value="0.0" />
+    <property name="project.structure.side.proportion" value="0.2" />
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="91945514-c9f6-47f2-9ea8-0bba9d807ef6" name="Default Changelist" comment="" />
+      <created>1614847004693</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1614847004693</updated>
+    </task>
+    <servers />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="-1255" y="174" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1614847844117">
+      <screen x="-1920" y="0" width="1920" height="1040" />
+    </state>
+    <state x="-1255" y="174" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1366.728/-1920.0.1920.1040@-1920.0.1920.1040" timestamp="1614847844117" />
+    <state x="-957" y="428" width="496" height="194" key="#com.intellij.framework.addSupport.AddSupportForSingleFrameworkDialog" timestamp="1614847082656">
+      <screen x="-1920" y="0" width="1920" height="1040" />
+    </state>
+    <state x="-957" y="428" width="496" height="194" key="#com.intellij.framework.addSupport.AddSupportForSingleFrameworkDialog/0.0.1366.728/-1920.0.1920.1040@-1920.0.1920.1040" timestamp="1614847082656" />
+    <state x="-699" y="274" key="FileChooserDialogImpl" timestamp="1614847900377">
+      <screen x="-1920" y="0" width="1920" height="1040" />
+    </state>
+    <state x="-699" y="274" key="FileChooserDialogImpl/0.0.1366.728/-1920.0.1920.1040@-1920.0.1920.1040" timestamp="1614847900377" />
+    <state x="-1229" y="94" key="SettingsEditor" timestamp="1614847825586">
+      <screen x="-1920" y="0" width="1920" height="1040" />
+    </state>
+    <state x="-1229" y="94" key="SettingsEditor/0.0.1366.728/-1920.0.1920.1040@-1920.0.1920.1040" timestamp="1614847825586" />
+  </component>
+</project>
