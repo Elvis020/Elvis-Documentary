@@ -1,0 +1,56 @@
+[Snippet - Concurrency]
+* "The threads belong to the same process."
+* "Every thread has its own thread-specific resources, thread id etc"
+* "Concurrent:more than one task..."
+* "All parallel programs caan be concurrent but not all concurrent programs can be parallel"
+ *"Multiple processors access the same memory"
+ * "Bg processes -  daemons"
+ * "A process can have multiple threads"
+ * "Thread: a seq of instrictions that can be executed independently."
+ * "Thread pool helps with the creation and reuseability of threads and disposed when finished."
+ * "Thread pooling optimises performace and its prefered over Manual thread management."
+ * "Synchronization and Locking s important cuz it prevent operation crash and data loss"
+  *"With locking , the processes wait on each other."
+  * "With asynchronous programming, something is done while calling of the thread continues."
+  * "In Scala, we use Actors systems , and they use a network if independent agents"
+  * "Akka libraries in Scala and Java"
+  * "RPC: Remote Procedure Call"
+  * "Actors use a document model"
+  * "With Thread Scheduling, the OS controls access to shared resources"
+  * "Thread Scheduler runs Thread scheduling"
+  * "When the thread is running, its either in the sleeping mode,waiting mode or blocked mode."
+  * "To cancel a thread use the interrupt()"
+  * "interrupt: sends a signal to thread."
+  * "Don't propagte exceptions with threads."
+  * "Threads have priorities"
+  * "Thread will execute until blocked or another higher priority thread becomes runnable"
+  * "Threads can be grouped"
+
+  [Snippet 2]
+  * "If an exception occurs and the thread is not able to handle it, we use the UncaughtExceptionHandler"
+  * "The UncaughtExceptionHandler can be installed per thread."
+  * "Useful methods of thread:
+    -getID()
+    -setName(),getName
+    -getState
+    -isAlive()
+    -start()
+    -interrupt()
+    -join()
+  "
+  * "setDeamon() sets a thread to be a daemon process"
+  * "The thread priority can be set with getPriority() and setPriority()"
+ 
+ [Snippet 3]
+ * "Synchronization solves problems like data races"
+ * "Once threads are started, they work independently"
+* "Every java object has a lock"
+* "To protect shared data in Java we use the synchronized method."
+* "Synchronised block == synchronised methods"
+* "Consumers:The thread is acting on the data"
+* "Producer:Putting something into the thread pool"
+* "With Synchronization, there is a Producer-Consumer problem"
+* "Cached copied of data need to be kept up to date."
+* "The Java memory model comes to bring order and synchronisation"
+* "volatile keyword signals the compiler and the JVM that a variable is being shared"
+* "volatile prevents memory reordering."

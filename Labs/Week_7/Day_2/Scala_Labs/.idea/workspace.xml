@@ -7,12 +7,63 @@
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
+  <component name="CodeStyleSettingsInfer">
+    <option name="done" value="true" />
+  </component>
   <component name="ProjectCodeStyleSettingsMigration">
     <option name="version" value="1" />
   </component>
   <component name="ProjectId" id="1pCg7PYxFK77lHYbNIcJx9RKd9t" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
   <component name="PropertiesComponent">
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+  </component>
+  <component name="RunManager" selected="Application.FieldExtractor">
+    <configuration name="CelciusToFahrenheit" type="Application" factoryName="Application" temporary="true">
+      <option name="MAIN_CLASS_NAME" value="CelsiusToFahrenheit" />
+      <module name="Scala_Labs" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="FieldExtractor" type="Application" factoryName="Application" temporary="true">
+      <option name="MAIN_CLASS_NAME" value="FieldExtractor" />
+      <module name="Scala_Labs" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Main" type="Application" factoryName="Application" temporary="true">
+      <option name="MAIN_CLASS_NAME" value="Main" />
+      <module name="Scala_Labs" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Scala REPL" type="ScalaScriptConsoleRunConfiguration" factoryName="Scala Console" temporary="true" show_console_on_std_err="false" show_console_on_std_out="false">
+      <module name="Scala_Labs" />
+      <option name="allowRunningInParallel" value="false" />
+      <option name="javaOptions" value="-Djline.terminal=NONE" />
+      <option name="myConsoleArgs" value="" />
+      <option name="selectedOptions">
+        <set />
+      </option>
+      <option name="workingDirectory" value="$PROJECT_DIR$" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.FieldExtractor" />
+        <item itemvalue="Application.CelciusToFahrenheit" />
+        <item itemvalue="Scala REPL.Scala REPL" />
+        <item itemvalue="Application.Main" />
+      </list>
+    </recent_temporary>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
@@ -24,5 +75,41 @@
       <updated>1614692320014</updated>
     </task>
     <servers />
+  </component>
+  <component name="WindowStateProjectService">
+    <state width="378" height="669" key="GridCell.Tab.0.bottom" timestamp="1614713873493">
+      <screen x="-1920" y="0" width="1920" height="1040" />
+    </state>
+    <state width="378" height="669" key="GridCell.Tab.0.bottom/0.0.1366.728/-1920.0.1920.1040@-1920.0.1920.1040" timestamp="1614713873493" />
+    <state width="258" height="574" key="GridCell.Tab.0.bottom/0.0.1366.728/-1920.0.1920.1040@0.0.1366.728" timestamp="1614703683689" />
+    <state width="378" height="669" key="GridCell.Tab.0.center" timestamp="1614713873491">
+      <screen x="-1920" y="0" width="1920" height="1040" />
+    </state>
+    <state width="378" height="669" key="GridCell.Tab.0.center/0.0.1366.728/-1920.0.1920.1040@-1920.0.1920.1040" timestamp="1614713873491" />
+    <state width="258" height="574" key="GridCell.Tab.0.center/0.0.1366.728/-1920.0.1920.1040@0.0.1366.728" timestamp="1614703683689" />
+    <state width="378" height="669" key="GridCell.Tab.0.left" timestamp="1614713873490">
+      <screen x="-1920" y="0" width="1920" height="1040" />
+    </state>
+    <state width="378" height="669" key="GridCell.Tab.0.left/0.0.1366.728/-1920.0.1920.1040@-1920.0.1920.1040" timestamp="1614713873490" />
+    <state width="258" height="574" key="GridCell.Tab.0.left/0.0.1366.728/-1920.0.1920.1040@0.0.1366.728" timestamp="1614703683689" />
+    <state width="378" height="669" key="GridCell.Tab.0.right" timestamp="1614713873492">
+      <screen x="-1920" y="0" width="1920" height="1040" />
+    </state>
+    <state width="378" height="669" key="GridCell.Tab.0.right/0.0.1366.728/-1920.0.1920.1040@-1920.0.1920.1040" timestamp="1614713873492" />
+    <state width="258" height="574" key="GridCell.Tab.0.right/0.0.1366.728/-1920.0.1920.1040@0.0.1366.728" timestamp="1614703683689" />
+    <state x="-891" y="173" key="com.intellij.xdebugger.impl.breakpoints.ui.BreakpointsDialogFactory$2" timestamp="1614699908748">
+      <screen x="-1920" y="0" width="1920" height="1040" />
+    </state>
+    <state x="-891" y="173" key="com.intellij.xdebugger.impl.breakpoints.ui.BreakpointsDialogFactory$2/0.0.1366.728/-1920.0.1920.1040@-1920.0.1920.1040" timestamp="1614699908748" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <breakpoint enabled="true" type="java-exception">
+          <properties class="java.text.ParseException" package="java.text" />
+          <option name="timeStamp" value="1" />
+        </breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
 </project>
