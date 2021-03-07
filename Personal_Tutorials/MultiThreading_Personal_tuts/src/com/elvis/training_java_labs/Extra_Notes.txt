@@ -1,0 +1,29 @@
+ [Deadlocks Snippet]
+ * Deadlocks occur when two or more threads wait forever
+ for a lock or resource held by another thread.
+
+ * Deadlock is also the situation in which two or more competing actions are each
+ waiting for the other to finish, and thus neve does.
+
+ * Thread Starvation describes a situation where a thread is unable to gain regular access to shared
+ resources and is unable to make progress. This happens when shared resources are made unavailable
+ for long periods by "greedy" threads.
+
+ * Deadlocks occur in DBs, when process A updates row 1 then row 2
+ in the exact timeframe process B updates row 2 then row 1.
+
+
+  [Livelock Snippet]
+* Like two people attempting to pass each other in a narrow corridor,
+A moves to his left to let B pass, while B moves to his right to let A pass.
+They are still blocking each other.
+
+* Livelock threads are unable to make any progress.
+
+* hey are simply too busy responding to each other to resume work.
+
+
+[How to avoid LL and DL]
+* Using the trylock() method on the Lock interface.
+* Making sure that each thread acquires the lock in the same order
+*
