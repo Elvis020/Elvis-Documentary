@@ -47,6 +47,7 @@ public class SaleEvent {
         Gson gs = new GsonBuilder().create();
         String js = gs.toJson(se);
         System.out.println(js);
+        System.out.println("try again");
 
     }
 }
