@@ -1,0 +1,69 @@
+[Snippet Financial Markets(Last Session)]
+* "Huge amont of fragmentation in deal execution."
+* "What is a market???"
+* "Over the counter: Anyone dealing with anyone"
+* "Derivativrs: Contracts-Two parties coming together and risking some things"
+* "The Order driven markets"
+*"Qutoe driven markets(QDM): Contact sme1esle to do a deal."
+*"With QDM, you don't hear them in TV/newspapers and this mrket is worth trillions of dollars."
+* "IDB: InterDealer brokered Markets"
+
+
+
+[Snippet 2]
+* "In price making, we have a price maker and a price taker."
+*"Price makers have a 2 way quote, where they offer the counterparty a bid price and an offer price"
+*"PM always aims to buy low and sell high"
+*"Market order - brokerage"
+* "Limit order - no brokerage"
+
+*"Dark pools make sure that neither party knows the current situation"
+
+
+1,2,2,5 -> 10.90/20
+
+[Project Kickoff]
+* Going to communicate withe Exchange
+* "Client - Web UI"
+* "The prooject is based on priority: must-have,should-have and could-have"
+
+[Advise from Martina]
+*"Dont focus on one part of the project,take the vertical slice."
+*"Priority 1 - Make sure they are connected."
+* "Unit test as you go."
+*"Its not a one man job"
+* "Try to work in pairs or together"
+* "Have regular meetings. ii.e have nultiple stand-ups"
+* "Ask for help"
+* "Communication and transparency"
+* "Learn as much as you can."
+* "This time, you will be running 5 projects at the same time and connect them."
+* "Take breaks"
+* ""
+
+[Create Trello boards and setup Github]
+
+-Product Owner - Mike
+-Scrum Master - One person in the team(can rotate the position)
+-Team: No fixed roles,self organizing
+
+[3 meetings]
+* "The Sprint Planning Meeting - time boxed to 4 hours"
+* "The Daily Scrum - 15 mins everyday"
+* "Sprint Review Meeting"
+
+{Share knowledge, its not a competition}
+{Have retrospects on Fridays}
+
+[3 artifacts]
+-The Product Backlog
+-
+-
+
+[User Stories]
+* "Use trello.com and draw.io to organize yourselves: creating tickects, tasks, etc"
+
+
+All the blue boxes are Spring Boot Apps
+Create empty spring boot application and deploy them and connect them
+Get CI/CD working now

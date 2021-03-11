@@ -1,0 +1,31 @@
+* To cause synchronization, we need either:
+    1.Thread-safe Lazy initialization(has a problem)
+    2.Eager initialization(has a problem)
+    3.Lazy initialization with holder class(solves 1&2 problem)
+    4.Initialization safety and final fields
+
+    * "Final means the variable can be initialized only once."
+    * "No timeout when waiting for a lock"
+    * "With synchronization, the order in which the thread acquires the locke thread"
+    *"Fair: First come, first serve."
+    * "Reentrant locks provides an option for fair locking."
+    * "With atomic variables, you don't need locks"
+    *"the producer-Consumer poblem"
+    * "Semaphore is basically a resource counter"
+    * "Semaphores use acquire() and release()"
+    * "Locks use wait() and notify()"
+
+
+
+    [Snippet 2]
+    * "Latches: Used to control the progress of the threads"
+    * "Latch has an initial state, and associated value"
+    * "Lactches can't be reused.That is, it cannot be reset from terminal state"
+    * "Cyclic Barrier allows a set of threads to wait until all have reached the point."
+    * "Phaser is a combination of a counutdown latch and a cyclic barrier"
+    * ""
+
+
+
+    [Question for Sam: Why is thread implementing Runnable , y dont we use only Runnable]
+    [Will we be woriking with multithreade projects?]
